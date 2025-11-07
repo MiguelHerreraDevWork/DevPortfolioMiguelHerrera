@@ -1,0 +1,314 @@
+{
+    "locales": {
+        "en": {
+            "title": "Awards",
+            "title_menu": "Achievements",
+            "title_long_prefix": "Here are my",
+            "title_long": "Career **Achievements**"
+        },
+
+        "es": {
+            "title": "Logros",
+            "title_menu": "Logros",
+            "title_long_prefix": "Aquí están mis",
+            "title_long": "**Logros** Profesionales"
+        },
+
+        "fr": {
+            "title": "Réalis",
+            "title_menu": "Réalisations",
+            "title_long_prefix": "Voici",
+            "title_long": "Mes **Réalisations**"
+        },
+
+        "ko": {
+            "title": "경력 성과",
+            "title_menu": "경력 성과",
+            "title_long_prefix": "다음은",
+            "title_long": "**경력 성과**입니다"
+        }
+    },
+
+    "articles": [
+        {
+            "id": "certifications",
+            "component": "ArticleCards",
+            "config": {},
+            "locales": {
+                "en": { "title": "Certifications" },
+                "es": { "title": "Certificaciones" },
+                "fr": { "title": "Certifications" },
+                "ko": { "title": "인증서" }
+            },
+
+            "items": [
+                {
+                    "icon": {
+                        "img": "images/pictures/place-6.png",
+                        "fa": null,
+                        "faColors": {"bg": null, "fill": null}
+                    },
+                    "dates": {
+                        "start": null,
+                        "end": "2025"
+                    },
+                    "links": [
+                        { "string": "see_certification", "href": "https://platzi.com/" }
+                    ],
+                    "locales": {
+                        "en": {
+                            "title": "**Platzi Certifications**",
+                            "text": "Completed multiple certifications covering areas such as JavaScript, TypeScript, ReactJS, Node.js, Databases, AWS, DevOps, QA & Test Automation, Software Architecture, and Cybersecurity.",
+                            "tags": ["JavaScript", "ReactJS", "Node.js", "TypeScript", "Databases", "AWS", "DevOps", "QA & Testing", "Cybersecurity", "Software Architecture"]
+                        },
+                        "es": {
+                            "title": "**Certificaciones de Platzi**",
+                            "text": "Completé múltiples certificaciones en áreas como JavaScript, TypeScript, ReactJS, Node.js, Bases de Datos, AWS, DevOps, QA y Automatización de Pruebas, Arquitectura de Software y Ciberseguridad.",
+                            "tags": ["JavaScript", "ReactJS", "Node.js", "TypeScript", "Bases de Datos", "AWS", "DevOps", "QA y Pruebas", "Ciberseguridad", "Arquitectura de Software"]
+                        },
+                        "fr": {
+                            "title": "**Certifications Platzi**",
+                            "text": "Certifications complétées dans des domaines tels que JavaScript, TypeScript, ReactJS, Node.js, Bases de Données, AWS, DevOps, QA & Automatisation des Tests, Architecture Logicielle et Cybersécurité.",
+                            "tags": ["JavaScript", "ReactJS", "Node.js", "TypeScript", "Bases de Données", "AWS", "DevOps", "QA & Tests", "Cybersécurité", "Architecture Logicielle"]
+                        },
+                        "ko": {
+                            "title": "**Platzi 인증**",
+                            "text": "JavaScript, TypeScript, ReactJS, Node.js, 데이터베이스, AWS, DevOps, QA 및 테스트 자동화, 소프트웨어 아키텍처, 사이버 보안과 같은 분야에서 여러 인증을 완료했습니다.",
+                            "tags": ["JavaScript", "ReactJS", "Node.js", "TypeScript", "데이터베이스", "AWS", "DevOps", "QA 및 테스트", "사이버 보안", "소프트웨어 아키텍처"]
+                        }
+                    }
+                },
+                
+                {
+                    "icon": {
+                        "img": "images/pictures/place-4.png",
+                        "fa": null,
+                        "faColors": {"bg": null, "fill": null}
+                    },
+                    "dates": {
+                        "start": null,
+                        "end": "05/15/2024"
+                    },
+                    "links": [],
+                    "locales": {
+                        "en": {
+                            "title": "**SENA (National Learning Service)**",
+                            "text": "Technologist in Analysis and Development of Information Systems (ADSI), focused on software development, database management, and system analysis."
+                        },
+                        "es": {
+                            "title": "**SENA (Servicio Nacional de Aprendizaje)**",
+                            "text": "Tecnólogo en Análisis y Desarrollo de Sistemas de Información (ADSI), enfocado en desarrollo de software, gestión de bases de datos y análisis de sistemas."
+                        },
+                        "fr": {
+                            "title": "**SENA (Service National d'Apprentissage)**",
+                            "text": "Technologue en Analyse et Développement de Systèmes d'Information (ADSI), axé sur le développement de logiciels, la gestion de bases de données et l'analyse des systèmes."
+                        },
+                        "ko": {
+                            "title": "**SENA (국립 학습 서비스)**",
+                            "text": "정보 시스템 분석 및 개발 기술자 (ADSI), 소프트웨어 개발, 데이터베이스 관리 및 시스템 분석에 중점을 둠."
+                        }
+                    }
+                },     
+
+                {
+                    "icon": {
+                        "img": "images/pictures/place-8.png",
+                        "fa": null,
+                        "faColors": {"bg": null, "fill": null}
+                    },
+                    "dates": {
+                        "start": null,
+                        "end": "06/23/2023"
+                    },
+                    "links": [
+                        { "string": "see_certification", "href": "https://www.duerrdental.com/" }
+                    ],
+                    "locales": {
+                        "en": {
+                            "title": "**Dürr Dental Academy**",
+                            "text": "Certified in <b>Training Equipment & Diagnostic Systems</b>, including suction systems, hygiene technology, VistaScan, VistaCam, VistaPano, and VistaSoft Imaging Software."
+                        },
+                        "es": {
+                            "title": "**Academia Dürr Dental**",
+                            "text": "Certificado en <b>Equipos de Capacitación y Sistemas de Diagnóstico</b>, incluyendo sistemas de succión, tecnología de higiene, VistaScan, VistaCam, VistaPano y el software de imágenes VistaSoft."
+                        },
+                        "fr": {
+                            "title": "**Académie Dürr Dental**",
+                            "text": "Certifié en <b>Équipements de Formation et Systèmes de Diagnostic</b>, incluant les systèmes d'aspiration, la technologie d'hygiène, VistaScan, VistaCam, VistaPano et le logiciel d'imagerie VistaSoft."
+                        },
+                        "ko": {
+                            "title": "**뒤어 덴탈 아카데미**",
+                            "text": "<b>훈련 장비 및 진단 시스템</b> 인증, 흡입 시스템, 위생 기술, VistaScan, VistaCam, VistaPano 및 VistaSoft 이미징 소프트웨어를 포함."
+                        }
+                    }
+                },
+
+                {
+                    "icon": {
+                        "img": null,
+                        "fa": "fa-solid fa-graduation-cap",
+                        "faColors": {"bg": "#003366", "fill": "#FFF"}
+                    },
+                    "dates": {
+                        "start": null,
+                        "end": "12/01/2018"
+                    },
+                    "links": [],
+                    "locales": {
+                        "en": {
+                            "title": "**High School Diploma**",
+                            "text": "Earned my high school diploma, building the foundation for my academic and professional journey."
+                        },
+                        "es": {
+                            "title": "**Diploma de Bachiller**",
+                            "text": "Obtuve mi diploma de bachiller, formando la base para mi trayectoria académica y profesional."
+                        },
+                        "fr": {
+                            "title": "**Diplôme d'Études Secondaires**",
+                            "text": "J'ai obtenu mon diplôme d'études secondaires, posant les bases de ma carrière académique et professionnelle."
+                        },
+                        "ko": {
+                            "title": "**고등학교 졸업장**",
+                            "text": "고등학교 졸업장을 취득하여 학업 및 전문 경력의 기초를 다졌습니다."
+                        }
+                    }
+                }
+            ]
+        },
+
+        {
+            "id": "awards",
+            "component": "ArticleThread",
+            "config": {},
+            "locales": {
+                "en": { "title": "Awards" },
+                "es": { "title": "Premios" },
+                "fr": { "title": "Récompenses" },
+                "ko": { "title": "수상 내역" }
+            },
+
+            "items": [
+                {
+                    "dates": {
+                        "start": "02/01/2024",
+                        "end": null
+                    },
+                    "links": [],
+                    "locales": {
+                        "en": {
+                            "title": "**Department Leadership Appointment** – Development & Technology",
+                            "info": "MEMCO SAS",
+                            "text": "Appointed as the head of the Development & Technology department, leading strategic initiatives, project management, and overseeing the software architecture for the organization."
+                        },
+                        "es": {
+                            "title": "**Nombramiento como Líder de Departamento** – Desarrollo y Tecnología",
+                            "info": "MEMCO SAS",
+                            "text": "Nombrado como líder del departamento de Desarrollo y Tecnología, liderando iniciativas estratégicas, gestión de proyectos y supervisión de la arquitectura de software para la organización."
+                        },
+                        "fr": {
+                            "title": "**Nomination au Leadership de Département** – Développement et Technologie",
+                            "info": "MEMCO SAS",
+                            "text": "Nommé à la tête du département Développement et Technologie, dirigeant des initiatives stratégiques, la gestion de projets et la supervision de l'architecture logicielle de l'organisation."
+                        },
+                        "ko": {
+                            "title": "**부서 리더 임명** – 개발 및 기술",
+                            "info": "MEMCO SAS",
+                            "text": "개발 및 기술 부서의 책임자로 임명되어 전략적 이니셔티브, 프로젝트 관리 및 조직의 소프트웨어 아키텍처를 감독합니다."
+                        }
+                    }
+                },
+
+                {
+                    "dates": {
+                        "start": "11/01/2024",
+                        "end": null
+                    },
+                    "links": [],
+                    "locales": {
+                        "en": {
+                            "title": "**Corporate Web Application Launch** – BioSwift.net",
+                            "info": "MEMCO SAS",
+                            "text": "Successfully launched the BioSwift.net platform, a web application designed to streamline operations and automate processes, enhancing efficiency within MEMCO SAS's biomedical operations."
+                        },
+                        "es": {
+                            "title": "**Lanzamiento de Aplicativo Web Corporativo** – BioSwift.net",
+                            "info": "MEMCO SAS",
+                            "text": "Lanzamiento exitoso de la plataforma BioSwift.net, un aplicativo web diseñado para optimizar operaciones y automatizar procesos, mejorando la eficiencia en las operaciones biomédicas de MEMCO SAS."
+                        },
+                        "fr": {
+                            "title": "**Lancement d'une Application Web d'Entreprise** – BioSwift.net",
+                            "info": "MEMCO SAS",
+                            "text": "Lancement réussi de la plateforme BioSwift.net, une application web conçue pour rationaliser les opérations et automatiser les processus, améliorant l'efficacité des opérations biomédicales de MEMCO SAS."
+                        },
+                        "ko": {
+                            "title": "**기업 웹 애플리케이션 출시** – BioSwift.net",
+                            "info": "MEMCO SAS",
+                            "text": "MEMCO SAS의 의료 기기 운영에서 효율성을 높이고 운영을 간소화하며 프로세스를 자동화하도록 설계된 웹 애플리케이션 BioSwift.net 플랫폼을 성공적으로 출시했습니다."
+                        }
+                    }
+                },                
+
+                {
+                    "dates": {
+                        "start": "05/01/2022",
+                        "end": null
+                    },
+                    "links": [],
+                    "locales": {
+                        "en": {
+                            "title": "**Outstanding Project** – Web Application Development",
+                            "info": "SENA (National Learning Service)",
+                            "text": "Recognized for the development of an innovative web application during the academic phase, showcasing advanced skills in software architecture and database management."
+                        },
+                        "es": {
+                            "title": "**Reconocimiento por Proyecto Destacado** – Desarrollo de Aplicativo Web",
+                            "info": "SENA (Servicio Nacional de Aprendizaje)",
+                            "text": "Reconocido por el desarrollo de un aplicativo web innovador durante la etapa lectiva, demostrando habilidades avanzadas en arquitectura de software y gestión de bases de datos."
+                        },
+                        "fr": {
+                            "title": "**Reconnaissance pour un Projet Exceptionnel** – Développement d'Application Web",
+                            "info": "SENA (Service National d'Apprentissage)",
+                            "text": "Reconnu pour le développement d'une application web innovante lors de la phase académique, démontrant des compétences avancées en architecture logicielle et gestion de bases de données."
+                        },
+                        "ko": {
+                            "title": "**우수 프로젝트 인정** – 웹 애플리케이션 개발",
+                            "info": "SENA (국립 학습 서비스)",
+                            "text": "학습 단계에서 혁신적인 웹 애플리케이션 개발 공로를 인정받아 소프트웨어 아키텍처 및 데이터베이스 관리에서 고급 기술을 보여주었습니다."
+                        }
+                    }
+                },                
+
+                {
+                    "dates": {
+                        "start": "12/01/2023",
+                        "end": null
+                    },
+                    "links": [],
+                    "locales": {
+                        "en": {
+                            "title": "**Innovation in Technology Award**",
+                            "info": "MEMCO SAS",
+                            "text": "Awarded for implementing groundbreaking technological solutions that enhanced business efficiency and operational excellence across multiple departments."
+                        },
+                        "es": {
+                            "title": "**Premio a la Innovación Tecnológica**",
+                            "info": "MEMCO SAS",
+                            "text": "Premiado por implementar soluciones tecnológicas innovadoras que mejoraron la eficiencia empresarial y la excelencia operativa en múltiples departamentos."
+                        },
+                        "fr": {
+                            "title": "**Prix de l'Innovation Technologique**",
+                            "info": "MEMCO SAS",
+                            "text": "Récompensé pour avoir mis en œuvre des solutions technologiques révolutionnaires qui ont amélioré l'efficacité opérationnelle et l'excellence commerciale dans plusieurs départements."
+                        },
+                        "ko": {
+                            "title": "**기술 혁신상**",
+                            "info": "MEMCO SAS",
+                            "text": "여러 부서에서 비즈니스 효율성과 운영 우수성을 향상시키는 획기적인 기술 솔루션을 구현한 공로로 수상했습니다."
+                        }
+                    }
+                }
+
+            ]
+        }
+    ]
+}

@@ -1,0 +1,253 @@
+{
+    "locales": {
+        "en": {
+            "title": "Portfolio",
+            "title_long_prefix": "Take a look at",
+            "title_long": "My **Portfolio**"
+        },
+
+        "es": {
+            "title": "Portafolio",
+            "title_long_prefix": "Explora",
+            "title_long": "Mi **Portafolio**"
+        },
+
+        "fr": {
+            "title": "Portfolio",
+            "title_long_prefix": "Découvrez",
+            "title_long": "Mon **Portfolio**"
+        },
+
+        "ko": {
+            "title": "포트폴리오",
+            "title_long_prefix": "이것은 내",
+            "title_long": "**포트폴리오**입니다"
+        }
+    },
+
+    "articles": [
+        {
+            "id": "portfolio",
+            "component": "ArticlePortfolio",
+            "config": {},
+            "locales": {},
+
+            "categories": [
+                {
+                    "id": "apps",
+                    "locales": {
+                        "en": {"singular": "App", "plural": "Apps"},
+                        "es": {"singular": "App", "plural": "Apps"},
+                        "fr": {"singular": "App", "plural": "Apps"},
+                        "ko": {"singular": "앱", "plural": "앱들"}
+                    }
+                },
+                {
+                    "id": "websites",
+                    "locales": {
+                        "en": {"singular": "Website", "plural": "Web"},
+                        "es": {"singular": "Sitio web", "plural": "Web"},
+                        "fr": {"singular": "Site web", "plural": "Web"},
+                        "ko": {"singular": "웹사이트", "plural": "웹"}
+                    }
+                },
+                {
+                    "id": "utilities",
+                    "locales": {
+                        "en": {"singular": "Utility", "plural": "Utilities"},
+                        "es": {"singular": "Utilidad", "plural": "Utilidades"},
+                        "fr": {"singular": "Utilitaire", "plural": "Utilitaires"},
+                        "ko": {"singular": "유틸리티", "plural": "유틸리티들"}
+                    }
+                }
+            ],
+
+            "items": [
+                {
+                    "categoryId": "utilities",
+                    "icon": {
+                        "img": "images/pictures/project-logo-3.png",
+                        "fa": "",
+                        "faColors": {"bg": null, "fill": null}
+                    },
+
+                    "links": [
+                        {"faIcon": "fa-brands fa-github", "href": "https://github.com/MemcoSoftware/python-depurador-ziriuz.git"}
+                    ],
+
+                    "media": {
+                        "youtubeVideo": null,
+                        "screenshots": {
+                            "aspectRatio": "16:9",
+                            "images": [
+                            ]
+                        }
+                    },
+
+                    "locales": {
+                        "en": {
+                            "title": "Python DB Depurator",
+                            "text": "A powerful <b>Python-based utility</b> developed for database cleansing and optimization. Designed specifically for <b>Ziriuz.com</b>, it processes inventory databases by eliminating duplicates, unnecessary spaces, and punctuation, while intelligently reorganizing and classifying data. The program automatically assigns parts to equipment, alphabetizes entries, and generates a clean, structured inventory in an <b>XLS file</b>. This tool ensures enhanced data accuracy, efficiency, and usability for streamlined inventory management.",
+                            "tags": ["Python", "Database", "Inventory Optimization", "Automation"]
+                        },
+                        "es": {
+                            "title": "Depurador de BD en Python",
+                            "text": "Una potente <b>herramienta basada en Python</b> desarrollada para la limpieza y optimización de bases de datos. Diseñada específicamente para <b>Ziriuz.com</b>, procesa bases de datos de inventario eliminando duplicados, espacios innecesarios y puntuaciones, al mismo tiempo que reorganiza y clasifica los datos de manera inteligente. El programa asigna repuestos a equipos automáticamente, organiza las entradas alfabéticamente y genera un inventario limpio y estructurado en un archivo <b>XLS</b>. Esta herramienta garantiza mayor precisión, eficiencia y utilidad de los datos para una gestión de inventario simplificada.",
+                            "tags": ["Python", "Base de Datos", "Optimización de Inventarios", "Automatización"]
+                        },
+                        "fr": {
+                            "title": "Dépurateur BD Python",
+                            "text": "Un outil puissant <b>basé sur Python</b> développé pour le nettoyage et l'optimisation des bases de données. Conçu spécifiquement pour <b>Ziriuz.com</b>, il traite les bases de données d'inventaire en éliminant les doublons, les espaces inutiles et la ponctuation, tout en réorganisant et classant intelligemment les données. Le programme assigne automatiquement des pièces aux équipements, organise les entrées par ordre alphabétique et génère un inventaire propre et structuré dans un fichier <b>XLS</b>. Cet outil garantit une précision accrue des données, une efficacité optimale et une gestion simplifiée des inventaires.",
+                            "tags": ["Python", "Base de Données", "Optimisation d'Inventaire", "Automatisation"]
+                        },
+                        "ko": {
+                            "title": "Python DB 정리기",
+                            "text": "<b>Python 기반 도구</b>로 개발된 강력한 데이터베이스 정리 및 최적화 유틸리티입니다. <b>Ziriuz.com</b>을 위해 설계되었으며, 중복 항목, 불필요한 공백 및 구두점을 제거하면서 인벤토리 데이터베이스를 처리하고 데이터를 지능적으로 재구성하고 분류합니다. 이 프로그램은 장비에 부품을 자동으로 할당하고, 항목을 알파벳 순서로 정렬하며, 깨끗하고 구조화된 인벤토리를 <b>XLS 파일</b>로 생성합니다. 이 도구는 데이터 정확도, 효율성 및 사용성을 향상시켜 인벤토리 관리 효율성을 보장합니다.",
+                            "tags": ["Python", "데이터베이스", "재고 최적화", "자동화"]
+                        }
+                    }
+                },
+
+                {
+                    "categoryId": "apps",
+                    "icon": {
+                        "img": "images/pictures/project-logo-1.png",
+                        "fa": "",
+                        "faColors": {"bg": null, "fill": null}
+                    },
+                    "links": [
+                        {"faIcon": "fa-brands fa-apple", "href": "https://bioswift.net/appstore"},
+                        {"faIcon": "fa-brands fa-google-play", "href": "https://bioswift.net/googleplay"}
+                    ],
+                    "media": {
+                        "youtubeVideo": null,
+                        "screenshots": {
+                            "aspectRatio": "9:16",
+                            "images": [
+                            ]
+                        }
+                    },
+                    "locales": {
+                        "en": {
+                            "title": "BioSwift Mobile",
+                            "text": "The <b>mobile extension</b> of the innovative <b>BioSwift</b> web application, developed with the <b>MERN stack</b>, and currently <b>under development</b>. Designed to revolutionize the biomedical industry, this cross-platform app will enable real-time management of <b>clients, inventory, service orders</b>, and more, directly from your smartphone. Once completed, it will integrate with <b>Power BI</b> for real-time performance monitoring and insights, empowering businesses with on-the-go decision-making tools.",
+                            "tags": ["MERN", "Mobile App", "Under Development", "Biomedical", "Inventory Management", "Power BI"]
+                        },
+                        "es": {
+                            "title": "BioSwift Móvil",
+                            "text": "La <b>extensión móvil</b> de la innovadora aplicación web <b>BioSwift</b>, desarrollada con el <b>stack MERN</b>, y actualmente <b>en desarrollo</b>. Diseñada para revolucionar el sector biomédico, esta aplicación multiplataforma permitirá la gestión en tiempo real de <b>clientes, inventarios, órdenes de servicio</b> y más, directamente desde tu smartphone. Una vez completada, se integrará con <b>Power BI</b> para monitoreo de rendimiento en tiempo real y análisis que facilitarán la toma de decisiones sobre la marcha.",
+                            "tags": ["MERN", "App Móvil", "En Desarrollo", "Biomédico", "Gestión de Inventarios", "Power BI"]
+                        },
+                        "fr": {
+                            "title": "BioSwift Mobile",
+                            "text": "L'<b>extension mobile</b> de l'innovante application web <b>BioSwift</b>, développée avec le <b>stack MERN</b>, et actuellement <b>en cours de développement</b>. Conçue pour révolutionner le secteur biomédical, cette application multiplateforme permettra la gestion en temps réel des <b>clients, inventaires, ordres de service</b>, et bien plus encore, directement depuis votre smartphone. Une fois terminée, elle sera intégrée à <b>Power BI</b> pour un suivi des performances en temps réel et des analyses facilitant la prise de décisions en déplacement.",
+                            "tags": ["MERN", "Application Mobile", "En Développement", "Biomédical", "Gestion d'Inventaire", "Power BI"]
+                        },
+                        "ko": {
+                            "title": "BioSwift 모바일",
+                            "text": "<b>MERN 스택</b>으로 개발된 혁신적인 <b>BioSwift</b> 웹 애플리케이션의 <b>모바일 확장판</b>으로, 현재 <b>개발 중</b>입니다. 의료 기기 산업을 혁신하기 위해 설계된 이 크로스플랫폼 앱은 <b>고객, 재고, 서비스 주문</b> 등을 실시간으로 관리할 수 있도록 합니다. 완성되면 <b>Power BI</b>와 통합되어 실시간 성능 모니터링 및 분석을 제공하여 이동 중에도 데이터 기반 의사 결정을 지원할 예정입니다.",
+                            "tags": ["MERN", "모바일 앱", "개발 중", "생의학", "재고 관리", "Power BI"]
+                        }
+                    }
+                },                
+
+                {
+                    "categoryId": "websites",
+                    "icon": {
+                        "img": "images/pictures/project-logo-1.png",
+                        "fa": "",
+                        "faColors": {"bg": null, "fill": null}
+                    },
+
+                    "links": [
+                        {"faIcon": "fa-solid fa-link", "href": "https://bioswift.net"}
+                    ],
+
+                    "media": {
+                        "youtubeVideo": null,
+                        "screenshots": {
+                            "aspectRatio": "4:3",
+                            "images": [
+                                "images/pictures/project-screenshot-9.png",
+                                "images/pictures/project-screenshot-10.png",
+                                "images/pictures/project-screenshot-11.png",
+                                "images/pictures/project-screenshot-12.png"
+
+                            ]
+                        }
+                    },
+
+                    "locales": {
+                        "en": {
+                            "title": "BioSwift",
+                            "text": "An innovative web application developed with the <b>MERN stack</b>, tailored for the biomedical industry. <b>BioSwift</b> revolutionizes business operations by offering seamless <b>user and inventory management</b>. Track and manage <b>clients, locations, equipment, spare parts, service orders</b>, and much more in real-time. Integrated with <b>Power BI</b>, it provides real-time dashboards for performance monitoring and data-driven decision-making. Trusted by biomedical companies to enhance efficiency and ensure operational excellence.",
+                            "tags": ["MERN", "Biomedical", "Inventory Management", "Real-Time Monitoring", "Power BI"]
+                        },
+                        "es": {
+                            "title": "BioSwift",
+                            "text": "Una innovadora aplicación web desarrollada con el <b>stack MERN</b>, diseñada para el sector biomédico. <b>BioSwift</b> revoluciona las operaciones empresariales ofreciendo una gestión fluida de <b>usuarios e inventarios</b>. Permite rastrear y administrar en tiempo real <b>clientes, sedes, equipos, repuestos, órdenes de servicio</b> y mucho más. Integrado con <b>Power BI</b>, proporciona tableros en tiempo real para monitorear el rendimiento y tomar decisiones basadas en datos. Confiado por empresas biomédicas para mejorar la eficiencia y garantizar la excelencia operativa.",
+                            "tags": ["MERN", "Biomédico", "Gestión de Inventarios", "Monitoreo en Tiempo Real", "Power BI"]
+                        },
+                        "fr": {
+                            "title": "BioSwift",
+                            "text": "Une application web innovante développée avec le <b>stack MERN</b>, conçue pour le secteur biomédical. <b>BioSwift</b> révolutionne les opérations commerciales en offrant une <b>gestion transparente des utilisateurs et des inventaires</b>. Suivez et gérez en temps réel <b>clients, sites, équipements, pièces détachées, ordres de service</b>, et bien plus encore. Intégré à <b>Power BI</b>, il offre des tableaux de bord en temps réel pour surveiller les performances et prendre des décisions basées sur les données. Approuvée par les entreprises biomédicales pour améliorer l'efficacité et assurer l'excellence opérationnelle.",
+                            "tags": ["MERN", "Biomédical", "Gestion d'Inventaire", "Surveillance en Temps Réel", "Power BI"]
+                        },
+                        "ko": {
+                            "title": "BioSwift",
+                            "text": "의료 기기 산업을 위해 <b>MERN 스택</b>으로 개발된 혁신적인 웹 애플리케이션 <b>BioSwift</b>는 <b>사용자 및 재고 관리</b>를 통해 비즈니스 운영을 혁신합니다. <b>고객, 위치, 장비, 부품, 서비스 주문</b> 등을 실시간으로 추적하고 관리할 수 있습니다. <b>Power BI</b>와 통합되어 실시간 대시보드를 제공하여 성능을 모니터링하고 데이터 기반 의사 결정을 지원합니다. 효율성을 향상시키고 운영 우수성을 보장하기 위해 바이오메디컬 기업들이 신뢰하는 솔루션입니다.",
+                            "tags": ["MERN", "생의학", "재고 관리", "실시간 모니터링", "Power BI"]
+                        }
+                    }
+                },
+
+
+                {
+                    "categoryId": "websites",
+                    "icon": {
+                        "img": "images/pictures/project-logo-5.png",
+                        "fa": "",
+                        "faColors": {"bg": null, "fill": null}
+                    },
+
+                    "links": [
+
+                    ],
+
+                    "media": {
+                        "youtubeVideo": null,
+                        "screenshots": {
+                            "aspectRatio": "16:9",
+                            "images": [
+                                "images/pictures/project-screenshot-13.png"
+                            ]
+                        }
+                    },
+
+                    "locales": {
+                        "en": {
+                            "title": "El Ahorro",
+                            "text": "An innovative web application developed with the <b>MERN stack</b>, designed for <b>market businesses</b> of all sizes, from small corner stores to large supermarkets. El Ahorro empowers users with <b>inventory management</b>, <b>sales and purchase tracking</b>, <b>billing</b>, and <b>supplier administration</b>. Real-time analytics enhance <b>productivity</b> and <b>decision-making efficiency</b>, helping businesses streamline operations and achieve optimal performance. As the <b>CEO and founder</b>, I am leading the development of this project, bringing a vision of transformation to the retail industry.",
+                            "tags": ["MERN", "Inventory", "Real-Time Analytics", "Retail", "Efficiency"]
+                        },
+                        "es": {
+                            "title": "El Ahorro",
+                            "text": "Una aplicación web innovadora desarrollada con el <b>stack MERN</b>, diseñada para <b>negocios de mercado</b> de todos los tamaños, desde pequeñas tiendas hasta grandes supermercados. El Ahorro ofrece herramientas avanzadas de <b>gestión de inventarios</b>, <b>seguimiento de ventas y compras</b>, <b>facturación</b> y <b>administración de proveedores</b>. Los análisis en tiempo real mejoran la <b>productividad</b> y la <b>eficiencia en la toma de decisiones</b>, ayudando a las empresas a optimizar sus operaciones. Como <b>CEO y fundador</b>, lidero el desarrollo de este proyecto con una visión transformadora para la industria minorista.",
+                            "tags": ["MERN", "Inventarios", "Análisis en Tiempo Real", "Retail", "Eficiencia"]
+                        },
+                        "fr": {
+                            "title": "El Ahorro",
+                            "text": "Une application web innovante développée avec le <b>stack MERN</b>, conçue pour les <b>entreprises de marché</b> de toutes tailles, des petites épiceries aux grands supermarchés. El Ahorro offre des fonctionnalités avancées de <b>gestion des stocks</b>, <b>suivi des ventes et achats</b>, <b>facturation</b> et <b>administration des fournisseurs</b>. Les analyses en temps réel améliorent la <b>productivité</b> et l'<b>efficacité de la prise de décision</b>, aidant les entreprises à optimiser leurs opérations. En tant que <b>PDG et fondateur</b>, je dirige le développement de ce projet, apportant une vision de transformation au secteur du commerce de détail.",
+                            "tags": ["MERN", "Inventaire", "Analyse en Temps Réel", "Commerce de Détail", "Efficacité"]
+                        },
+                        "ko": {
+                            "title": "El Ahorro",
+                            "text": "작은 가게부터 대형 슈퍼마켓까지 모든 규모의 <b>시장 비즈니스</b>를 위해 <b>MERN 스택</b>으로 개발된 혁신적인 웹 애플리케이션입니다. El Ahorro는 <b>재고 관리</b>, <b>판매 및 구매 추적</b>, <b>청구</b>, <b>공급업체 관리</b>와 같은 고급 도구를 제공합니다. 실시간 분석은 <b>생산성</b>과 <b>의사 결정 효율성</b>을 향상시켜 비즈니스 운영을 간소화하고 최적의 성과를 달성할 수 있도록 돕습니다. <b>CEO 및 창립자</b>로서 저는 이 프로젝트의 개발을 주도하며 소매 업계에 변화를 가져오는 비전을 실현하고 있습니다.",
+                            "tags": ["MERN", "재고 관리", "실시간 분석", "소매업", "효율성"]
+                        }
+                    }
+                }
+            ]
+        }
+    ]
+}

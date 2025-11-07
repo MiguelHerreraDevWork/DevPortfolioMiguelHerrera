@@ -1,0 +1,190 @@
+{
+    "locales": {
+        "en": {
+            "title": "Education",
+            "title_long_prefix": "This is my",
+            "title_long": "**Educational** Background"
+        },
+
+        "es": {
+            "title": "Educación",
+            "title_long_prefix": "Esta es mi",
+            "title_long": "**Formación** Educativa"
+        },
+
+        "fr": {
+            "title": "Éducation",
+            "title_long_prefix": "C'est mon",
+            "title_long": "**Contexte** Éducatif"
+        },
+
+        "ko": {
+            "title": "교육",
+            "title_long_prefix": "이것은 내",
+            "title_long": "**교육적** 배경"
+        }
+    },
+
+    "articles": [
+        {
+            "id": "academic",
+            "component": "ArticleTimeline",
+            "config": {},
+            "locales": {},
+
+            "items": [
+                {
+                    "icon": {
+                        "img": "images/pictures/place-5.png",
+                        "fa": "",
+                        "faColors": {"bg": null, "fill": null}
+                    },
+                    "dates": {
+                        "start": "02/01/2019",
+                        "end": "12/01/2020"
+                    },
+                    "locales": {
+                        "en": {
+                            "title": "**English** Language Training",
+                            "info": "SMART Language Academy, Colombia",
+                            "text": "Completed an English language training program, developing fluency and effective communication skills through immersive courses and practical activities.",
+                            "tags": ["Language Learning", "English Training"]
+                        },
+                        "es": {
+                            "title": "Formación en Inglés",
+                            "info": "SMART Language Academy, Colombia",
+                            "text": "Completé un programa de formación en inglés, desarrollando fluidez y habilidades de comunicación efectiva a través de cursos inmersivos y actividades prácticas.",
+                            "tags": ["Aprendizaje de Idiomas", "Formación en Inglés"]
+                        },
+                        "fr": {
+                            "title": "Formation en Langue Anglaise",
+                            "info": "SMART Language Academy, Colombie",
+                            "text": "J'ai suivi un programme de formation en anglais, développant la maîtrise de la langue et des compétences de communication efficaces grâce à des cours immersifs et des activités pratiques.",
+                            "tags": ["Apprentissage des Langues", "Formation en Anglais"]
+                        },
+                        "ko": {
+                            "title": "영어 교육",
+                            "info": "SMART Language Academy, 콜롬비아",
+                            "text": "몰입형 강의와 실습 활동을 통해 유창한 영어와 효과적인 의사소통 능력을 개발하는 영어 교육 프로그램을 이수했습니다.",
+                            "tags": ["언어 학습", "영어 교육"]
+                        }
+                    }
+                },                
+
+                {
+                    "icon": {
+                        "img": "images/pictures/place-2.png",
+                        "fa": "",
+                        "faColors": {"bg": null, "fill": null}
+                    },
+                    "dates": {
+                        "start": "02/01/2017",
+                        "end": "12/01/2018"
+                    },
+                    "locales": {
+                        "en": {
+                            "title": "**High School** Diploma",
+                            "info": "Colegio Paulo Freire (Skolmi), Bogotá D.C.",
+                            "text": "<ul><li>Completed primary education at Anglo Escocés Campestre.</li><li>Finished secondary and vocational education at Colegio San José Norte I.E.D., building a strong academic foundation and developing analytical and problem-solving skills.</li></ul>",
+                            "tags": ["High School", "Academic Foundation"]
+                        },
+                        "es": {
+                            "title": "Diploma de Bachillerato",
+                            "info": "Colegio Paulo Freire (Skolmi), Bogotá D.C.",
+                            "text": "<ul><li>Completé la educación primaria en el Anglo Escocés Campestre.</li><li>Finalicé la educación secundaria y vocacional en el Colegio San José Norte I.E.D., construyendo una sólida base académica y desarrollando habilidades analíticas y de resolución de problemas.</li></ul>",
+                            "tags": ["Bachillerato", "Fundación Académica"]
+                        },
+                        "fr": {
+                            "title": "Diplôme d'Études Secondaires",
+                            "info": "Collège Paulo Freire (Skolmi), Bogotá D.C.",
+                            "text": "<ul><li>Terminé l'enseignement primaire à l'Anglo Escocés Campestre.</li><li>Complété l'enseignement secondaire et professionnel au Collège San José Norte I.E.D., en construisant une base académique solide et en développant des compétences analytiques et de résolution de problèmes.</li></ul>",
+                            "tags": ["Lycée", "Base Académique"]
+                        },
+                        "ko": {
+                            "title": "고등학교 졸업장",
+                            "info": "파울로 프레이레 학교 (스콜미), 보고타 D.C.",
+                            "text": "<ul><li>Anglo Escocés Campestre에서 초등 교육을 마쳤습니다.</li><li>Colegio San José Norte I.E.D.에서 중등 및 직업 교육을 마치며 견고한 학문적 기초를 쌓고 분석 및 문제 해결 능력을 개발했습니다.</li></ul>",
+                            "tags": ["고등학교", "학문적 기초"]
+                        }
+                    }
+                },                
+
+                {
+                    "icon": {
+                        "img": "images/pictures/place-6.png",
+                        "fa": "",
+                        "faColors": {"bg": null, "fill": null}
+                    },
+                    "dates": {
+                        "start": "01/01/2022",
+                        "end": "12/01/2024"
+                    },
+                    "locales": {
+                        "en": {
+                            "title": "**Professional Development** in Software and Cloud Technologies",
+                            "info": "Platzi",
+                            "text": "<p>Completed a professional development program focusing on modern software and cloud technologies. Key areas include:</p> <ul><li>Cybersecurity: Introduction to Cybersecurity, Privacy for Companies, and Prevention of Cyber Attacks.</li><li>AWS: Cloud Computing Fundamentals, Serverless Framework, and Practical EC2 Solutions.</li><li>DevOps: Professional DevOps Course.</li><li>QA & Test Automation: Fundamentals of Testing with Puppeteer, Cypress, and Playwright.</li><li>Databases: SQL, MySQL, and MongoDB Optimization.</li></ul> <p class='mt-3'>Enhanced technical skills to deliver scalable and secure solutions while mastering cloud and software development practices.</p>",
+                            "tags": ["Cloud Computing", "Cybersecurity", "DevOps", "Databases", "Test Automation"]
+                        },
+                        "es": {
+                            "title": "**Desarrollo Profesional** en Tecnologías de Software y Cloud",
+                            "info": "Platzi",
+                            "text": "<p>Completé un programa de desarrollo profesional enfocado en tecnologías modernas de software y cloud. Áreas clave incluyen:</p> <ul><li>Ciberseguridad: Introducción a la Ciberseguridad, Privacidad para Empresas y Prevención de Ataques Cibernéticos.</li><li>AWS: Fundamentos de Computación en la Nube, Serverless Framework y Soluciones Prácticas con EC2.</li><li>DevOps: Curso Profesional de DevOps.</li><li>QA y Automatización de Pruebas: Fundamentos de Pruebas con Puppeteer, Cypress y Playwright.</li><li>Bases de Datos: Optimización en SQL, MySQL y MongoDB.</li></ul> <p class='mt-3'>Mejoré habilidades técnicas para entregar soluciones escalables y seguras, dominando prácticas modernas de desarrollo en la nube y software.</p>",
+                            "tags": ["Computación en la Nube", "Ciberseguridad", "DevOps", "Bases de Datos", "Automatización de Pruebas"]
+                        },
+                        "fr": {
+                            "title": "**Développement Professionnel** en Technologies Logiciels et Cloud",
+                            "info": "Platzi",
+                            "text": "<p>Programme de développement professionnel axé sur les technologies modernes de logiciels et de cloud. Domaines clés :</p> <ul><li>Cybersécurité : Introduction à la Cybersécurité, Confidentialité pour les Entreprises et Prévention des Cyberattaques.</li><li>AWS : Fondamentaux de l'Informatique en Nuage, Serverless Framework et Solutions Pratiques avec EC2.</li><li>DevOps : Cours Professionnel de DevOps.</li><li>QA et Automatisation des Tests : Fondamentaux des Tests avec Puppeteer, Cypress et Playwright.</li><li>Bases de Données : Optimisation SQL, MySQL et MongoDB.</li></ul> <p class='mt-3'>Développement de compétences techniques pour des solutions évolutives et sécurisées tout en maîtrisant les pratiques modernes de développement cloud et logiciel.</p>",
+                            "tags": ["Informatique en Nuage", "Cybersécurité", "DevOps", "Bases de Données", "Automatisation des Tests"]
+                        },
+                        "ko": {
+                            "title": "**소프트웨어 및 클라우드 기술**에서의 전문 개발",
+                            "info": "Platzi",
+                            "text": "<p>현대 소프트웨어 및 클라우드 기술에 중점을 둔 전문 개발 프로그램을 완료했습니다. 주요 영역:</p> <ul><li>사이버보안: 사이버보안 입문, 기업을 위한 프라이버시, 사이버 공격 예방.</li><li>AWS: 클라우드 컴퓨팅 기초, 서버리스 프레임워크 및 EC2를 이용한 실습 솔루션.</li><li>DevOps: 전문 DevOps 과정.</li><li>QA 및 테스트 자동화: Puppeteer, Cypress 및 Playwright로 테스트 기본 사항.</li><li>데이터베이스: SQL, MySQL 및 MongoDB 최적화.</li></ul> <p class='mt-3'>확장 가능하고 안전한 솔루션을 제공하기 위한 기술 능력을 강화하며 클라우드 및 소프트웨어 개발 관행을 숙달했습니다.</p>",
+                            "tags": ["클라우드 컴퓨팅", "사이버보안", "DevOps", "데이터베이스", "테스트 자동화"]
+                        }
+                    }
+                },                
+
+                {
+                    "icon": {
+                        "img": "images/pictures/place-4.png",
+                        "fa": "",
+                        "faColors": {"bg": null, "fill": null}
+                    },
+                    "dates": {
+                        "start": "11/03/2020",
+                        "end": "05/15/2024"
+                    },
+                    "locales": {
+                        "en": {
+                            "title": "**Technologist** in Analysis and Development of Information Systems",
+                            "info": "SENA – Servicio Nacional de Aprendizaje, Colombia",
+                            "text": "<p>Focused on designing, developing, and implementing software solutions that meet the needs of various business environments. Areas of expertise include:</p> <ul><li>Software Development</li><li>Database Management</li><li>Web and Mobile Applications</li><li>Systems Analysis</li></ul> <p class='mt-3'>Gained strong foundations in project management, system integration, and programming languages such as JavaScript, Python, PHP, Java, and Kotlin.</p>",
+                            "tags": ["Software Development", "Databases", "Systems Analysis", "Project Management"]
+                        },
+                        "es": {
+                            "title": "**Tecnólogo** en Análisis y Desarrollo de Sistemas de Información",
+                            "info": "SENA – Servicio Nacional de Aprendizaje, Colombia",
+                            "text": "<p>Enfocado en el diseño, desarrollo e implementación de soluciones de software que cumplen con las necesidades de diversos entornos empresariales. Áreas de experiencia incluyen:</p> <ul><li>Desarrollo de Software</li><li>Gestión de Bases de Datos</li><li>Aplicaciones Web y Móviles</li><li>Análisis de Sistemas</li></ul> <p class='mt-3'>Adquirí una sólida base en gestión de proyectos, integración de sistemas y lenguajes de programación como JavaScript, Python, PHP, Java y Kotlin.</p>",
+                            "tags": ["Desarrollo de Software", "Bases de Datos", "Análisis de Sistemas", "Gestión de Proyectos"]
+                        },
+                        "fr": {
+                            "title": "**Technologue** en Analyse et Développement des Systèmes d'Information",
+                            "info": "SENA – Servicio Nacional de Aprendizaje, Colombie",
+                            "text": "<p>Axé sur la conception, le développement et la mise en œuvre de solutions logicielles répondant aux besoins de divers environnements commerciaux. Domaines d'expertise incluent :</p> <ul><li>Développement de Logiciels</li><li>Gestion de Bases de Données</li><li>Applications Web et Mobiles</li><li>Analyse des Systèmes</li></ul> <p class='mt-3'>Acquis des bases solides en gestion de projets, intégration de systèmes et langages de programmation comme JavaScript, Python, PHP, Java et Kotlin.</p>",
+                            "tags": ["Développement de Logiciels", "Bases de Données", "Analyse des Systèmes", "Gestion de Projets"]
+                        },
+                        "ko": {
+                            "title": "**정보 시스템 분석 및 개발 기술자**",
+                            "info": "SENA – Servicio Nacional de Aprendizaje, 콜롬비아",
+                            "text": "<p>다양한 비즈니스 환경의 요구를 충족하는 소프트웨어 솔루션 설계, 개발 및 구현에 중점을 둠. 전문 분야:</p> <ul><li>소프트웨어 개발</li><li>데이터베이스 관리</li><li>웹 및 모바일 애플리케이션</li><li>시스템 분석</li></ul> <p class='mt-3'>프로젝트 관리, 시스템 통합 및 JavaScript, Python, PHP, Java, Kotlin과 같은 프로그래밍 언어에서 강력한 기반을 다졌습니다.</p>",
+                            "tags": ["소프트웨어 개발", "데이터베이스", "시스템 분석", "프로젝트 관리"]
+                        }
+                    }
+                }
+            ]
+        }
+    ]
+}
