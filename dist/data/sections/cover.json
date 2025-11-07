@@ -1,0 +1,394 @@
+{
+    "locales": {
+        "en": {
+            "title": "Welcome!",
+            "title_menu": "About me",
+            "title_long_prefix": "Hello...",
+            "title_long": "I'm **Miguel Herrera!**"
+        },
+
+        "es": {
+            "title": "¡Saludos!",
+            "title_menu": "Sobre mí",
+            "title_long_prefix": "Hola...",
+            "title_long": "Soy **Miguel Herrera!**"
+        },
+
+        "fr": {
+            "title": "Salut !",
+            "title_menu": "À propos",
+            "title_long_prefix": "Salut...",
+            "title_long": "Je suis **Miguel Herrera!**"
+        },
+
+        "ko": {
+            "title": "환영합니다!",
+            "title_menu": "소개",
+            "title_long_prefix": "안녕하세요...",
+            "title_long": "저는 **Miguel Herrera** 입니다!"
+        }
+    },
+
+    "articles": [
+        {
+            "id": "contact_list",
+            "component": "ArticleGrid",
+            "config": {
+                "ignorePaddingTop": true,
+                "format": "inline"
+            },
+            "locales": {
+                "en": {},
+                "es": {},
+                "fr": {},
+                "ko": {}
+            },
+
+            "items": [
+                {
+                    "value": "Bogotá – CO",
+                    "links": [
+                        {"href": null}
+                    ],
+                    "icon": {
+                        "img": null,
+                        "fa": "fa-solid fa-city",
+                        "faColors": {"bg": null, "fill": null}
+                    }
+                },
+                {
+                    "value": "miguel.herrera.dev.work@gmail.com",
+                    "links": [
+                        {"href": "mailto:miguel.herrera.dev.work@gmail.com"}
+                    ],
+                    "icon": {
+                        "img": null,
+                        "fa": "fa-solid fa-envelope",
+                        "faColors": {"bg": null, "fill": null}
+                    }
+                },
+                {
+                    "value": "@MemcoSoftware",
+                    "links": [
+                        {"href": "https://github.com/MemcoSoftware"}
+                    ],
+                    "icon": {
+                        "img": null,
+                        "fa": "fa-brands fa-github",
+                        "faColors": {"bg": null, "fill": null}
+                    }
+                }
+            ]
+        },
+
+        {
+            "id": "short_description",
+            "component": "ArticleInfoBlock",
+            "config": {},
+            "locales": {
+                "en": {"title": "**A little bit** about me..."},
+                "es": {"title": "**Un poco** sobre mí..."},
+                "fr": {"title": "**Un peu** à propos de moi..."},
+                "ko": {"title": "저에 **대해 조금**..."}
+            },
+
+            "items": [
+                {
+                    "icon": {
+                        "img": "images/svg/logo.svg",
+                        "fa": null,
+                        "faColors": {"bg": null, "fill": null}
+                    },
+                    "locales": {
+                        "en": {"text": "<p>I am a <b>Full Stack MERN Developer</b> with <b>over two years</b> of experience building scalable web applications.<br> I specialize in <b>MongoDB, Express, React, Node.js, and TypeScript</b>, delivering efficient backend systems and intuitive user interfaces.<br> I also use <b>Power BI</b> for data analysis and <b>Jira</b> for project management, ensuring <b>timely and high-quality</b> results.<br> I am committed to creating impactful digital solutions and collaborating with teams to achieve <b>exceptional outcomes</b>.</p>"},
+                        "es": {"text": "<p>Soy un <b>Desarrollador Full Stack MERN</b> con <b>más de dos años</b> de experiencia en la creación de aplicaciones web escalables.<br> Me especializo en <b>MongoDB, Express, React, Node.js y TypeScript</b>, entregando sistemas backend eficientes e interfaces de usuario intuitivas.<br> También utilizo <b>Power BI</b> para análisis de datos y <b>Jira</b> para la gestión de proyectos, asegurando resultados de <b>alta calidad y a tiempo</b>.<br> Estoy comprometido a desarrollar soluciones digitales impactantes y colaborar con equipos para lograr <b>resultados excepcionales</b>.</p>"},
+                        "fr": {"text": "<p>Je suis développeur Full Stack MERN avec <b>plus de deux ans</b> d'expérience dans la création d'applications web évolutives.<br> Je maîtrise <b>MongoDB, Express, React, Node.js et TypeScript</b>, offrant des systèmes backend efficaces et des interfaces utilisateur intuitives.<br> J'utilise également <b>Power BI</b> pour l'analyse de données et <b>Jira</b> pour la gestion de projets, garantissant des résultats de <b>haute qualité et dans les délais</b>.<br> Je m'engage à créer des solutions numériques percutantes et à collaborer avec les équipes pour atteindre des <b>résultats exceptionnels</b>.</p>"},
+                        "ko": {"text": "<p>저는 <b>2년 이상의</b> 경험을 보유한 Full Stack MERN 개발자입니다.<br> <b>MongoDB, Express, React, Node.js 및 TypeScript</b>를 전문으로 하여 확장 가능한 웹 애플리케이션을 구축하며 효율적인 백엔드 시스템과 직관적인 사용자 인터페이스를 제공합니다.<br> 또한, 데이터 분석을 위해 <b>Power BI</b>를 사용하고 프로젝트 관리를 위해 <b>Jira</b>를 활용하여 <b>고품질의 결과</b>를 보장합니다.<br> 혁신적인 디지털 솔루션을 만들고 팀과 협력하여 <b>뛰어난 성과</b>를 달성하는 데 전념하고 있습니다.</p>"}
+                    }
+                }
+            ]
+        },
+
+        {
+            "id": "testimonials",
+            "component": "ArticleTestimonials",
+            "config": {},
+            "locales": {
+                "en": {"title": "**Testimonials**"},
+                "es": {"title": "**Testimonios**"},
+                "fr": {"title": "**Témoignages**"},
+                "ko": {"title": "**고객 추천사**"}
+            },
+
+            "items": [
+                {
+                    "value": "Jaime Ruiz",
+                    "links": [
+                        {"href": "https://linkedin.com"}
+                    ],
+                    "icon": {
+                        "img": "images/pictures/person-1.png",
+                        "fa": "fa-solid fa-user",
+                        "faColors": null
+                    },
+                    "locales": {
+                        "en": {
+                            "info": "CEO at <b>MEMCO SAS</b>",
+                            "text": "Miguel’s leadership and expertise have transformed our company. Developing a web application that streamlines operations, saving time and costs, while leading the Development and Technology Department with excellence."
+                        },
+                        "es": {
+                            "info": "CEO en <b>MEMCO SAS</b>",
+                            "text": "El liderazgo y la experiencia de Miguel han transformado nuestra empresa. Desarrollando un aplicativo web que optimiza las operaciones, ahorrando tiempo y costos, mientras lidera con excelencia el Departamento de Desarrollo y Tecnología."
+                        },
+                        "fr": {
+                            "info": "PDG de <b>MEMCO SAS</b>",
+                            "text": "Le leadership et l'expertise de Miguel ont transformé notre entreprise. Développant une application web qui optimise les opérations, économisant du temps et des coûts, tout en dirigeant avec excellence le Département Développement et Technologie."
+                        },
+                        "ko": {
+                            "info": "MEMCO SAS의 CEO",
+                            "text": "Miguel의 리더십과 전문성은 우리 회사를 변화시켰습니다. 운영을 최적화하고 시간과 비용을 절감하는 웹 애플리케이션을 개발하며, 개발 및 기술 부서를 탁월하게 이끌고 있습니다."
+                        }
+                    }
+                },
+
+                {
+                    "value": "Angel Lopez",
+                    "links": [
+                        {"href": "https://github.com"}
+                    ],
+                    "icon": {
+                        "img": "images/pictures/person-3.png",
+                        "fa": null,
+                        "faColors": {"bg": null, "fill": null}
+                    },
+                    "locales": {
+                        "en": {
+                            "info": "Junior Developer at <b>MEMCO SAS</b>",
+                            "text": "Working with Miguel is very rewarding. His leadership and teaching allow me to learn new skills and grow as a developer every day."
+                        },
+                        "es": {
+                            "info": "Desarrollador Junior en <b>MEMCO SAS</b>",
+                            "text": "Trabajar con Miguel es muy satisfactorio. Su liderazgo y enseñanza me permiten aprender nuevas habilidades y crecer como desarrollador cada día."
+                        },
+                        "fr": {
+                            "info": "Développeur Junior chez <b>MEMCO SAS</b>",
+                            "text": "Travailler avec Miguel est très gratifiant. Son leadership et son enseignement me permettent d'acquérir de nouvelles compétences et de progresser chaque jour."
+                        },
+                        "ko": {
+                            "info": "MEMCO SAS의 주니어 개발자",
+                            "text": "Miguel과 함께 일하는 것은 매우 보람 있습니다. 그의 리더십과 가르침은 제가 매일 새로운 기술을 배우고 성장할 수 있게 해줍니다."
+                        }
+                    }
+                },
+
+                {
+                    "value": "Diego Poveda",
+                    "links": [
+                        {"href": null}
+                    ],
+                    "icon": {
+                        "img": "images/pictures/person-2.png",
+                        "fa": null,
+                        "faColors": {"bg": null, "fill": null}
+                    },
+                    "locales": {
+                        "en": {
+                            "info": "CMO at <b>El Ahorro</b>",
+                            "text": "Working with Miguel, the CEO and founder of El Ahorro, has been an amazing experience. His leadership has helped me grow professionally and excel in marketing, allowing me to develop impactful strategies and broaden my expertise."
+                        },
+                        "es": {
+                            "info": "CMO en <b>El Ahorro</b>",
+                            "text": "Trabajar con Miguel, el CEO y fundador de El Ahorro, ha sido una experiencia increíble. Su liderazgo me ha ayudado a crecer profesionalmente y a destacar en marketing, desarrollando estrategias impactantes y ampliando mi experiencia."
+                        },
+                        "fr": {
+                            "info": "CMO chez <b>El Ahorro</b>",
+                            "text": "Travailler avec Miguel, PDG et fondateur d'El Ahorro, a été une expérience incroyable. Son leadership m'a aidé à grandir professionnellement et à exceller en marketing, en développant des stratégies percutantes et en élargissant mon expertise."
+                        },
+                        "ko": {
+                            "info": "El Ahorro의 CMO",
+                            "text": "El Ahorro의 CEO이자 창립자인 Miguel과 함께 일하는 것은 놀라운 경험이었습니다. 그의 리더십은 제가 전문적으로 성장하고 마케팅에서 탁월한 전략을 개발하며 역량을 확장할 수 있도록 도와주었습니다."
+                        }
+                    }
+                }
+            ]
+        },
+
+        {
+            "id": "interests",
+            "component": "ArticleGrid",
+            "config": {
+                "format": "grid"
+            },
+            "locales": {
+                "en": {"title": "Personal **interests**"},
+                "es": { "title": "Intereses **personales**" },
+                "fr": { "title": "Intérêts **personnels** " },
+                "ko": { "title": "개인 **관심사**" }
+            },
+
+            "items": [
+                {
+                    "icon": {
+                        "img": null,
+                        "fa": "fa-solid fa-headphones",
+                        "faColors": null
+                    },
+                    "value": null,
+                    "locales": {
+                        "en": {
+                            "title": "Music Production",
+                            "info": "Creating and experimenting with sounds to produce unique tracks and improve my skills."
+                        },
+                        "es": {
+                            "title": "Producción Musical",
+                            "info": "Creando y experimentando con sonidos para producir pistas únicas y mejorar mis habilidades."
+                        },
+                        "fr": {
+                            "title": "Production Musicale",
+                            "info": "Créer et expérimenter des sons pour produire des morceaux uniques et améliorer mes compétences."
+                        },
+                        "ko": {
+                            "title": "음악 제작",
+                            "info": "독특한 트랙을 제작하고 기술을 향상시키기 위해 사운드를 실험하고 창조하기."
+                        }
+                    }
+                },                
+
+                {
+                    "icon": {
+                        "img": null,
+                        "fa": "fa-solid fa-robot",
+                        "faColors": null
+                    },
+                    "value": null,
+                    "locales": {
+                        "en": {
+                            "title": "AI Development",
+                            "info": "Exploring machine learning and AI tools to create innovative solutions and improve systems."
+                        },
+                        "es": {
+                            "title": "Desarrollo de IA",
+                            "info": "Explorando herramientas de aprendizaje automático e inteligencia artificial para crear soluciones innovadoras y mejorar sistemas."
+                        },
+                        "fr": {
+                            "title": "Développement d'IA",
+                            "info": "Explorer les outils d'apprentissage automatique et d'intelligence artificielle pour créer des solutions innovantes et améliorer les systèmes."
+                        },
+                        "ko": {
+                            "title": "AI 개발",
+                            "info": "혁신적인 솔루션을 만들고 시스템을 개선하기 위해 머신러닝 및 AI 도구를 탐구하기."
+                        }
+                    }
+                },                
+
+                {
+                    "icon": {
+                        "img": null,
+                        "fa": "fa-solid fa-tshirt",
+                        "faColors": null
+                    },
+                    "value": null,
+                    "locales": {
+                        "en": {
+                            "title": "Fashion & Style",
+                            "info": "Passionate about dressing well, exploring trends, and discovering unique styles."
+                        },
+                        "es": {
+                            "title": "Moda y Estilo",
+                            "info": "Apasionado por vestirme bien, explorar tendencias y descubrir estilos únicos."
+                        },
+                        "fr": {
+                            "title": "Mode et Style",
+                            "info": "Passionné par bien s'habiller, explorer les tendances et découvrir des styles uniques."
+                        },
+                        "ko": {
+                            "title": "패션과 스타일",
+                            "info": "옷을 잘 입고, 트렌드를 탐구하며, 독특한 스타일을 발견하는 것에 열정이 있습니다."
+                        }
+                    }
+                },                
+
+                {
+                    "icon": {
+                        "img": null,
+                        "fa": "fa-solid fa-briefcase",
+                        "faColors": null
+                    },
+                    "value": null,
+                    "locales": {
+                        "en": {
+                            "title": "Business & Investment",
+                            "info": "Exploring entrepreneurship, market strategies, and financial growth opportunities."
+                        },
+                        "es": {
+                            "title": "Negocios e Inversión",
+                            "info": "Explorando el emprendimiento, estrategias de mercado y oportunidades de crecimiento financiero."
+                        },
+                        "fr": {
+                            "title": "Affaires et Investissement",
+                            "info": "Explorer l'entrepreneuriat, les stratégies de marché et les opportunités de croissance financière."
+                        },
+                        "ko": {
+                            "title": "사업과 투자",
+                            "info": "창업, 시장 전략 및 재정 성장 기회를 탐구하기."
+                        }
+                    }
+                },                
+
+                {
+                    "icon": {
+                        "img": null,
+                        "fa": "fa-solid fa-object-ungroup",
+                        "faColors": null
+                    },
+                    "value": null,
+                    "locales": {
+                        "en": {
+                            "title": "UI/UX Design",
+                            "info": "Exploring user interface and experience principles to create intuitive and engaging designs."
+                        },
+                        "es": {
+                            "title": "Diseño UI/UX",
+                            "info": "Explorando los principios de diseño de interfaces y experiencia de usuario para crear diseños intuitivos y atractivos."
+                        },
+                        "fr": {
+                            "title": "Design UI/UX",
+                            "info": "Explorer les principes d'interface et d'expérience utilisateur pour créer des designs intuitifs et engageants."
+                        },
+                        "ko": {
+                            "title": "UI/UX 디자인",
+                            "info": "직관적이고 매력적인 디자인을 만들기 위해 사용자 인터페이스 및 경험 원칙을 탐구하기."
+                        }
+                    }
+                },                
+
+                {
+                    "icon": {
+                        "img": null,
+                        "fa": "fa-solid fa-camera-retro",
+                        "faColors": null
+                    },
+                    "value": null,
+                    "locales": {
+                        "en": {
+                            "title": "Photo editing",
+                            "info": "Enhancing photos through creative editing techniques."
+                        },
+                        "es": {
+                            "title": "Edición de fotos",
+                            "info": "Mejorando fotos a través de técnicas creativas de edición."
+                        },
+                        "fr": {
+                            "title": "Retouche photo",
+                            "info": "Améliorer des photos avec des techniques de montage créatives."
+                        },
+                        "ko": {
+                            "title": "사진 편집",
+                            "info": "창의적인 편집 기술을 통해 사진을 향상시키기."
+                        }
+                    }
+                }
+            ]
+        }
+    ]
+}

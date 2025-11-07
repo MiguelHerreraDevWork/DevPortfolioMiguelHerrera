@@ -1,0 +1,292 @@
+{
+    "locales": {
+        "en": {
+            "title": "Life recently",
+            "title_menu": "Updates",
+            "title_long_prefix": "Take a look at my",
+            "title_long": "Recent **Updates**"
+        },
+
+        "es": {
+            "title": "Vida Reciente",
+            "title_menu": "Actualizaciones",
+            "title_long_prefix": "Consulta mis",
+            "title_long": "Actualizaciones **Recientes**"
+        },
+
+        "fr": {
+            "title": "Vie Récente",
+            "title_menu": "Mises à Jour",
+            "title_long_prefix": "Découvrez mes",
+            "title_long": "Dernières **Mises à Jour**"
+        },
+
+        "ko": {
+            "title": "최근의 삶",
+            "title_menu": "업데이트",
+            "title_long_prefix": "내 최근",
+            "title_long": "**업데이트**를 확인해 보세요"
+        }
+    },
+
+    "articles": [
+        {
+            "id": "fun_facts",
+            "component": "ArticleServices",
+            "config": {},
+            "locales": {},
+
+            "items": [
+
+                {
+                    "icon": {
+                        "img": null,
+                        "fa": "fa-solid fa-globe",
+                        "faColors": null
+                    },
+                    "locales": {
+                        "en": {
+                            "title": "4",
+                            "info": "Countries visited"
+                        },
+                        "es": {
+                            "title": "4",
+                            "info": "Países visitados"
+                        },
+                        "fr": {
+                            "title": "4",
+                            "info": "Pays visités"
+                        },
+                        "ko": {
+                            "title": "4",
+                            "info": "방문한 나라"
+                        }
+                    }
+                },
+
+                {
+                    "icon": {
+                        "img": null,
+                        "fa": "fa-solid fa-music",
+                        "faColors": null
+                    },
+                    "locales": {
+                        "en": {
+                            "title": "10",
+                            "info": "Tracks Produced"
+                        },
+                        "es": {
+                            "title": "10",
+                            "info": "Canciones Producidas"
+                        },
+                        "fr": {
+                            "title": "10",
+                            "info": "Morceaux Produits"
+                        },
+                        "ko": {
+                            "title": "10",
+                            "info": "제작된 곡"
+                        }
+                    }
+                },
+
+                {
+                    "icon": {
+                        "img": null,
+                        "fa": "fa-solid fa-book",
+                        "faColors": null
+                    },
+                    "locales": {
+                        "en": {
+                            "title": "13",
+                            "info": "Books Read Last Year"
+                        },
+                        "es": {
+                            "title": "13",
+                            "info": "Libros Leídos el Año Pasado"
+                        },
+                        "fr": {
+                            "title": "13",
+                            "info": "Livres Lus l'Année Dernière"
+                        },
+                        "ko": {
+                            "title": "13",
+                            "info": "지난해 읽은 책"
+                        }
+                    }
+                },
+
+                {
+                    "icon": {
+                        "img": null,
+                        "fa": "fa-solid fa-dumbbell",
+                        "faColors": null
+                    },
+                    "locales": {
+                        "en": {
+                            "title": "2",
+                            "info": "Years of Fitness Training"
+                        },
+                        "es": {
+                            "title": "2",
+                            "info": "Años de Entrenamiento en Fitness"
+                        },
+                        "fr": {
+                            "title": "2",
+                            "info": "Années d'Entraînement de Fitness"
+                        },
+                        "ko": {
+                            "title": "2",
+                            "info": "피트니스 훈련 년"
+                        }
+                    }
+                },
+
+                {
+                    "icon": {
+                        "img": null,
+                        "fa": "fa-solid fa-paint-brush",
+                        "faColors": null
+                    },
+                    "locales": {
+                        "en": {
+                            "title": "15+",
+                            "info": "UI/UX Designs Created"
+                        },
+                        "es": {
+                            "title": "15+",
+                            "info": "Diseños UI/UX Creados"
+                        },
+                        "fr": {
+                            "title": "15+",
+                            "info": "Conceptions UI/UX Réalisées"
+                        },
+                        "ko": {
+                            "title": "15+",
+                            "info": "만들어진 UI/UX 디자인"
+                        }
+                    }
+                },
+
+                {
+                    "icon": {
+                        "img": null,
+                        "fa": "fa-solid fa-keyboard",
+                        "faColors": null
+                    },
+                    "locales": {
+                        "en": {
+                            "title": "Learned Piano",
+                            "info": "Mastered the basics of piano playing"
+                        },
+                        "es": {
+                            "title": "Aprendí Piano",
+                            "info": "Dominé los fundamentos del piano"
+                        },
+                        "fr": {
+                            "title": "Appris le Piano",
+                            "info": "Maîtrisé les bases du piano"
+                        },
+                        "ko": {
+                            "title": "피아노 배움",
+                            "info": "피아노 기본 연주법을 마스터"
+                        }
+                    }
+                }
+                
+            ]
+        },
+
+        {
+            "id": "updates",
+            "component": "ArticleThread",
+            "config": {},
+            "locales": {
+                "en": { "title": "Quick **Facts**" },
+                "es": { "title": "Feed de **Noticias**" },
+                "fr": { "title": "Fil d'**Actualités**" },
+                "ko": { "title": "**뉴스** 피드" }
+            },
+
+            "items": [
+                {
+                    "dates": {
+                        "start": "12/01/2024",
+                        "end": null
+                    },
+                    "links": [],
+                    "locales": {
+                        "en": {
+                            "title": "Developed my **Portfolio**!",
+                            "text": "Created and launched my personal portfolio website, showcasing my projects, skills, and professional journey."
+                        },
+                        "es": {
+                            "title": "¡Desarrollé mi **Portafolio**!",
+                            "text": "Creé y lancé mi sitio web personal de portafolio, mostrando mis proyectos, habilidades y trayectoria profesional."
+                        },
+                        "fr": {
+                            "title": "Développement de mon **Portfolio** !",
+                            "text": "Créé et lancé mon site web personnel de portfolio, présentant mes projets, compétences et parcours professionnel."
+                        },
+                        "ko": {
+                            "title": "개인 **포트폴리오** 개발!",
+                            "text": "내 프로젝트, 기술 및 전문 경력을 보여주는 개인 포트폴리오 웹사이트를 만들고 출시했습니다."
+                        }
+                    }
+                },                
+
+                {
+                    "dates": {
+                        "start": "01/01/2025",
+                        "end": null
+                    },
+                    "links": [],
+                    "locales": {
+                        "en": {
+                            "title": "Started learning **French**!",
+                            "text": "Enrolled in French classes to expand my language skills and enhance my ability to communicate globally."
+                        },
+                        "es": {
+                            "title": "¡Comencé a aprender **francés**!",
+                            "text": "Inscrito en clases de francés para expandir mis habilidades lingüísticas y mejorar mi capacidad de comunicación a nivel global."
+                        },
+                        "fr": {
+                            "title": "Commencé à apprendre le **français** !",
+                            "text": "Inscrit à des cours de français pour élargir mes compétences linguistiques et améliorer ma capacité à communiquer à l'échelle mondiale."
+                        },
+                        "ko": {
+                            "title": "**프랑스어** 배우기 시작했습니다!",
+                            "text": "언어 능력을 확장하고 글로벌 커뮤니케이션 능력을 향상시키기 위해 프랑스어 수업에 등록했습니다."
+                        }
+                    }
+                },                
+
+                {
+                    "dates": {
+                        "start": "01/01/2025",
+                        "end": null
+                    },
+                    "links": [],
+                    "locales": {
+                        "en": {
+                            "title": "Working on a new **web application**!",
+                            "text": "Currently developing a web application designed to streamline operations and provide innovative solutions, focusing on delivering efficiency and user-centric functionality."
+                        },
+                        "es": {
+                            "title": "¡Trabajando en un nuevo **aplicativo web**!",
+                            "text": "Actualmente desarrollando un aplicativo web diseñado para optimizar operaciones y ofrecer soluciones innovadoras, enfocado en brindar eficiencia y funcionalidad centrada en el usuario."
+                        },
+                        "fr": {
+                            "title": "Travail sur une nouvelle **application web** !",
+                            "text": "Actuellement en train de développer une application web conçue pour rationaliser les opérations et offrir des solutions innovantes, avec un accent sur l'efficacité et la convivialité."
+                        },
+                        "ko": {
+                            "title": "새로운 **웹 애플리케이션** 작업 중!",
+                            "text": "운영을 간소화하고 혁신적인 솔루션을 제공하도록 설계된 웹 애플리케이션을 현재 개발 중이며, 효율성과 사용자 중심 기능을 제공하는 데 중점을 두고 있습니다."
+                        }
+                    }
+                }
+            ]
+        }
+    ]
+}
