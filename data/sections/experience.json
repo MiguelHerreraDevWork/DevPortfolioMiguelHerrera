@@ -2,26 +2,26 @@
     "locales": {
         "en": {
             "title": "Experience",
-            "title_long_prefix": "Summary of my",
-            "title_long": "**Work** Experience"
+            "title_long_prefix": "Where I've",
+            "title_long": "**Shipped** Real Products"
         },
 
         "es": {
             "title": "Experiencia",
-            "title_long_prefix": "Resumen de mi",
-            "title_long": "Experiencia **Laboral**"
+            "title_long_prefix": "Donde he",
+            "title_long": "**Lanzado** Productos Reales"
         },
 
         "fr": {
             "title": "Expérience",
-            "title_long_prefix": "Résumé de mon",
-            "title_long": "Parcours **Professionel**"
+            "title_long_prefix": "Où j'ai",
+            "title_long": "**Livré** de Vrais Produits"
         },
 
         "ko": {
-            "title": "경험",
-            "title_long_prefix": "이것은 내",
-            "title_long": "**직업적** 경험"
+            "title": "경력",
+            "title_long_prefix": "제가",
+            "title_long": "**실제 제품**을 출시한 곳"
         }
     },
 
@@ -33,6 +33,44 @@
             "locales": {},
 
             "items": [
+                {
+                    "icon": {
+                        "img": "images/pictures/memco-logo.png",
+                        "fa": "",
+                        "faColors": { "bg": null, "fill": null }
+                    },
+                    "dates": {
+                        "start": "09/19/2022",
+                        "end": "11/30/2025"
+                    },
+                    "locales": {
+                        "en": {
+                            "title": "**Technical Lead** & **Product Engineer**",
+                            "info": "MEMCO SAS",
+                            "text": "<p>Led product engineering and architecture across the entire technology department — designing, building, and shipping <b>operational SaaS platforms</b> used to run the company's biomedical operations.</p><ul><li>Defined system architecture, technical strategy, and engineering standards across the company's software stack.</li><li>Architected and shipped <b>BioSwift</b>, a multi-module SaaS platform covering clients, equipment, inventory, and service-order operations.</li><li>Owned <b>AWS infrastructure</b> end-to-end — EC2, S3, RDS, IAM, Route 53 — including deployment, scaling, and security.</li><li>Built full product features across <b>Node.js, TypeScript, React, MongoDB</b>, and <b>SQL</b>, focused on scalability and product delivery.</li><li>Designed automation systems to streamline data, reporting, and operational workflows across departments.</li><li>Led a cross-functional team of engineers, designers, and analysts under modern delivery practices.</li><li>Translated business needs into technical roadmaps, system designs, and shipped features.</li></ul>",
+                            "tags": ["Technical Lead", "Product Engineer", "SaaS", "Architecture", "AWS", "Node.js", "TypeScript", "React", "Automation"]
+                        },
+                        "es": {
+                            "title": "**Technical Lead** & **Product Engineer**",
+                            "info": "MEMCO SAS",
+                            "text": "<p>Lideré la ingeniería de producto y la arquitectura de todo el departamento de tecnología — diseñando, construyendo y lanzando <b>plataformas SaaS operativas</b> utilizadas para correr las operaciones biomédicas de la compañía.</p><ul><li>Definí la arquitectura de sistemas, la estrategia técnica y los estándares de ingeniería del stack de software de la compañía.</li><li>Arquitecté y lancé <b>BioSwift</b>, una plataforma SaaS multi-módulo para clientes, equipos, inventario y órdenes de servicio.</li><li>Operé la <b>infraestructura AWS</b> end-to-end — EC2, S3, RDS, IAM, Route 53 — incluyendo despliegue, escalado y seguridad.</li><li>Construí features completos en <b>Node.js, TypeScript, React, MongoDB</b> y <b>SQL</b>, enfocados en escalabilidad y entrega de producto.</li><li>Diseñé sistemas de automatización para optimizar datos, reportes y flujos operativos entre departamentos.</li><li>Lideré un equipo cross-functional de ingenieros, diseñadores y analistas bajo prácticas modernas de delivery.</li><li>Traduje necesidades de negocio en roadmaps técnicos, diseños de sistema y features lanzados a producción.</li></ul>",
+                            "tags": ["Technical Lead", "Product Engineer", "SaaS", "Arquitectura", "AWS", "Node.js", "TypeScript", "React", "Automatización"]
+                        },
+                        "fr": {
+                            "title": "**Technical Lead** & **Product Engineer**",
+                            "info": "MEMCO SAS",
+                            "text": "<p>J'ai dirigé l'ingénierie produit et l'architecture du département technologie — en concevant, construisant et livrant des <b>plateformes SaaS opérationnelles</b> utilisées pour faire tourner les opérations biomédicales de l'entreprise.</p><ul><li>Définition de l'architecture système, de la stratégie technique et des standards d'ingénierie de la stack logicielle.</li><li>Architecte et livreur de <b>BioSwift</b>, une plateforme SaaS multi-module pour clients, équipements, inventaire et ordres de service.</li><li>Ownership complet de l'<b>infrastructure AWS</b> — EC2, S3, RDS, IAM, Route 53 — déploiement, scalabilité et sécurité.</li><li>Développement de fonctionnalités complètes en <b>Node.js, TypeScript, React, MongoDB</b> et <b>SQL</b>, axées sur la scalabilité et la livraison produit.</li><li>Conception de systèmes d'automatisation pour rationaliser data, reporting et workflows opérationnels.</li><li>Direction d'une équipe cross-fonctionnelle d'ingénieurs, designers et analystes selon des pratiques modernes de delivery.</li><li>Traduction des besoins métier en roadmaps techniques, designs système et features livrées en production.</li></ul>",
+                            "tags": ["Technical Lead", "Product Engineer", "SaaS", "Architecture", "AWS", "Node.js", "TypeScript", "React", "Automatisation"]
+                        },
+                        "ko": {
+                            "title": "**Technical Lead** & **Product Engineer**",
+                            "info": "MEMCO SAS",
+                            "text": "<p>전체 기술 부서의 제품 엔지니어링과 아키텍처를 리드하며, 회사의 의료기기 운영을 구동하는 <b>운영 SaaS 플랫폼</b>을 설계, 구축, 출시했습니다.</p><ul><li>회사 소프트웨어 스택 전반의 시스템 아키텍처, 기술 전략, 엔지니어링 표준 정의.</li><li>고객, 장비, 재고, 서비스 주문을 아우르는 멀티 모듈 SaaS 플랫폼 <b>BioSwift</b>를 아키텍팅하고 출시.</li><li>배포·확장·보안을 포함한 <b>AWS 인프라</b>(EC2, S3, RDS, IAM, Route 53) 엔드투엔드 오너십.</li><li><b>Node.js, TypeScript, React, MongoDB</b>, <b>SQL</b> 기반의 풀스택 기능을 확장성과 제품 딜리버리에 초점을 맞춰 구축.</li><li>부서 전반의 데이터, 리포팅, 운영 워크플로우를 간소화하는 자동화 시스템 설계.</li><li>현대적 딜리버리 프랙티스로 엔지니어, 디자이너, 애널리스트 크로스 펑셔널 팀을 리드.</li><li>비즈니스 니즈를 기술 로드맵, 시스템 디자인, 그리고 실제 출시 기능으로 전환.</li></ul>",
+                            "tags": ["Technical Lead", "Product Engineer", "SaaS", "아키텍처", "AWS", "Node.js", "TypeScript", "React", "자동화"]
+                        }
+                    }
+                },
+
                 {
                     "icon": {
                         "img": "images/pictures/place-7.png",
@@ -47,64 +85,26 @@
                         "en": {
                             "title": "**Customer Care Advisor**",
                             "info": "Scotiabank",
-                            "text": "Provided high-quality customer support, addressing inquiries, resolving account issues, and enhancing client satisfaction. Developed strong communication skills and problem-solving abilities, contributing to positive customer experiences and operational efficiency.",
-                            "tags": ["Customer Support", "Problem Solving", "Communication"]
+                            "text": "Customer support role — built foundational discipline in communication, prioritization, and operations later transferred to engineering and product work.",
+                            "tags": ["Communication", "Operations"]
                         },
                         "es": {
                             "title": "**Asesor de Atención al Cliente**",
                             "info": "Scotiabank",
-                            "text": "Brindé soporte al cliente de alta calidad, resolviendo consultas, problemas de cuentas y mejorando la satisfacción del cliente. Desarrollé habilidades sólidas en comunicación y resolución de problemas, contribuyendo a experiencias positivas y eficiencia operativa.",
-                            "tags": ["Atención al Cliente", "Resolución de Problemas", "Comunicación"]
+                            "text": "Rol de soporte al cliente — base sólida en comunicación, priorización y operaciones, posteriormente trasladada al trabajo de ingeniería y producto.",
+                            "tags": ["Comunicación", "Operaciones"]
                         },
                         "fr": {
                             "title": "**Conseiller en Service Client**",
                             "info": "Scotiabank",
-                            "text": "Fourniture d'un support client de haute qualité, gestion des demandes, résolution des problèmes de compte et amélioration de la satisfaction client. Développement de compétences en communication et en résolution de problèmes, contribuant à des expériences positives et à l'efficacité opérationnelle.",
-                            "tags": ["Support Client", "Résolution de Problèmes", "Communication"]
+                            "text": "Rôle de support client — base solide en communication, priorisation et opérations, transférée ensuite au travail d'ingénierie et de produit.",
+                            "tags": ["Communication", "Opérations"]
                         },
                         "ko": {
-                            "title": "**고객 상담사**",
-                            "info": "스코샤뱅크",
-                            "text": "고품질 고객 지원을 제공하고 문의 사항을 해결하며 계정 문제를 처리하고 고객 만족도를 높였습니다. 뛰어난 커뮤니케이션 및 문제 해결 능력을 개발하여 긍정적인 고객 경험과 운영 효율성에 기여했습니다.",
-                            "tags": ["고객 지원", "문제 해결", "커뮤니케이션"]
-                        }
-                    }
-                },
-
-                {
-                    "icon": {
-                        "img": "images/pictures/memco-logo.png",
-                        "fa": "",
-                        "faColors": { "bg": null, "fill": null }
-                    },
-                    "dates": {
-                        "start": "09/19/2022",
-                        "end": "now"
-                    },
-                    "locales": {
-                        "en": {
-                            "title": "**Team Lead** & **Software Architect**",
-                            "info": "MEMCO SAS",
-                            "text": "<p>As a Team Lead and Software Architect at MEMCO SAS, I have been responsible for overseeing and structuring the entire software development process, from architecture design to team management and deployment. I lead initiatives to enhance operational efficiency through modern technologies and collaboration across departments.</p> <ul><li>Structured project architecture, defined workflows, delivery timelines, and task management using Jira Software.</li><li>Supervised team, ensuring optimal resource allocation and continuous evolution of developments.</li><li>Created detailed technical documentation, including flow diagrams, ER models, and system optimization strategies using Lucidchart.</li><li>Led evaluation and integration of third-party solutions, ensuring high-quality standards and business alignment.</li><li>Gathered business requirements, performed risk analysis, and defined technical solutions to meet client needs.</li><li>Developed backend systems using Node.js, TypeScript, ExpressJS, MongoDB, PHP, and MySQL, with a focus on scalability and performance.</li><li>Designed intuitive user interfaces and optimized UX using Figma and Anima for seamless user interaction.</li><li>Implemented and monitored cloud services using AWS (EC2, S3, Route 53, IAM), ensuring scalability and security.</li><li>Automated data processes with Python and Power Automate, optimizing efficiency and data reliability.</li></ul>",
-                            "tags": ["Team Lead", "Software Architect", "Backend", "Frontend", "Cloud", "Automation", "UI/UX", "Data Analysis"]
-                        },
-                        "es": {
-                            "title": "**Líder de Equipo y Arquitecto de Software**",
-                            "info": "MEMCO SAS",
-                            "text": "<p>Como Líder de Equipo y Arquitecto de Software en MEMCO SAS, he sido responsable de supervisar y estructurar todo el proceso de desarrollo de software, desde el diseño de la arquitectura hasta la gestión del equipo y la implementación. Lidero iniciativas para mejorar la eficiencia operativa mediante tecnologías modernas y colaboración entre departamentos.</p> <ul><li>Estructuré la arquitectura de proyectos, definí flujos de trabajo, cronogramas de entrega y gestioné tareas usando Jira Software.</li><li>Supervisé al equipo, asegurando una asignación óptima de recursos y la evolución continua de los desarrollos.</li><li>Creé documentación técnica detallada, incluyendo diagramas de flujo, modelos ER y estrategias de optimización de sistemas usando Lucidchart.</li><li>Lideré la evaluación e integración de soluciones de terceros, garantizando estándares de alta calidad y alineación con el negocio.</li><li>Recolecté requisitos de negocio, realicé análisis de riesgos y definí soluciones técnicas para satisfacer las necesidades de los clientes.</li><li>Desarrollé sistemas backend utilizando Node.js, TypeScript, ExpressJS, MongoDB, PHP y MySQL, con enfoque en escalabilidad y rendimiento.</li><li>Diseñé interfaces de usuario intuitivas y optimicé la experiencia de usuario utilizando Figma y Anima para una interacción fluida.</li><li>Implementé y supervisé servicios en la nube con AWS (EC2, S3, Route 53, IAM), asegurando escalabilidad y seguridad.</li><li>Automaticé procesos de datos con Python y Power Automate, optimizando eficiencia y fiabilidad de datos.</li></ul>",
-                            "tags": ["Líder de Equipo", "Arquitecto de Software", "Backend", "Frontend", "Cloud", "Automatización", "UI/UX", "Análisis de Datos"]
-                        },
-                        "fr": {
-                            "title": "**Chef d'Équipe et Architecte Logiciel**",
-                            "info": "MEMCO SAS",
-                            "text": "<p>En tant que Chef d'Équipe et Architecte Logiciel chez MEMCO SAS, j'ai été chargé de superviser et de structurer l'ensemble du processus de développement logiciel, de la conception de l'architecture à la gestion de l'équipe et au déploiement. Je dirige des initiatives visant à améliorer l'efficacité opérationnelle grâce aux technologies modernes et à la collaboration inter-départements.</p> <ul><li>Structuré l'architecture des projets, défini des workflows, des échéances de livraison et géré les tâches avec Jira Software.</li><li>Supervisé l'équipe, assurant une allocation optimale des ressources et une évolution continue des développements.</li><li>Créé une documentation technique détaillée, y compris des diagrammes de flux, des modèles ER et des stratégies d'optimisation des systèmes avec Lucidchart.</li><li>Dirigé l'évaluation et l'intégration de solutions tierces, garantissant des normes de haute qualité et une alignement commercial.</li><li>Collecté les exigences métier, effectué des analyses de risques et défini des solutions techniques pour répondre aux besoins des clients.</li><li>Développé des systèmes backend utilisant Node.js, TypeScript, ExpressJS, MongoDB, PHP et MySQL, avec un accent sur l'évolutivité et les performances.</li><li>Conçu des interfaces utilisateur intuitives et optimisé l'UX avec Figma et Anima pour une interaction utilisateur fluide.</li><li>Implémenté et supervisé des services cloud avec AWS (EC2, S3, Route 53, IAM), garantissant évolutivité et sécurité.</li><li>Automatisé les processus de données avec Python et Power Automate, optimisant l'efficacité et la fiabilité des données.</li></ul>",
-                            "tags": ["Chef d'Équipe", "Architecte Logiciel", "Backend", "Frontend", "Cloud", "Automatisation", "UI/UX", "Analyse de Données"]
-                        },
-                        "ko": {
-                            "title": "**팀 리더 및 소프트웨어 아키텍트**",
-                            "info": "MEMCO SAS",
-                            "text": "<p>MEMCO SAS에서 팀 리더 및 소프트웨어 아키텍트로서, 아키텍처 설계부터 팀 관리 및 배포에 이르기까지 전체 소프트웨어 개발 프로세스를 감독하고 구조화하는 역할을 담당했습니다. 현대 기술과 부서 간 협력을 통해 운영 효율성을 향상시키는 이니셔티브를 주도했습니다.</p> <ul><li>프로젝트 아키텍처를 구조화하고 워크플로, 전달 일정 및 Jira Software를 사용한 작업 관리를 정의했습니다.</li><li>팀 감독을 담당하여 최적의 자원 할당과 개발의 지속적인 진화를 보장했습니다.</li><li>Lucidchart를 사용하여 흐름도, ER 모델 및 시스템 최적화 전략을 포함한 자세한 기술 문서를 작성했습니다.</li><li>고품질 표준과 비즈니스 정렬을 보장하기 위해 제3자 솔루션 평가 및 통합을 주도했습니다.</li><li>비즈니스 요구 사항을 수집하고, 위험 분석을 수행하며, 고객 요구를 충족시키기 위한 기술 솔루션을 정의했습니다.</li><li>Node.js, TypeScript, ExpressJS, MongoDB, PHP 및 MySQL을 사용하여 확장 가능하고 성능이 뛰어난 백엔드 시스템을 개발했습니다.</li><li>Figma와 Anima를 사용하여 직관적인 사용자 인터페이스를 설계하고 사용자 경험을 최적화했습니다.</li><li>AWS(EC2, S3, Route 53, IAM)를 사용하여 클라우드 서비스를 구현하고 모니터링하여 확장성과 보안을 보장했습니다.</li><li>Python 및 Power Automate를 사용하여 데이터 프로세스를 자동화하여 효율성과 데이터 신뢰성을 최적화했습니다.</li></ul>",
-                            "tags": ["팀 리더", "소프트웨어 아키텍트", "백엔드", "프론트엔드", "클라우드", "자동화", "UI/UX", "데이터 분석"]
+                            "title": "**고객 케어 어드바이저**",
+                            "info": "Scotiabank",
+                            "text": "고객 지원 역할 — 커뮤니케이션, 우선순위 설정, 운영 디시플린의 기초를 다졌고 이후 엔지니어링과 제품 업무로 전환했습니다.",
+                            "tags": ["커뮤니케이션", "운영"]
                         }
                     }
                 }

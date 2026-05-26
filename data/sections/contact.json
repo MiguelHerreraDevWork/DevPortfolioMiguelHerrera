@@ -2,26 +2,26 @@
     "locales": {
         "en": {
             "title": "Contact",
-            "title_long_prefix": "Don't hesitate to",
-            "title_long": "**Contact** Me"
+            "title_long_prefix": "Let's build",
+            "title_long": "Something **Together**"
         },
 
         "es": {
             "title": "Contacto",
-            "title_long_prefix": "No dudes en",
-            "title_long": "**Contácta**me"
+            "title_long_prefix": "Construyamos",
+            "title_long": "Algo **Juntos**"
         },
 
         "fr": {
             "title": "Contact",
-            "title_long_prefix": "N'hésitez pas à",
-            "title_long": "Me **Contacter**"
+            "title_long_prefix": "Construisons",
+            "title_long": "Quelque Chose **Ensemble**"
         },
 
         "ko": {
             "title": "연락처",
-            "title_long_prefix": "주저하지 말고",
-            "title_long": "**연락** 주세요"
+            "title_long_prefix": "함께",
+            "title_long": "**무언가**를 만들어 봅시다"
         }
     },
 
@@ -34,7 +34,7 @@
                 "en": {"title": "Send me a **message**"},
                 "es": {"title": "Envíame un **mensaje**"},
                 "fr": {"title": "Envoyez-moi un **message**"},
-                "ko": {"title": "**메시지를** 보내주세요"}
+                "ko": {"title": "**메시지**를 보내주세요"}
             },
 
             "items": null
@@ -47,10 +47,10 @@
                 "format": "grid"
             },
             "locales": {
-                "en": {"title": "Or if you **prefer**..."},
-                "es": {"title": "O si **prefieres**..."},
-                "fr": {"title": "Ou si vous **préférez**..."},
-                "ko": {"title": "또는 **원하시면**..."}
+                "en": {"title": "Or find me on the **web**"},
+                "es": {"title": "O encuéntrame en la **web**"},
+                "fr": {"title": "Ou retrouvez-moi sur le **web**"},
+                "ko": {"title": "또는 **웹**에서 찾아보세요"}
             },
 
             "items": [

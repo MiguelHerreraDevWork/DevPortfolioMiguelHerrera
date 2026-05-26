@@ -1,42 +1,145 @@
 {
     "locales": {
         "en": {
-            "title": "Life recently",
-            "title_menu": "Updates",
-            "title_long_prefix": "Take a look at my",
-            "title_long": "Recent **Updates**"
+            "title": "Now",
+            "title_menu": "Now",
+            "title_long_prefix": "What I'm",
+            "title_long": "**Building** Right Now"
         },
 
         "es": {
-            "title": "Vida Reciente",
-            "title_menu": "Actualizaciones",
-            "title_long_prefix": "Consulta mis",
-            "title_long": "Actualizaciones **Recientes**"
+            "title": "Ahora",
+            "title_menu": "Ahora",
+            "title_long_prefix": "En qué estoy",
+            "title_long": "**Trabajando** Ahora"
         },
 
         "fr": {
-            "title": "Vie Récente",
-            "title_menu": "Mises à Jour",
-            "title_long_prefix": "Découvrez mes",
-            "title_long": "Dernières **Mises à Jour**"
+            "title": "Maintenant",
+            "title_menu": "Maintenant",
+            "title_long_prefix": "Ce que je",
+            "title_long": "**Construis** Actuellement"
         },
 
         "ko": {
-            "title": "최근의 삶",
-            "title_menu": "업데이트",
-            "title_long_prefix": "내 최근",
-            "title_long": "**업데이트**를 확인해 보세요"
+            "title": "Now",
+            "title_menu": "Now",
+            "title_long_prefix": "지금",
+            "title_long": "**제가 만들고 있는 것**"
         }
     },
 
     "articles": [
         {
-            "id": "fun_facts",
+            "id": "stats",
             "component": "ArticleServices",
             "config": {},
             "locales": {},
 
             "items": [
+                {
+                    "icon": {
+                        "img": null,
+                        "fa": "fa-solid fa-rocket",
+                        "faColors": null
+                    },
+                    "locales": {
+                        "en": {
+                            "title": "3+",
+                            "info": "Years shipping SaaS"
+                        },
+                        "es": {
+                            "title": "3+",
+                            "info": "Años lanzando SaaS"
+                        },
+                        "fr": {
+                            "title": "3+",
+                            "info": "Ans à livrer du SaaS"
+                        },
+                        "ko": {
+                            "title": "3+",
+                            "info": "SaaS 출시 경력"
+                        }
+                    }
+                },
+
+                {
+                    "icon": {
+                        "img": null,
+                        "fa": "fa-solid fa-cubes",
+                        "faColors": null
+                    },
+                    "locales": {
+                        "en": {
+                            "title": "3",
+                            "info": "Production platforms shipped"
+                        },
+                        "es": {
+                            "title": "3",
+                            "info": "Plataformas en producción"
+                        },
+                        "fr": {
+                            "title": "3",
+                            "info": "Plateformes en production"
+                        },
+                        "ko": {
+                            "title": "3",
+                            "info": "프로덕션 플랫폼 출시"
+                        }
+                    }
+                },
+
+                {
+                    "icon": {
+                        "img": null,
+                        "fa": "fa-solid fa-layer-group",
+                        "faColors": null
+                    },
+                    "locales": {
+                        "en": {
+                            "title": "1",
+                            "info": "Multi-tenant SaaS shipped solo"
+                        },
+                        "es": {
+                            "title": "1",
+                            "info": "SaaS multi-tenant lanzado en solitario"
+                        },
+                        "fr": {
+                            "title": "1",
+                            "info": "SaaS multi-tenant livré en solo"
+                        },
+                        "ko": {
+                            "title": "1",
+                            "info": "솔로로 출시한 멀티 테넌트 SaaS"
+                        }
+                    }
+                },
+
+                {
+                    "icon": {
+                        "img": null,
+                        "fa": "fa-brands fa-aws",
+                        "faColors": null
+                    },
+                    "locales": {
+                        "en": {
+                            "title": "AWS",
+                            "info": "Cloud-native engineering"
+                        },
+                        "es": {
+                            "title": "AWS",
+                            "info": "Ingeniería cloud-native"
+                        },
+                        "fr": {
+                            "title": "AWS",
+                            "info": "Ingénierie cloud-native"
+                        },
+                        "ko": {
+                            "title": "AWS",
+                            "info": "클라우드 네이티브 엔지니어링"
+                        }
+                    }
+                },
 
                 {
                     "icon": {
@@ -47,19 +150,19 @@
                     "locales": {
                         "en": {
                             "title": "4",
-                            "info": "Countries visited"
+                            "info": "Languages: EN · ES · FR · KO"
                         },
                         "es": {
                             "title": "4",
-                            "info": "Países visitados"
+                            "info": "Idiomas: EN · ES · FR · KO"
                         },
                         "fr": {
                             "title": "4",
-                            "info": "Pays visités"
+                            "info": "Langues : EN · ES · FR · KO"
                         },
                         "ko": {
                             "title": "4",
-                            "info": "방문한 나라"
+                            "info": "언어: EN · ES · FR · KO"
                         }
                     }
                 },
@@ -67,133 +170,28 @@
                 {
                     "icon": {
                         "img": null,
-                        "fa": "fa-solid fa-music",
+                        "fa": "fa-solid fa-clock",
                         "faColors": null
                     },
                     "locales": {
                         "en": {
-                            "title": "10",
-                            "info": "Tracks Produced"
+                            "title": "Async",
+                            "info": "Remote-first by default"
                         },
                         "es": {
-                            "title": "10",
-                            "info": "Canciones Producidas"
+                            "title": "Async",
+                            "info": "Remoto async por defecto"
                         },
                         "fr": {
-                            "title": "10",
-                            "info": "Morceaux Produits"
+                            "title": "Async",
+                            "info": "Remote async par défaut"
                         },
                         "ko": {
-                            "title": "10",
-                            "info": "제작된 곡"
-                        }
-                    }
-                },
-
-                {
-                    "icon": {
-                        "img": null,
-                        "fa": "fa-solid fa-book",
-                        "faColors": null
-                    },
-                    "locales": {
-                        "en": {
-                            "title": "13",
-                            "info": "Books Read Last Year"
-                        },
-                        "es": {
-                            "title": "13",
-                            "info": "Libros Leídos el Año Pasado"
-                        },
-                        "fr": {
-                            "title": "13",
-                            "info": "Livres Lus l'Année Dernière"
-                        },
-                        "ko": {
-                            "title": "13",
-                            "info": "지난해 읽은 책"
-                        }
-                    }
-                },
-
-                {
-                    "icon": {
-                        "img": null,
-                        "fa": "fa-solid fa-dumbbell",
-                        "faColors": null
-                    },
-                    "locales": {
-                        "en": {
-                            "title": "2",
-                            "info": "Years of Fitness Training"
-                        },
-                        "es": {
-                            "title": "2",
-                            "info": "Años de Entrenamiento en Fitness"
-                        },
-                        "fr": {
-                            "title": "2",
-                            "info": "Années d'Entraînement de Fitness"
-                        },
-                        "ko": {
-                            "title": "2",
-                            "info": "피트니스 훈련 년"
-                        }
-                    }
-                },
-
-                {
-                    "icon": {
-                        "img": null,
-                        "fa": "fa-solid fa-paint-brush",
-                        "faColors": null
-                    },
-                    "locales": {
-                        "en": {
-                            "title": "15+",
-                            "info": "UI/UX Designs Created"
-                        },
-                        "es": {
-                            "title": "15+",
-                            "info": "Diseños UI/UX Creados"
-                        },
-                        "fr": {
-                            "title": "15+",
-                            "info": "Conceptions UI/UX Réalisées"
-                        },
-                        "ko": {
-                            "title": "15+",
-                            "info": "만들어진 UI/UX 디자인"
-                        }
-                    }
-                },
-
-                {
-                    "icon": {
-                        "img": null,
-                        "fa": "fa-solid fa-keyboard",
-                        "faColors": null
-                    },
-                    "locales": {
-                        "en": {
-                            "title": "Learned Piano",
-                            "info": "Mastered the basics of piano playing"
-                        },
-                        "es": {
-                            "title": "Aprendí Piano",
-                            "info": "Dominé los fundamentos del piano"
-                        },
-                        "fr": {
-                            "title": "Appris le Piano",
-                            "info": "Maîtrisé les bases du piano"
-                        },
-                        "ko": {
-                            "title": "피아노 배움",
-                            "info": "피아노 기본 연주법을 마스터"
+                            "title": "Async",
+                            "info": "리모트 퍼스트 기본"
                         }
                     }
                 }
-                
             ]
         },
 
@@ -202,38 +200,90 @@
             "component": "ArticleThread",
             "config": {},
             "locales": {
-                "en": { "title": "Quick **Facts**" },
-                "es": { "title": "Feed de **Noticias**" },
-                "fr": { "title": "Fil d'**Actualités**" },
-                "ko": { "title": "**뉴스** 피드" }
+                "en": { "title": "**Currently** working on" },
+                "es": { "title": "**Actualmente** trabajando en" },
+                "fr": { "title": "**Actuellement** en train de" },
+                "ko": { "title": "**현재** 진행 중" }
             },
 
             "items": [
                 {
                     "dates": {
-                        "start": "12/01/2024",
+                        "start": "03/01/2026",
                         "end": null
                     },
                     "links": [],
                     "locales": {
                         "en": {
-                            "title": "Developed my **Portfolio**!",
-                            "text": "Created and launched my personal portfolio website, showcasing my projects, skills, and professional journey."
+                            "title": "Expanding **FadeSlot** to its next stage",
+                            "text": "Actively building the next iteration of FadeSlot — scaling infrastructure, expanding the feature set, sharpening the product, and growing toward early SaaS revenue."
                         },
                         "es": {
-                            "title": "¡Desarrollé mi **Portafolio**!",
-                            "text": "Creé y lancé mi sitio web personal de portafolio, mostrando mis proyectos, habilidades y trayectoria profesional."
+                            "title": "Expandiendo **FadeSlot** a su siguiente etapa",
+                            "text": "Construyendo activamente la siguiente iteración de FadeSlot — escalando infraestructura, expandiendo features, refinando el producto y creciendo hacia ingresos SaaS iniciales."
                         },
                         "fr": {
-                            "title": "Développement de mon **Portfolio** !",
-                            "text": "Créé et lancé mon site web personnel de portfolio, présentant mes projets, compétences et parcours professionnel."
+                            "title": "Faire passer **FadeSlot** à l'étape suivante",
+                            "text": "Construction active de la prochaine itération de FadeSlot — scaling infra, expansion produit, raffinement et croissance vers les premiers revenus SaaS."
                         },
                         "ko": {
-                            "title": "개인 **포트폴리오** 개발!",
-                            "text": "내 프로젝트, 기술 및 전문 경력을 보여주는 개인 포트폴리오 웹사이트를 만들고 출시했습니다."
+                            "title": "**FadeSlot**을 다음 단계로 확장",
+                            "text": "FadeSlot의 다음 이터레이션을 활발히 구축 — 인프라 확장, 기능 확대, 제품 정교화, 초기 SaaS 매출을 향한 성장."
                         }
                     }
-                },                
+                },
+
+                {
+                    "dates": {
+                        "start": "02/01/2026",
+                        "end": null
+                    },
+                    "links": [],
+                    "locales": {
+                        "en": {
+                            "title": "Exploring **AI-driven product features**",
+                            "text": "Researching how AI agents and modern tooling can power the next generation of operational SaaS products — from smart booking to intelligent analytics."
+                        },
+                        "es": {
+                            "title": "Explorando **features de producto con IA**",
+                            "text": "Investigando cómo agentes de IA y tooling moderno pueden impulsar la próxima generación de productos SaaS operativos — desde booking inteligente hasta analítica inteligente."
+                        },
+                        "fr": {
+                            "title": "Exploration de **fonctionnalités produit pilotées par l'IA**",
+                            "text": "Comment les agents IA et le tooling moderne peuvent alimenter la prochaine génération de produits SaaS opérationnels — du booking intelligent à l'analytics intelligente."
+                        },
+                        "ko": {
+                            "title": "**AI 기반 제품 기능** 탐구",
+                            "text": "AI 에이전트와 최신 툴링이 차세대 운영 SaaS 제품을 어떻게 구동할 수 있는지 연구 — 스마트 예약부터 지능형 애널리틱스까지."
+                        }
+                    }
+                },
+
+                {
+                    "dates": {
+                        "start": "01/01/2026",
+                        "end": null
+                    },
+                    "links": [],
+                    "locales": {
+                        "en": {
+                            "title": "Going **fractional** & remote-first",
+                            "text": "Opening up to fractional engineering, technical lead, and product engineer work with startups, SaaS companies, and agencies — async and remote-first by default."
+                        },
+                        "es": {
+                            "title": "Modo **fractional** y remote-first",
+                            "text": "Abriéndome a trabajo fractional como product engineer, technical lead y SaaS engineer con startups, empresas SaaS y agencias — async y remote-first por defecto."
+                        },
+                        "fr": {
+                            "title": "Passage en **fractional** & remote-first",
+                            "text": "Ouverture à des missions fractional en tant que product engineer, technical lead et SaaS engineer avec startups, SaaS et agences — async et remote-first par défaut."
+                        },
+                        "ko": {
+                            "title": "**Fractional** & 리모트 퍼스트로 전환",
+                            "text": "스타트업, SaaS 기업, 에이전시와 함께 일하는 Product Engineer, Technical Lead, Fractional Engineer 역할에 오픈 — 기본은 비동기, 리모트 퍼스트."
+                        }
+                    }
+                },
 
                 {
                     "dates": {
@@ -243,46 +293,20 @@
                     "links": [],
                     "locales": {
                         "en": {
-                            "title": "Started learning **French**!",
-                            "text": "Enrolled in French classes to expand my language skills and enhance my ability to communicate globally."
+                            "title": "Learning **French** for international async collaboration",
+                            "text": "Investing in French to broaden async collaboration with European startup teams and expand into new product/SaaS ecosystems."
                         },
                         "es": {
-                            "title": "¡Comencé a aprender **francés**!",
-                            "text": "Inscrito en clases de francés para expandir mis habilidades lingüísticas y mejorar mi capacidad de comunicación a nivel global."
+                            "title": "Aprendiendo **francés** para colaboración async internacional",
+                            "text": "Invirtiendo en francés para ampliar la colaboración asíncrona con equipos europeos de startup y expandir hacia nuevos ecosistemas SaaS."
                         },
                         "fr": {
-                            "title": "Commencé à apprendre le **français** !",
-                            "text": "Inscrit à des cours de français pour élargir mes compétences linguistiques et améliorer ma capacité à communiquer à l'échelle mondiale."
+                            "title": "Apprentissage du **français** pour la collaboration async internationale",
+                            "text": "Investissement en français pour élargir la collaboration async avec des équipes startup européennes et m'étendre vers de nouveaux écosystèmes SaaS."
                         },
                         "ko": {
-                            "title": "**프랑스어** 배우기 시작했습니다!",
-                            "text": "언어 능력을 확장하고 글로벌 커뮤니케이션 능력을 향상시키기 위해 프랑스어 수업에 등록했습니다."
-                        }
-                    }
-                },                
-
-                {
-                    "dates": {
-                        "start": "01/01/2025",
-                        "end": null
-                    },
-                    "links": [],
-                    "locales": {
-                        "en": {
-                            "title": "Working on a new **web application**!",
-                            "text": "Currently developing a web application designed to streamline operations and provide innovative solutions, focusing on delivering efficiency and user-centric functionality."
-                        },
-                        "es": {
-                            "title": "¡Trabajando en un nuevo **aplicativo web**!",
-                            "text": "Actualmente desarrollando un aplicativo web diseñado para optimizar operaciones y ofrecer soluciones innovadoras, enfocado en brindar eficiencia y funcionalidad centrada en el usuario."
-                        },
-                        "fr": {
-                            "title": "Travail sur une nouvelle **application web** !",
-                            "text": "Actuellement en train de développer une application web conçue pour rationaliser les opérations et offrir des solutions innovantes, avec un accent sur l'efficacité et la convivialité."
-                        },
-                        "ko": {
-                            "title": "새로운 **웹 애플리케이션** 작업 중!",
-                            "text": "운영을 간소화하고 혁신적인 솔루션을 제공하도록 설계된 웹 애플리케이션을 현재 개발 중이며, 효율성과 사용자 중심 기능을 제공하는 데 중점을 두고 있습니다."
+                            "title": "글로벌 비동기 협업을 위한 **프랑스어** 학습",
+                            "text": "유럽 스타트업 팀과의 비동기 협업을 확대하고 새로운 SaaS 생태계로 진출하기 위해 프랑스어에 투자 중."
                         }
                     }
                 }

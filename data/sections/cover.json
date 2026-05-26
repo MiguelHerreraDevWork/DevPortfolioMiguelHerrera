@@ -1,31 +1,31 @@
 {
     "locales": {
         "en": {
-            "title": "Welcome!",
-            "title_menu": "About me",
-            "title_long_prefix": "Hello...",
-            "title_long": "I'm **Miguel Herrera!**"
+            "title": "Welcome",
+            "title_menu": "About",
+            "title_long_prefix": "Hi, I'm",
+            "title_long": "**Miguel Herrera** — Product Engineer"
         },
 
         "es": {
-            "title": "¡Saludos!",
+            "title": "Bienvenido",
             "title_menu": "Sobre mí",
-            "title_long_prefix": "Hola...",
-            "title_long": "Soy **Miguel Herrera!**"
+            "title_long_prefix": "Hola, soy",
+            "title_long": "**Miguel Herrera** — Product Engineer"
         },
 
         "fr": {
-            "title": "Salut !",
+            "title": "Bienvenue",
             "title_menu": "À propos",
-            "title_long_prefix": "Salut...",
-            "title_long": "Je suis **Miguel Herrera!**"
+            "title_long_prefix": "Salut, je suis",
+            "title_long": "**Miguel Herrera** — Product Engineer"
         },
 
         "ko": {
-            "title": "환영합니다!",
+            "title": "환영합니다",
             "title_menu": "소개",
-            "title_long_prefix": "안녕하세요...",
-            "title_long": "저는 **Miguel Herrera** 입니다!"
+            "title_long_prefix": "안녕하세요, 저는",
+            "title_long": "**Miguel Herrera** — Product Engineer"
         }
     },
 
@@ -46,13 +46,13 @@
 
             "items": [
                 {
-                    "value": "Bogotá – CO",
+                    "value": "Bogotá, CO · Remote-First",
                     "links": [
                         {"href": null}
                     ],
                     "icon": {
                         "img": null,
-                        "fa": "fa-solid fa-city",
+                        "fa": "fa-solid fa-globe",
                         "faColors": {"bg": null, "fill": null}
                     }
                 },
@@ -70,7 +70,7 @@
                 {
                     "value": "@MiguelHerreraDevWork",
                     "links": [
-                        {"href": "https:/github.com/MiguelHerreraDevWork"}
+                        {"href": "https://github.com/MiguelHerreraDevWork"}
                     ],
                     "icon": {
                         "img": null,
@@ -86,10 +86,10 @@
             "component": "ArticleInfoBlock",
             "config": {},
             "locales": {
-                "en": {"title": "**A little bit** about me..."},
-                "es": {"title": "**Un poco** sobre mí..."},
-                "fr": {"title": "**Un peu** à propos de moi..."},
-                "ko": {"title": "저에 **대해 조금**..."}
+                "en": {"title": "**What I do**"},
+                "es": {"title": "**Lo que hago**"},
+                "fr": {"title": "**Ce que je fais**"},
+                "ko": {"title": "**제가 하는 일**"}
             },
 
             "items": [
@@ -100,10 +100,10 @@
                         "faColors": {"bg": null, "fill": null}
                     },
                     "locales": {
-                        "en": {"text": "<p>I am a <b>Full Stack MERN Developer</b> with <b>over two years</b> of experience building scalable web applications.<br> I specialize in <b>MongoDB, Express, React, Node.js, and TypeScript</b>, delivering efficient backend systems and intuitive user interfaces.<br> I also use <b>Power BI</b> for data analysis and <b>Jira</b> for project management, ensuring <b>timely and high-quality</b> results.<br> I am committed to creating impactful digital solutions and collaborating with teams to achieve <b>exceptional outcomes</b>.</p>"},
-                        "es": {"text": "<p>Soy un <b>Desarrollador Full Stack MERN</b> con <b>más de dos años</b> de experiencia en la creación de aplicaciones web escalables.<br> Me especializo en <b>MongoDB, Express, React, Node.js y TypeScript</b>, entregando sistemas backend eficientes e interfaces de usuario intuitivas.<br> También utilizo <b>Power BI</b> para análisis de datos y <b>Jira</b> para la gestión de proyectos, asegurando resultados de <b>alta calidad y a tiempo</b>.<br> Estoy comprometido a desarrollar soluciones digitales impactantes y colaborar con equipos para lograr <b>resultados excepcionales</b>.</p>"},
-                        "fr": {"text": "<p>Je suis développeur Full Stack MERN avec <b>plus de deux ans</b> d'expérience dans la création d'applications web évolutives.<br> Je maîtrise <b>MongoDB, Express, React, Node.js et TypeScript</b>, offrant des systèmes backend efficaces et des interfaces utilisateur intuitives.<br> J'utilise également <b>Power BI</b> pour l'analyse de données et <b>Jira</b> pour la gestion de projets, garantissant des résultats de <b>haute qualité et dans les délais</b>.<br> Je m'engage à créer des solutions numériques percutantes et à collaborer avec les équipes pour atteindre des <b>résultats exceptionnels</b>.</p>"},
-                        "ko": {"text": "<p>저는 <b>2년 이상의</b> 경험을 보유한 Full Stack MERN 개발자입니다.<br> <b>MongoDB, Express, React, Node.js 및 TypeScript</b>를 전문으로 하여 확장 가능한 웹 애플리케이션을 구축하며 효율적인 백엔드 시스템과 직관적인 사용자 인터페이스를 제공합니다.<br> 또한, 데이터 분석을 위해 <b>Power BI</b>를 사용하고 프로젝트 관리를 위해 <b>Jira</b>를 활용하여 <b>고품질의 결과</b>를 보장합니다.<br> 혁신적인 디지털 솔루션을 만들고 팀과 협력하여 <b>뛰어난 성과</b>를 달성하는 데 전념하고 있습니다.</p>"}
+                        "en": {"text": "<p>I'm a <b>Product Engineer</b> building real <b>SaaS systems</b> for startups, agencies, and async teams.<br> I design, ship, and scale <b>operational platforms end-to-end</b> — from architecture and <b>cloud infrastructure</b> to product UI and deployment.<br> My core stack is <b>Next.js, TypeScript, Node.js, PostgreSQL</b>, and <b>AWS</b>, with a strong focus on execution velocity, product thinking, and clean architecture.<br> I've shipped <b>real SaaS products in production</b> — including <b>FadeSlot</b>, a multi-tenant booking &amp; operations platform — and led engineering teams building mission-critical software.</p>"},
+                        "es": {"text": "<p>Soy un <b>Product Engineer</b> que construye <b>sistemas SaaS reales</b> para startups, agencias y equipos remotos.<br> Diseño, lanzo y escalo <b>plataformas operativas de punta a punta</b> — desde arquitectura e <b>infraestructura cloud</b> hasta producto y despliegue.<br> Mi stack principal es <b>Next.js, TypeScript, Node.js, PostgreSQL</b> y <b>AWS</b>, con un fuerte enfoque en velocidad de ejecución, pensamiento de producto y arquitectura limpia.<br> He lanzado <b>productos SaaS reales en producción</b> — incluyendo <b>FadeSlot</b>, una plataforma multi-tenant de reservas y operaciones — y he liderado equipos de ingeniería construyendo software crítico para el negocio.</p>"},
+                        "fr": {"text": "<p>Je suis <b>Product Engineer</b> et je construis de vrais <b>systèmes SaaS</b> pour startups, agences et équipes async.<br> Je conçois, livre et fais évoluer des <b>plateformes opérationnelles de bout en bout</b> — de l'architecture et l'<b>infrastructure cloud</b> jusqu'au produit et au déploiement.<br> Mon stack principal : <b>Next.js, TypeScript, Node.js, PostgreSQL</b> et <b>AWS</b>, avec un focus marqué sur la vélocité d'exécution, le product thinking et l'architecture propre.<br> J'ai mis en production de <b>vrais produits SaaS</b> — dont <b>FadeSlot</b>, une plateforme multi-tenant de réservation et d'opérations — et j'ai dirigé des équipes d'ingénierie pour construire des logiciels critiques.</p>"},
+                        "ko": {"text": "<p>저는 스타트업, 에이전시, 비동기 팀을 위해 실제 <b>SaaS 시스템</b>을 구축하는 <b>Product Engineer</b>입니다.<br> 아키텍처와 <b>클라우드 인프라</b>부터 제품 UI와 배포까지 <b>운영 플랫폼을 엔드투엔드로</b> 설계, 출시, 확장합니다.<br> 핵심 스택은 <b>Next.js, TypeScript, Node.js, PostgreSQL</b>, <b>AWS</b>이며, 실행 속도, 프로덕트 씽킹, 깔끔한 아키텍처에 집중합니다.<br> <b>FadeSlot</b>(멀티 테넌트 예약·운영 플랫폼)을 포함한 <b>실제 SaaS 제품을 프로덕션에 출시</b>했으며, 엔지니어링 팀을 이끌고 핵심 비즈니스 소프트웨어를 구축한 경험이 있습니다.</p>"}
                     }
                 }
             ]
@@ -114,10 +114,10 @@
             "component": "ArticleTestimonials",
             "config": {},
             "locales": {
-                "en": {"title": "**Testimonials**"},
-                "es": {"title": "**Testimonios**"},
-                "fr": {"title": "**Témoignages**"},
-                "ko": {"title": "**고객 추천사**"}
+                "en": {"title": "**Trusted** by"},
+                "es": {"title": "**Respaldado** por"},
+                "fr": {"title": "**Approuvé** par"},
+                "ko": {"title": "**신뢰**를 받은 사람들"}
             },
 
             "items": [
@@ -220,39 +220,39 @@
                 "format": "grid"
             },
             "locales": {
-                "en": {"title": "Personal **interests**"},
-                "es": { "title": "Intereses **personales**" },
-                "fr": { "title": "Intérêts **personnels** " },
-                "ko": { "title": "개인 **관심사**" }
+                "en": {"title": "**Beyond** the code"},
+                "es": { "title": "**Más allá** del código" },
+                "fr": { "title": "**Au-delà** du code" },
+                "ko": { "title": "**코드** 너머" }
             },
 
             "items": [
                 {
                     "icon": {
                         "img": null,
-                        "fa": "fa-solid fa-headphones",
+                        "fa": "fa-solid fa-cube",
                         "faColors": null
                     },
                     "value": null,
                     "locales": {
                         "en": {
-                            "title": "Music Production",
-                            "info": "Creating and experimenting with sounds to produce unique tracks and improve my skills."
+                            "title": "Product Design",
+                            "info": "Studying how great SaaS products are crafted — interfaces, flows, and product thinking end-to-end."
                         },
                         "es": {
-                            "title": "Producción Musical",
-                            "info": "Creando y experimentando con sonidos para producir pistas únicas y mejorar mis habilidades."
+                            "title": "Diseño de Producto",
+                            "info": "Estudiando cómo se construyen grandes productos SaaS — interfaces, flujos y pensamiento de producto de extremo a extremo."
                         },
                         "fr": {
-                            "title": "Production Musicale",
-                            "info": "Créer et expérimenter des sons pour produire des morceaux uniques et améliorer mes compétences."
+                            "title": "Product Design",
+                            "info": "Étude de la conception de produits SaaS d'exception — interfaces, flux et product thinking de bout en bout."
                         },
                         "ko": {
-                            "title": "음악 제작",
-                            "info": "독특한 트랙을 제작하고 기술을 향상시키기 위해 사운드를 실험하고 창조하기."
+                            "title": "프로덕트 디자인",
+                            "info": "훌륭한 SaaS 제품이 어떻게 만들어지는지 — 인터페이스, 플로우, 그리고 엔드투엔드 프로덕트 씽킹을 연구합니다."
                         }
                     }
-                },                
+                },
 
                 {
                     "icon": {
@@ -263,77 +263,50 @@
                     "value": null,
                     "locales": {
                         "en": {
-                            "title": "AI Development",
-                            "info": "Exploring machine learning and AI tools to create innovative solutions and improve systems."
+                            "title": "AI Systems",
+                            "info": "Exploring how AI agents and modern tooling can power the next generation of operational SaaS products."
                         },
                         "es": {
-                            "title": "Desarrollo de IA",
-                            "info": "Explorando herramientas de aprendizaje automático e inteligencia artificial para crear soluciones innovadoras y mejorar sistemas."
+                            "title": "Sistemas de IA",
+                            "info": "Explorando cómo agentes de IA y herramientas modernas pueden impulsar la próxima generación de productos SaaS operativos."
                         },
                         "fr": {
-                            "title": "Développement d'IA",
-                            "info": "Explorer les outils d'apprentissage automatique et d'intelligence artificielle pour créer des solutions innovantes et améliorer les systèmes."
+                            "title": "Systèmes d'IA",
+                            "info": "Comment les agents IA et le tooling moderne peuvent alimenter la prochaine génération de produits SaaS opérationnels."
                         },
                         "ko": {
-                            "title": "AI 개발",
-                            "info": "혁신적인 솔루션을 만들고 시스템을 개선하기 위해 머신러닝 및 AI 도구를 탐구하기."
+                            "title": "AI 시스템",
+                            "info": "AI 에이전트와 최신 툴링이 차세대 운영 SaaS 제품을 어떻게 구동할 수 있는지 탐구합니다."
                         }
                     }
-                },                
+                },
 
                 {
                     "icon": {
                         "img": null,
-                        "fa": "fa-solid fa-tshirt",
+                        "fa": "fa-solid fa-chart-line",
                         "faColors": null
                     },
                     "value": null,
                     "locales": {
                         "en": {
-                            "title": "Fashion & Style",
-                            "info": "Passionate about dressing well, exploring trends, and discovering unique styles."
+                            "title": "Startups & SaaS",
+                            "info": "Following early-stage SaaS, founder-led teams, and the modern playbook for shipping products fast."
                         },
                         "es": {
-                            "title": "Moda y Estilo",
-                            "info": "Apasionado por vestirme bien, explorar tendencias y descubrir estilos únicos."
+                            "title": "Startups y SaaS",
+                            "info": "Siguiendo SaaS en etapa temprana, equipos liderados por founders y el playbook moderno para lanzar producto rápido."
                         },
                         "fr": {
-                            "title": "Mode et Style",
-                            "info": "Passionné par bien s'habiller, explorer les tendances et découvrir des styles uniques."
+                            "title": "Startups & SaaS",
+                            "info": "Veille sur les SaaS early-stage, les équipes founder-led, et le playbook moderne pour livrer vite."
                         },
                         "ko": {
-                            "title": "패션과 스타일",
-                            "info": "옷을 잘 입고, 트렌드를 탐구하며, 독특한 스타일을 발견하는 것에 열정이 있습니다."
+                            "title": "스타트업과 SaaS",
+                            "info": "얼리 스테이지 SaaS, 파운더 주도 팀, 빠르게 제품을 출시하는 모던 플레이북을 팔로우합니다."
                         }
                     }
-                },                
-
-                {
-                    "icon": {
-                        "img": null,
-                        "fa": "fa-solid fa-briefcase",
-                        "faColors": null
-                    },
-                    "value": null,
-                    "locales": {
-                        "en": {
-                            "title": "Business & Investment",
-                            "info": "Exploring entrepreneurship, market strategies, and financial growth opportunities."
-                        },
-                        "es": {
-                            "title": "Negocios e Inversión",
-                            "info": "Explorando el emprendimiento, estrategias de mercado y oportunidades de crecimiento financiero."
-                        },
-                        "fr": {
-                            "title": "Affaires et Investissement",
-                            "info": "Explorer l'entrepreneuriat, les stratégies de marché et les opportunités de croissance financière."
-                        },
-                        "ko": {
-                            "title": "사업과 투자",
-                            "info": "창업, 시장 전략 및 재정 성장 기회를 탐구하기."
-                        }
-                    }
-                },                
+                },
 
                 {
                     "icon": {
@@ -344,47 +317,74 @@
                     "value": null,
                     "locales": {
                         "en": {
-                            "title": "UI/UX Design",
-                            "info": "Exploring user interface and experience principles to create intuitive and engaging designs."
+                            "title": "UI/UX Craft",
+                            "info": "Sharpening interface craft — typography, spacing, motion, and the small details that make products feel premium."
                         },
                         "es": {
-                            "title": "Diseño UI/UX",
-                            "info": "Explorando los principios de diseño de interfaces y experiencia de usuario para crear diseños intuitivos y atractivos."
+                            "title": "Craft UI/UX",
+                            "info": "Refinando el oficio de interfaz — tipografía, espaciado, motion y los detalles que hacen que un producto se sienta premium."
                         },
                         "fr": {
-                            "title": "Design UI/UX",
-                            "info": "Explorer les principes d'interface et d'expérience utilisateur pour créer des designs intuitifs et engageants."
+                            "title": "Craft UI/UX",
+                            "info": "Affiner le craft d'interface — typographie, espacement, motion, et les détails qui rendent un produit premium."
                         },
                         "ko": {
-                            "title": "UI/UX 디자인",
-                            "info": "직관적이고 매력적인 디자인을 만들기 위해 사용자 인터페이스 및 경험 원칙을 탐구하기."
+                            "title": "UI/UX 크래프트",
+                            "info": "타이포그래피, 여백, 모션 등 제품을 프리미엄으로 느끼게 하는 디테일을 연마합니다."
                         }
                     }
-                },                
+                },
 
                 {
                     "icon": {
                         "img": null,
-                        "fa": "fa-solid fa-camera-retro",
+                        "fa": "fa-solid fa-headphones",
                         "faColors": null
                     },
                     "value": null,
                     "locales": {
                         "en": {
-                            "title": "Photo editing",
-                            "info": "Enhancing photos through creative editing techniques."
+                            "title": "Music Production",
+                            "info": "A parallel craft to engineering — composing and producing tracks as a practice in systems, taste, and creative output."
                         },
                         "es": {
-                            "title": "Edición de fotos",
-                            "info": "Mejorando fotos a través de técnicas creativas de edición."
+                            "title": "Producción Musical",
+                            "info": "Un oficio paralelo a la ingeniería — componer y producir como práctica en sistemas, gusto y creatividad."
                         },
                         "fr": {
-                            "title": "Retouche photo",
-                            "info": "Améliorer des photos avec des techniques de montage créatives."
+                            "title": "Production Musicale",
+                            "info": "Un craft parallèle à l'ingénierie — composer et produire, une pratique en systèmes, goût et création."
                         },
                         "ko": {
-                            "title": "사진 편집",
-                            "info": "창의적인 편집 기술을 통해 사진을 향상시키기."
+                            "title": "음악 제작",
+                            "info": "엔지니어링과 평행한 크래프트 — 시스템, 감각, 창의성을 연마하는 작곡과 프로덕션 작업."
+                        }
+                    }
+                },
+
+                {
+                    "icon": {
+                        "img": null,
+                        "fa": "fa-solid fa-globe",
+                        "faColors": null
+                    },
+                    "value": null,
+                    "locales": {
+                        "en": {
+                            "title": "Languages & Async",
+                            "info": "Working across EN/ES/KO and learning French — built for async, international, remote-first collaboration."
+                        },
+                        "es": {
+                            "title": "Idiomas y Async",
+                            "info": "Trabajo en EN/ES/KO y aprendiendo francés — construido para colaboración asíncrona, internacional y remote-first."
+                        },
+                        "fr": {
+                            "title": "Langues & Async",
+                            "info": "Je travaille en EN/ES/KO et j'apprends le français — pensé pour la collaboration async, internationale et remote-first."
+                        },
+                        "ko": {
+                            "title": "언어와 비동기 협업",
+                            "info": "EN/ES/KO로 협업하며 프랑스어를 학습 중 — 비동기, 국제, 리모트 퍼스트 협업에 최적화되어 있습니다."
                         }
                     }
                 }

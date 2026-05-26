@@ -2,26 +2,26 @@
     "locales": {
         "en": {
             "title": "Portfolio",
-            "title_long_prefix": "Take a look at",
-            "title_long": "My **Portfolio**"
+            "title_long_prefix": "Real SaaS",
+            "title_long": "**Products** I've Shipped"
         },
 
         "es": {
             "title": "Portafolio",
-            "title_long_prefix": "Explora",
-            "title_long": "Mi **Portafolio**"
+            "title_long_prefix": "Productos SaaS",
+            "title_long": "**Reales** que he Lanzado"
         },
 
         "fr": {
             "title": "Portfolio",
-            "title_long_prefix": "Découvrez",
-            "title_long": "Mon **Portfolio**"
+            "title_long_prefix": "De vrais",
+            "title_long": "**Produits SaaS** que j'ai livrés"
         },
 
         "ko": {
             "title": "포트폴리오",
-            "title_long_prefix": "이것은 내",
-            "title_long": "**포트폴리오**입니다"
+            "title_long_prefix": "제가 출시한",
+            "title_long": "**실제 SaaS 제품**"
         }
     },
 
@@ -34,37 +34,28 @@
 
             "categories": [
                 {
-                    "id": "apps",
+                    "id": "saas",
                     "locales": {
-                        "en": {"singular": "App", "plural": "Apps"},
-                        "es": {"singular": "App", "plural": "Apps"},
-                        "fr": {"singular": "App", "plural": "Apps"},
-                        "ko": {"singular": "앱", "plural": "앱들"}
+                        "en": {"singular": "SaaS", "plural": "SaaS"},
+                        "es": {"singular": "SaaS", "plural": "SaaS"},
+                        "fr": {"singular": "SaaS", "plural": "SaaS"},
+                        "ko": {"singular": "SaaS", "plural": "SaaS"}
                     }
                 },
                 {
-                    "id": "websites",
+                    "id": "platforms",
                     "locales": {
-                        "en": {"singular": "Website", "plural": "Web"},
-                        "es": {"singular": "Sitio web", "plural": "Web"},
-                        "fr": {"singular": "Site web", "plural": "Web"},
-                        "ko": {"singular": "웹사이트", "plural": "웹"}
-                    }
-                },
-                {
-                    "id": "utilities",
-                    "locales": {
-                        "en": {"singular": "Utility", "plural": "Utilities"},
-                        "es": {"singular": "Utilidad", "plural": "Utilidades"},
-                        "fr": {"singular": "Utilitaire", "plural": "Utilitaires"},
-                        "ko": {"singular": "유틸리티", "plural": "유틸리티들"}
+                        "en": {"singular": "Platform", "plural": "Platforms"},
+                        "es": {"singular": "Plataforma", "plural": "Plataformas"},
+                        "fr": {"singular": "Plateforme", "plural": "Plateformes"},
+                        "ko": {"singular": "플랫폼", "plural": "플랫폼"}
                     }
                 }
             ],
 
             "items": [
                 {
-                    "categoryId": "apps",
+                    "categoryId": "saas",
                     "icon": {
                         "img": "images/pictures/fadeslot-img-portfolio.jpg",
                         "fa": "",
@@ -84,29 +75,29 @@
                     "locales": {
                         "en": {
                             "title": "FadeSlot",
-                            "text": "A full-stack <b>SaaS appointment scheduling platform</b> built for <b>barber shops and tattoo studios</b>. Features include <b>booking management, client profiles, POS sales, inventory tracking, reviews</b>, and <b>subscription billing</b>. Built with <b>Next.js, React, TypeScript</b>, and <b>PostgreSQL</b>, the system supports <b>multi-tenant business logic, real-time availability, automated notifications</b>, and <b>bilingual support (EN/ES)</b>. Integrated with <b>Paddle for subscriptions, AWS S3 for media storage</b>, and <b>advanced analytics dashboards</b> for business performance.",
-                            "tags": ["Next.js", "React", "TypeScript", "PostgreSQL", "SaaS", "Multi-tenant", "Paddle", "AWS S3"]
+                            "text": "<p><b>FadeSlot</b> is a full-stack <b>multi-tenant SaaS platform</b> built from the ground up for <b>barber shops, tattoo studios, and appointment-driven businesses</b>. Live in production with real customers, subscription billing, and active feature development.</p><ul><li><b>Booking & scheduling engine</b> with real-time availability, multi-staff, multi-location, and intelligent slot management.</li><li><b>Operational platform</b> covering client profiles, POS sales, inventory tracking, payments, and reviews.</li><li><b>Multi-tenant architecture</b> with tenant isolation, role-based access (RBAC), and per-business configuration.</li><li><b>Subscription billing</b> via <b>Paddle</b> — plans, trials, upgrades, and revenue analytics.</li><li><b>Cloud infrastructure</b> on <b>AWS S3</b> for media + scalable PostgreSQL data layer.</li><li><b>Automated notifications</b> across booking flows, reminders, and operational events.</li><li><b>Bilingual</b> (EN/ES), mobile-first product designed for international reach.</li><li><b>Analytics dashboards</b> for business performance, retention, and operational KPIs.</li></ul><p>Designed, built, and shipped <b>end-to-end</b> — product, architecture, backend, frontend, infrastructure, billing, and deployment.</p>",
+                            "tags": ["Next.js", "React", "TypeScript", "PostgreSQL", "AWS", "Paddle", "Multi-tenant SaaS", "Product Engineering"]
                         },
                         "es": {
                             "title": "FadeSlot",
-                            "text": "Una plataforma <b>SaaS de agendamiento de citas</b> full-stack construida para <b>barberías y estudios de tatuajes</b>. Incluye <b>gestión de reservas, perfiles de clientes, ventas POS, seguimiento de inventario, reseñas</b> y <b>facturación por suscripción</b>. Desarrollada con <b>Next.js, React, TypeScript</b> y <b>PostgreSQL</b>, el sistema soporta <b>lógica de negocio multi-tenant, disponibilidad en tiempo real, notificaciones automatizadas</b> y <b>soporte bilingüe (EN/ES)</b>. Integrada con <b>Paddle para suscripciones, AWS S3 para almacenamiento de medios</b> y <b>dashboards de análisis avanzados</b> para el rendimiento empresarial.",
-                            "tags": ["Next.js", "React", "TypeScript", "PostgreSQL", "SaaS", "Multi-tenant", "Paddle", "AWS S3"]
+                            "text": "<p><b>FadeSlot</b> es una plataforma SaaS <b>multi-tenant</b> full-stack construida desde cero para <b>barberías, estudios de tatuaje y negocios basados en citas</b>. En producción con clientes reales, billing por suscripción y desarrollo activo de features.</p><ul><li><b>Motor de reservas y agendamiento</b> con disponibilidad en tiempo real, multi-staff, multi-sede y gestión inteligente de slots.</li><li><b>Plataforma operativa</b> con perfiles de cliente, ventas POS, inventario, pagos y reseñas.</li><li><b>Arquitectura multi-tenant</b> con aislamiento por tenant, control de acceso por roles (RBAC) y configuración por negocio.</li><li><b>Facturación por suscripción</b> con <b>Paddle</b> — planes, trials, upgrades y analítica de ingresos.</li><li><b>Infraestructura cloud</b> en <b>AWS S3</b> para media y capa de datos PostgreSQL escalable.</li><li><b>Notificaciones automatizadas</b> en flujos de reserva, recordatorios y eventos operativos.</li><li><b>Bilingüe</b> (EN/ES), producto mobile-first pensado para alcance internacional.</li><li><b>Dashboards analíticos</b> de desempeño, retención y KPIs operativos.</li></ul><p>Diseñado, construido y lanzado <b>end-to-end</b> — producto, arquitectura, backend, frontend, infraestructura, billing y despliegue.</p>",
+                            "tags": ["Next.js", "React", "TypeScript", "PostgreSQL", "AWS", "Paddle", "SaaS Multi-tenant", "Product Engineering"]
                         },
                         "fr": {
                             "title": "FadeSlot",
-                            "text": "Une plateforme <b>SaaS de prise de rendez-vous</b> full-stack conçue pour les <b>salons de coiffure et studios de tatouage</b>. Comprend <b>gestion des réservations, profils clients, ventes POS, suivi des stocks, avis</b> et <b>facturation par abonnement</b>. Développée avec <b>Next.js, React, TypeScript</b> et <b>PostgreSQL</b>, le système prend en charge la <b>logique métier multi-tenant, disponibilité en temps réel, notifications automatisées</b> et le <b>support bilingue (EN/ES)</b>. Intégrée avec <b>Paddle pour les abonnements, AWS S3 pour le stockage multimédia</b> et des <b>tableaux de bord analytiques avancés</b> pour les performances commerciales.",
-                            "tags": ["Next.js", "React", "TypeScript", "PostgreSQL", "SaaS", "Multi-tenant", "Paddle", "AWS S3"]
+                            "text": "<p><b>FadeSlot</b> est une plateforme SaaS <b>multi-tenant</b> full-stack conçue de zéro pour les <b>salons de coiffure, studios de tatouage et entreprises basées sur le rendez-vous</b>. En production avec de vrais clients, facturation par abonnement et développement continu.</p><ul><li><b>Moteur de réservation</b> avec disponibilité temps réel, multi-staff, multi-site et gestion intelligente des créneaux.</li><li><b>Plateforme opérationnelle</b> : profils clients, POS, inventaire, paiements, avis.</li><li><b>Architecture multi-tenant</b> avec isolation par tenant, RBAC et configuration par entreprise.</li><li><b>Abonnements</b> via <b>Paddle</b> — plans, essais, upgrades, analytics de revenus.</li><li><b>Infrastructure cloud</b> sur <b>AWS S3</b> pour le média et couche de données PostgreSQL scalable.</li><li><b>Notifications automatisées</b> sur les flux de réservation, rappels et événements opérationnels.</li><li><b>Bilingue</b> (EN/ES), produit mobile-first pensé pour l'international.</li><li><b>Dashboards analytiques</b> de performance, rétention et KPIs opérationnels.</li></ul><p>Conçu, construit et livré <b>de bout en bout</b> — produit, architecture, backend, frontend, infrastructure, billing et déploiement.</p>",
+                            "tags": ["Next.js", "React", "TypeScript", "PostgreSQL", "AWS", "Paddle", "SaaS Multi-tenant", "Product Engineering"]
                         },
                         "ko": {
                             "title": "FadeSlot",
-                            "text": "<b>이발소 및 타투 스튜디오</b>를 위해 구축된 풀스택 <b>SaaS 예약 스케줄링 플랫폼</b>입니다. <b>예약 관리, 고객 프로필, POS 판매, 재고 추적, 리뷰</b> 및 <b>구독 청구</b> 기능을 포함합니다. <b>Next.js, React, TypeScript</b> 및 <b>PostgreSQL</b>로 구축되었으며, <b>다중 테넌트 비즈니스 로직, 실시간 가용성, 자동 알림</b> 및 <b>이중 언어 지원(EN/ES)</b>을 제공합니다. <b>구독을 위한 Paddle, 미디어 저장을 위한 AWS S3</b>와 통합되어 있으며, 비즈니스 성과를 위한 <b>고급 분석 대시보드</b>를 제공합니다.",
-                            "tags": ["Next.js", "React", "TypeScript", "PostgreSQL", "SaaS", "다중 테넌트", "Paddle", "AWS S3"]
+                            "text": "<p><b>FadeSlot</b>은 <b>이발소, 타투 스튜디오, 예약 기반 비즈니스</b>를 위해 처음부터 구축한 풀스택 <b>멀티 테넌트 SaaS 플랫폼</b>입니다. 실제 고객, 구독 빌링, 활발한 기능 개발과 함께 프로덕션에서 운영 중입니다.</p><ul><li>실시간 가용성, 멀티 스태프·멀티 로케이션, 지능형 슬롯 관리 기능을 갖춘 <b>예약·스케줄링 엔진</b>.</li><li>고객 프로필, POS 판매, 재고 추적, 결제, 리뷰를 아우르는 <b>운영 플랫폼</b>.</li><li>테넌트 격리, 역할 기반 접근 제어(RBAC), 비즈니스별 구성을 지원하는 <b>멀티 테넌트 아키텍처</b>.</li><li><b>Paddle</b> 기반 <b>구독 빌링</b> — 플랜, 트라이얼, 업그레이드, 매출 분석.</li><li>미디어 저장을 위한 <b>AWS S3</b>와 확장 가능한 PostgreSQL 데이터 레이어로 구성된 <b>클라우드 인프라</b>.</li><li>예약 플로우, 리마인더, 운영 이벤트 전반의 <b>자동 알림</b>.</li><li>국제 시장을 겨냥한 <b>이중 언어</b>(EN/ES) 모바일 퍼스트 제품.</li><li>비즈니스 성과, 리텐션, 운영 KPI를 위한 <b>분석 대시보드</b>.</li></ul><p>제품, 아키텍처, 백엔드, 프론트엔드, 인프라, 빌링, 배포까지 <b>엔드투엔드</b>로 설계·구축·출시.</p>",
+                            "tags": ["Next.js", "React", "TypeScript", "PostgreSQL", "AWS", "Paddle", "멀티 테넌트 SaaS", "Product Engineering"]
                         }
                     }
-                },                
+                },
 
                 {
-                    "categoryId": "websites",
+                    "categoryId": "platforms",
                     "icon": {
                         "img": "images/pictures/project-logo-1.png",
                         "fa": "",
@@ -126,7 +117,6 @@
                                 "images/pictures/project-screenshot-10.png",
                                 "images/pictures/project-screenshot-11.png",
                                 "images/pictures/project-screenshot-12.png"
-
                             ]
                         }
                     },
@@ -134,30 +124,29 @@
                     "locales": {
                         "en": {
                             "title": "BioSwift",
-                            "text": "An innovative web application developed with the <b>MERN stack</b>, tailored for the biomedical industry. <b>BioSwift</b> revolutionizes business operations by offering seamless <b>user and inventory management</b>. Track and manage <b>clients, locations, equipment, spare parts, service orders</b>, and much more in real-time. Integrated with <b>Power BI</b>, it provides real-time dashboards for performance monitoring and data-driven decision-making. Trusted by biomedical companies to enhance efficiency and ensure operational excellence.",
-                            "tags": ["MERN", "Biomedical", "Inventory Management", "Real-Time Monitoring", "Power BI"]
+                            "text": "<p><b>BioSwift</b> is a SaaS-grade <b>operational platform</b> built for the <b>biomedical industry</b> — designed to digitize and automate how biomedical companies run their entire operation. Shipped to production and running real business workflows.</p><ul><li><b>Operational system</b> covering clients, locations, equipment, spare parts, inventory, and service orders in real time.</li><li><b>Business process automation</b> across service workflows, reporting, and operational tracking.</li><li><b>Dashboards & analytics</b> for performance monitoring and data-driven decisions.</li><li><b>AWS-backed infrastructure</b> — scalable, secure, and production-ready.</li><li><b>Multi-department architecture</b> supporting growing data and user volumes.</li></ul>",
+                            "tags": ["SaaS", "Operational Systems", "AWS", "Architecture", "Automation", "Dashboards"]
                         },
                         "es": {
                             "title": "BioSwift",
-                            "text": "Una innovadora aplicación web desarrollada con el <b>stack MERN</b>, diseñada para el sector biomédico. <b>BioSwift</b> revoluciona las operaciones empresariales ofreciendo una gestión fluida de <b>usuarios e inventarios</b>. Permite rastrear y administrar en tiempo real <b>clientes, sedes, equipos, repuestos, órdenes de servicio</b> y mucho más. Integrado con <b>Power BI</b>, proporciona tableros en tiempo real para monitorear el rendimiento y tomar decisiones basadas en datos. Confiado por empresas biomédicas para mejorar la eficiencia y garantizar la excelencia operativa.",
-                            "tags": ["MERN", "Biomédico", "Gestión de Inventarios", "Monitoreo en Tiempo Real", "Power BI"]
+                            "text": "<p><b>BioSwift</b> es una <b>plataforma operativa</b> SaaS construida para la <b>industria biomédica</b> — diseñada para digitalizar y automatizar toda la operación de empresas biomédicas. En producción y corriendo flujos de negocio reales.</p><ul><li><b>Sistema operativo</b> de clientes, sedes, equipos, repuestos, inventario y órdenes de servicio en tiempo real.</li><li><b>Automatización de procesos de negocio</b> en flujos de servicio, reportería y seguimiento operativo.</li><li><b>Dashboards y analítica</b> para monitoreo de desempeño y decisiones data-driven.</li><li><b>Infraestructura AWS</b> — escalable, segura y lista para producción.</li><li><b>Arquitectura multi-departamento</b> que soporta crecimiento de datos y usuarios.</li></ul>",
+                            "tags": ["SaaS", "Sistemas Operativos", "AWS", "Arquitectura", "Automatización", "Dashboards"]
                         },
                         "fr": {
                             "title": "BioSwift",
-                            "text": "Une application web innovante développée avec le <b>stack MERN</b>, conçue pour le secteur biomédical. <b>BioSwift</b> révolutionne les opérations commerciales en offrant une <b>gestion transparente des utilisateurs et des inventaires</b>. Suivez et gérez en temps réel <b>clients, sites, équipements, pièces détachées, ordres de service</b>, et bien plus encore. Intégré à <b>Power BI</b>, il offre des tableaux de bord en temps réel pour surveiller les performances et prendre des décisions basées sur les données. Approuvée par les entreprises biomédicales pour améliorer l'efficacité et assurer l'excellence opérationnelle.",
-                            "tags": ["MERN", "Biomédical", "Gestion d'Inventaire", "Surveillance en Temps Réel", "Power BI"]
+                            "text": "<p><b>BioSwift</b> est une <b>plateforme opérationnelle</b> SaaS construite pour l'<b>industrie biomédicale</b> — pensée pour digitaliser et automatiser toute l'opération des entreprises biomédicales. En production, exécutant de vrais workflows business.</p><ul><li><b>Système opérationnel</b> : clients, sites, équipements, pièces, inventaire et ordres de service en temps réel.</li><li><b>Automatisation des processus</b> business sur les workflows de service, reporting et suivi opérationnel.</li><li><b>Dashboards et analytics</b> pour monitoring et décisions data-driven.</li><li><b>Infrastructure AWS</b> — scalable, sécurisée, production-ready.</li><li><b>Architecture multi-département</b> qui suit la croissance des données et des utilisateurs.</li></ul>",
+                            "tags": ["SaaS", "Systèmes Opérationnels", "AWS", "Architecture", "Automatisation", "Dashboards"]
                         },
                         "ko": {
                             "title": "BioSwift",
-                            "text": "의료 기기 산업을 위해 <b>MERN 스택</b>으로 개발된 혁신적인 웹 애플리케이션 <b>BioSwift</b>는 <b>사용자 및 재고 관리</b>를 통해 비즈니스 운영을 혁신합니다. <b>고객, 위치, 장비, 부품, 서비스 주문</b> 등을 실시간으로 추적하고 관리할 수 있습니다. <b>Power BI</b>와 통합되어 실시간 대시보드를 제공하여 성능을 모니터링하고 데이터 기반 의사 결정을 지원합니다. 효율성을 향상시키고 운영 우수성을 보장하기 위해 바이오메디컬 기업들이 신뢰하는 솔루션입니다.",
-                            "tags": ["MERN", "생의학", "재고 관리", "실시간 모니터링", "Power BI"]
+                            "text": "<p><b>BioSwift</b>는 <b>의료기기 산업</b>을 위해 구축된 SaaS급 <b>운영 플랫폼</b>으로, 의료기기 기업의 전체 운영을 디지털화·자동화하기 위해 설계되었습니다. 프로덕션에 출시되어 실제 비즈니스 워크플로우를 운영 중입니다.</p><ul><li>고객, 위치, 장비, 부품, 재고, 서비스 주문을 실시간으로 관리하는 <b>운영 시스템</b>.</li><li>서비스 워크플로우, 리포팅, 운영 추적 전반의 <b>비즈니스 프로세스 자동화</b>.</li><li>성능 모니터링과 데이터 기반 의사결정을 위한 <b>대시보드와 분석</b>.</li><li>확장 가능하고 안전한 프로덕션 레벨의 <b>AWS 인프라</b>.</li><li>데이터와 사용자 증가를 지원하는 <b>멀티 부서 아키텍처</b>.</li></ul>",
+                            "tags": ["SaaS", "운영 시스템", "AWS", "아키텍처", "자동화", "대시보드"]
                         }
                     }
                 },
 
-
                 {
-                    "categoryId": "websites",
+                    "categoryId": "platforms",
                     "icon": {
                         "img": "images/pictures/project-logo-5.png",
                         "fa": "",
@@ -181,23 +170,23 @@
                     "locales": {
                         "en": {
                             "title": "El Ahorro",
-                            "text": "An innovative web application developed with the <b>MERN stack</b>, designed for <b>market businesses</b> of all sizes, from small corner stores to large supermarkets. El Ahorro empowers users with <b>inventory management</b>, <b>sales and purchase tracking</b>, <b>billing</b>, and <b>supplier administration</b>. Real-time analytics enhance <b>productivity</b> and <b>decision-making efficiency</b>, helping businesses streamline operations and achieve optimal performance. As the <b>CEO and founder</b>, I am leading the development of this project, bringing a vision of transformation to the retail industry.",
-                            "tags": ["MERN", "Inventory", "Real-Time Analytics", "Retail", "Efficiency"]
+                            "text": "<p><b>El Ahorro</b> is an <b>operational SaaS platform</b> built for <b>retail businesses</b> — from independent stores to multi-location supermarkets. Designed to centralize inventory, sales, billing, and supplier workflows in a single product.</p><ul><li><b>Inventory & operations</b> with real-time stock, purchase flows, and supplier management.</li><li><b>Sales & billing</b> workflows tailored to retail operations.</li><li><b>Analytics dashboards</b> focused on productivity, margins, and decisions.</li><li>Designed for <b>scalable business workflows</b> across multiple business sizes.</li></ul><p>Founded and led as <b>CEO &amp; Product Owner</b> — driving direction, architecture, and execution.</p>",
+                            "tags": ["SaaS", "Retail Operations", "Inventory Systems", "Analytics", "Founder"]
                         },
                         "es": {
                             "title": "El Ahorro",
-                            "text": "Una aplicación web innovadora desarrollada con el <b>stack MERN</b>, diseñada para <b>negocios de mercado</b> de todos los tamaños, desde pequeñas tiendas hasta grandes supermercados. El Ahorro ofrece herramientas avanzadas de <b>gestión de inventarios</b>, <b>seguimiento de ventas y compras</b>, <b>facturación</b> y <b>administración de proveedores</b>. Los análisis en tiempo real mejoran la <b>productividad</b> y la <b>eficiencia en la toma de decisiones</b>, ayudando a las empresas a optimizar sus operaciones. Como <b>CEO y fundador</b>, lidero el desarrollo de este proyecto con una visión transformadora para la industria minorista.",
-                            "tags": ["MERN", "Inventarios", "Análisis en Tiempo Real", "Retail", "Eficiencia"]
+                            "text": "<p><b>El Ahorro</b> es una <b>plataforma SaaS operativa</b> construida para <b>negocios de retail</b> — desde tiendas independientes hasta supermercados multi-sede. Diseñada para centralizar inventario, ventas, facturación y proveedores en un solo producto.</p><ul><li><b>Inventario y operaciones</b> con stock en tiempo real, flujos de compra y gestión de proveedores.</li><li><b>Ventas y facturación</b> adaptadas a operaciones de retail.</li><li><b>Dashboards analíticos</b> enfocados en productividad, márgenes y decisiones.</li><li>Diseñada para <b>flujos de negocio escalables</b> en distintos tamaños de empresa.</li></ul><p>Fundada y liderada como <b>CEO y Product Owner</b> — dirigiendo dirección, arquitectura y ejecución.</p>",
+                            "tags": ["SaaS", "Operaciones Retail", "Sistemas de Inventario", "Analítica", "Founder"]
                         },
                         "fr": {
                             "title": "El Ahorro",
-                            "text": "Une application web innovante développée avec le <b>stack MERN</b>, conçue pour les <b>entreprises de marché</b> de toutes tailles, des petites épiceries aux grands supermarchés. El Ahorro offre des fonctionnalités avancées de <b>gestion des stocks</b>, <b>suivi des ventes et achats</b>, <b>facturation</b> et <b>administration des fournisseurs</b>. Les analyses en temps réel améliorent la <b>productivité</b> et l'<b>efficacité de la prise de décision</b>, aidant les entreprises à optimiser leurs opérations. En tant que <b>PDG et fondateur</b>, je dirige le développement de ce projet, apportant une vision de transformation au secteur du commerce de détail.",
-                            "tags": ["MERN", "Inventaire", "Analyse en Temps Réel", "Commerce de Détail", "Efficacité"]
+                            "text": "<p><b>El Ahorro</b> est une <b>plateforme SaaS opérationnelle</b> conçue pour les <b>entreprises de retail</b> — du commerce indépendant aux supermarchés multi-sites. Pensée pour centraliser inventaire, ventes, facturation et fournisseurs dans un seul produit.</p><ul><li><b>Inventaire & opérations</b> avec stock temps réel, flux d'achat et gestion fournisseurs.</li><li><b>Ventes & facturation</b> adaptées aux opérations retail.</li><li><b>Dashboards analytiques</b> centrés sur productivité, marges et décisions.</li><li>Conçue pour des <b>workflows scalables</b> à toutes tailles d'entreprise.</li></ul><p>Fondée et dirigée en tant que <b>CEO & Product Owner</b> — pilotant direction, architecture et exécution.</p>",
+                            "tags": ["SaaS", "Opérations Retail", "Systèmes d'Inventaire", "Analytique", "Founder"]
                         },
                         "ko": {
                             "title": "El Ahorro",
-                            "text": "작은 가게부터 대형 슈퍼마켓까지 모든 규모의 <b>시장 비즈니스</b>를 위해 <b>MERN 스택</b>으로 개발된 혁신적인 웹 애플리케이션입니다. El Ahorro는 <b>재고 관리</b>, <b>판매 및 구매 추적</b>, <b>청구</b>, <b>공급업체 관리</b>와 같은 고급 도구를 제공합니다. 실시간 분석은 <b>생산성</b>과 <b>의사 결정 효율성</b>을 향상시켜 비즈니스 운영을 간소화하고 최적의 성과를 달성할 수 있도록 돕습니다. <b>CEO 및 창립자</b>로서 저는 이 프로젝트의 개발을 주도하며 소매 업계에 변화를 가져오는 비전을 실현하고 있습니다.",
-                            "tags": ["MERN", "재고 관리", "실시간 분석", "소매업", "효율성"]
+                            "text": "<p><b>El Ahorro</b>는 독립 매장부터 다중 지점 슈퍼마켓까지 모든 규모의 <b>리테일 비즈니스</b>를 위한 <b>운영 SaaS 플랫폼</b>입니다. 재고, 판매, 빌링, 공급업체 워크플로우를 하나의 제품에서 중앙화하기 위해 설계되었습니다.</p><ul><li>실시간 재고, 구매 플로우, 공급업체 관리를 갖춘 <b>인벤토리 및 운영</b>.</li><li>리테일 운영에 맞춰진 <b>판매 및 빌링</b> 워크플로우.</li><li>생산성, 마진, 의사결정에 초점을 둔 <b>분석 대시보드</b>.</li><li>다양한 규모의 비즈니스를 지원하는 <b>확장 가능한 비즈니스 워크플로우</b>.</li></ul><p><b>CEO &amp; 제품 오너</b>로서 방향성, 아키텍처, 실행을 리드.</p>",
+                            "tags": ["SaaS", "리테일 운영", "인벤토리 시스템", "애널리틱스", "Founder"]
                         }
                     }
                 }
