@@ -3,25 +3,25 @@
         "en": {
             "title": "Experience",
             "title_long_prefix": "Where I've",
-            "title_long": "**Shipped** Real Products"
+            "title_long": "**Built** & **Shipped**"
         },
 
         "es": {
             "title": "Experiencia",
             "title_long_prefix": "Donde he",
-            "title_long": "**Lanzado** Productos Reales"
+            "title_long": "**Construido** y **Lanzado**"
         },
 
         "fr": {
             "title": "Expérience",
             "title_long_prefix": "Où j'ai",
-            "title_long": "**Livré** de Vrais Produits"
+            "title_long": "**Construit** & **Livré**"
         },
 
         "ko": {
             "title": "경력",
             "title_long_prefix": "제가",
-            "title_long": "**실제 제품**을 출시한 곳"
+            "title_long": "**구축하고 출시**한 곳"
         }
     },
 
@@ -35,6 +35,82 @@
             "items": [
                 {
                     "icon": {
+                        "img": "images/pictures/fadeslot-img-portfolio.jpg",
+                        "fa": "",
+                        "faColors": { "bg": null, "fill": null }
+                    },
+                    "dates": {
+                        "start": "12/01/2025",
+                        "end": "now"
+                    },
+                    "locales": {
+                        "en": {
+                            "title": "**Founder** · **Product Engineer** · **Technical Lead**",
+                            "info": "GAMAN AI Corporation — FadeSlot",
+                            "text": "<p>Founded GAMAN AI Corporation and built <b>FadeSlot</b> end-to-end — a <b>multi-tenant SaaS platform</b> for appointment-driven businesses, live in production with real customers and active subscription revenue.</p><ul><li>Designed and shipped a complete <b>SaaS architecture</b> — multi-tenant data model, tenant isolation, RBAC, and per-business configuration.</li><li>Built the product on <b>Next.js, TypeScript, PostgreSQL</b>, and <b>AWS</b> — booking engine, POS, inventory, reviews, and analytics.</li><li>Integrated <b>Paddle</b> for subscription billing — plans, trials, upgrades, and revenue analytics.</li><li>Owned <b>AWS infrastructure</b> end-to-end — S3 media, scalable Postgres, deployment, and scaling.</li><li>Shipped a <b>bilingual (EN/ES)</b>, mobile-first product with automated notifications and operational dashboards.</li></ul>",
+                            "tags": ["Founder", "SaaS", "Multi-tenant", "Next.js", "TypeScript", "PostgreSQL", "AWS", "Paddle"]
+                        },
+                        "es": {
+                            "title": "**Founder** · **Product Engineer** · **Technical Lead**",
+                            "info": "GAMAN AI Corporation — FadeSlot",
+                            "text": "<p>Fundé GAMAN AI Corporation y construí <b>FadeSlot</b> end-to-end — una <b>plataforma SaaS multi-tenant</b> para negocios basados en citas, en producción con clientes reales e ingresos activos por suscripción.</p><ul><li>Diseñé y lancé una <b>arquitectura SaaS</b> completa — modelo multi-tenant, aislamiento por tenant, RBAC y configuración por negocio.</li><li>Construí el producto sobre <b>Next.js, TypeScript, PostgreSQL</b> y <b>AWS</b> — motor de reservas, POS, inventario, reseñas y analítica.</li><li>Integré <b>Paddle</b> para facturación por suscripción — planes, trials, upgrades y analítica de ingresos.</li><li>Operé la <b>infraestructura AWS</b> end-to-end — S3 para media, Postgres escalable, despliegue y escalado.</li><li>Lancé un producto <b>bilingüe (EN/ES)</b> mobile-first con notificaciones automatizadas y dashboards operativos.</li></ul>",
+                            "tags": ["Founder", "SaaS", "Multi-tenant", "Next.js", "TypeScript", "PostgreSQL", "AWS", "Paddle"]
+                        },
+                        "fr": {
+                            "title": "**Founder** · **Product Engineer** · **Technical Lead**",
+                            "info": "GAMAN AI Corporation — FadeSlot",
+                            "text": "<p>J'ai fondé GAMAN AI Corporation et construit <b>FadeSlot</b> de bout en bout — une <b>plateforme SaaS multi-tenant</b> pour les entreprises basées sur le rendez-vous, en production avec de vrais clients et un revenu d'abonnement actif.</p><ul><li>Conception et livraison d'une <b>architecture SaaS</b> complète — modèle multi-tenant, isolation par tenant, RBAC et configuration par entreprise.</li><li>Construction du produit sur <b>Next.js, TypeScript, PostgreSQL</b> et <b>AWS</b> — moteur de réservation, POS, inventaire, avis et analytics.</li><li>Intégration de <b>Paddle</b> pour les abonnements — plans, essais, upgrades et analytics de revenus.</li><li>Ownership complet de l'<b>infrastructure AWS</b> — S3 média, Postgres scalable, déploiement et scaling.</li><li>Livraison d'un produit <b>bilingue (EN/ES)</b>, mobile-first, avec notifications automatisées et dashboards opérationnels.</li></ul>",
+                            "tags": ["Founder", "SaaS", "Multi-tenant", "Next.js", "TypeScript", "PostgreSQL", "AWS", "Paddle"]
+                        },
+                        "ko": {
+                            "title": "**Founder** · **Product Engineer** · **Technical Lead**",
+                            "info": "GAMAN AI Corporation — FadeSlot",
+                            "text": "<p>GAMAN AI Corporation을 창업하고 <b>FadeSlot</b>을 엔드투엔드로 구축 — 예약 기반 비즈니스를 위한 <b>멀티 테넌트 SaaS 플랫폼</b>으로, 실제 고객과 구독 매출과 함께 프로덕션에서 운영 중입니다.</p><ul><li>멀티 테넌트 데이터 모델, 테넌트 격리, RBAC, 비즈니스별 구성을 갖춘 완전한 <b>SaaS 아키텍처</b>를 설계·출시.</li><li><b>Next.js, TypeScript, PostgreSQL</b>, <b>AWS</b> 기반의 예약 엔진, POS, 재고, 리뷰, 애널리틱스 제품 구축.</li><li>플랜, 트라이얼, 업그레이드, 매출 분석을 포함한 <b>Paddle</b> 구독 빌링 통합.</li><li>S3 미디어, 확장 가능한 Postgres, 배포·스케일링까지 <b>AWS 인프라</b> 엔드투엔드 오너십.</li><li>자동 알림과 운영 대시보드를 갖춘 <b>이중 언어(EN/ES)</b> 모바일 퍼스트 제품 출시.</li></ul>",
+                            "tags": ["Founder", "SaaS", "Multi-tenant", "Next.js", "TypeScript", "PostgreSQL", "AWS", "Paddle"]
+                        }
+                    }
+                },
+
+                {
+                    "icon": {
+                        "img": null,
+                        "fa": "fa-solid fa-globe",
+                        "faColors": { "bg": "#1A1A1A", "fill": "#7f3cfc" }
+                    },
+                    "dates": {
+                        "start": "02/01/2024",
+                        "end": "now"
+                    },
+                    "locales": {
+                        "en": {
+                            "title": "**Fractional Product Engineer**",
+                            "info": "Remote · Contract · Startup & Agency Work",
+                            "text": "<p>Engaged with <b>startups and agencies</b> as a remote product engineer — shipping production features, building SaaS infrastructure, and accelerating product delivery across async teams.</p><ul><li>Delivered production-ready features with <b>Next.js, TypeScript, Node.js</b>, <b>PostgreSQL/Supabase</b>, and <b>AWS</b>.</li><li>Built and refined <b>dashboards, operational systems, APIs, auth flows</b>, and deployment workflows.</li><li>Embedded into <b>async remote teams</b> with product-focused execution and clear, documented delivery.</li><li>Supported <b>scalable SaaS frontends and backends</b> — typed, tested, and production-ready.</li></ul>",
+                            "tags": ["Fractional", "Remote", "Async", "SaaS", "Next.js", "TypeScript", "AWS"]
+                        },
+                        "es": {
+                            "title": "**Fractional Product Engineer**",
+                            "info": "Remoto · Contrato · Trabajo con Startups y Agencias",
+                            "text": "<p>Colaboro con <b>startups y agencias</b> como product engineer remoto — lanzando features en producción, construyendo infraestructura SaaS y acelerando la entrega de producto en equipos async.</p><ul><li>Entrega de features production-ready con <b>Next.js, TypeScript, Node.js</b>, <b>PostgreSQL/Supabase</b> y <b>AWS</b>.</li><li>Construcción y refinamiento de <b>dashboards, sistemas operativos, APIs, flujos de auth</b> y workflows de despliegue.</li><li>Embebido en <b>equipos remotos async</b> con ejecución enfocada en producto y entrega clara y documentada.</li><li>Soporte a <b>frontends y backends SaaS escalables</b> — tipados, testeados y listos para producción.</li></ul>",
+                            "tags": ["Fractional", "Remoto", "Async", "SaaS", "Next.js", "TypeScript", "AWS"]
+                        },
+                        "fr": {
+                            "title": "**Fractional Product Engineer**",
+                            "info": "Remote · Contrat · Startups & Agences",
+                            "text": "<p>Missions avec <b>startups et agences</b> en tant que product engineer remote — livraison de fonctionnalités en production, construction d'infrastructure SaaS et accélération de la livraison produit en équipes async.</p><ul><li>Livraison de fonctionnalités production-ready avec <b>Next.js, TypeScript, Node.js</b>, <b>PostgreSQL/Supabase</b> et <b>AWS</b>.</li><li>Construction et raffinement de <b>dashboards, systèmes opérationnels, APIs, flux d'auth</b> et workflows de déploiement.</li><li>Intégration dans des <b>équipes remote async</b>, avec exécution produit-first et livraison claire et documentée.</li><li>Support de <b>frontends et backends SaaS scalables</b> — typés, testés, production-ready.</li></ul>",
+                            "tags": ["Fractional", "Remote", "Async", "SaaS", "Next.js", "TypeScript", "AWS"]
+                        },
+                        "ko": {
+                            "title": "**Fractional Product Engineer**",
+                            "info": "리모트 · 계약 · 스타트업 & 에이전시 협업",
+                            "text": "<p><b>스타트업과 에이전시</b>와 함께 리모트 Product Engineer로 협업 — 프로덕션 기능을 출시하고, SaaS 인프라를 구축하며, 비동기 팀의 제품 딜리버리를 가속화합니다.</p><ul><li><b>Next.js, TypeScript, Node.js</b>, <b>PostgreSQL/Supabase</b>, <b>AWS</b>로 프로덕션 레벨 기능을 제공.</li><li><b>대시보드, 운영 시스템, API, 인증 플로우</b>, 배포 워크플로우를 구축·개선.</li><li><b>비동기 리모트 팀</b>에 통합되어 제품 중심의 실행과 명확하고 문서화된 딜리버리 제공.</li><li>타입 안전하고 테스트되어 프로덕션에 바로 적용 가능한 <b>확장 가능한 SaaS 프론트엔드·백엔드</b> 지원.</li></ul>",
+                            "tags": ["Fractional", "리모트", "Async", "SaaS", "Next.js", "TypeScript", "AWS"]
+                        }
+                    }
+                },
+
+                {
+                    "icon": {
                         "img": "images/pictures/memco-logo.png",
                         "fa": "",
                         "faColors": { "bg": null, "fill": null }
@@ -45,28 +121,28 @@
                     },
                     "locales": {
                         "en": {
-                            "title": "**Technical Lead** & **Product Engineer**",
+                            "title": "**Technical Lead** & **Software Architect**",
                             "info": "MEMCO SAS",
-                            "text": "<p>Led product engineering and architecture across the entire technology department — designing, building, and shipping <b>operational SaaS platforms</b> used to run the company's biomedical operations.</p><ul><li>Defined system architecture, technical strategy, and engineering standards across the company's software stack.</li><li>Architected and shipped <b>BioSwift</b>, a multi-module SaaS platform covering clients, equipment, inventory, and service-order operations.</li><li>Owned <b>AWS infrastructure</b> end-to-end — EC2, S3, RDS, IAM, Route 53 — including deployment, scaling, and security.</li><li>Built full product features across <b>Node.js, TypeScript, React, MongoDB</b>, and <b>SQL</b>, focused on scalability and product delivery.</li><li>Designed automation systems to streamline data, reporting, and operational workflows across departments.</li><li>Led a cross-functional team of engineers, designers, and analysts under modern delivery practices.</li><li>Translated business needs into technical roadmaps, system designs, and shipped features.</li></ul>",
-                            "tags": ["Technical Lead", "Product Engineer", "SaaS", "Architecture", "AWS", "Node.js", "TypeScript", "React", "Automation"]
+                            "text": "<p>Led product engineering and architecture across the entire technology department — designing, building, and shipping <b>operational SaaS platforms</b> that ran the company's biomedical operations.</p><ul><li>Defined <b>system architecture</b>, technical strategy, and engineering standards across the company's software stack.</li><li>Architected and shipped <b>BioSwift</b> — a multi-module SaaS covering clients, equipment, inventory, and service orders.</li><li>Owned <b>AWS infrastructure</b> end-to-end (EC2, S3, RDS, IAM, Route 53) — deployment, scaling, and security.</li><li>Led a <b>cross-functional team</b> of engineers, designers, and analysts under modern delivery practices.</li><li>Translated business needs into <b>technical roadmaps</b>, system designs, and shipped features.</li></ul>",
+                            "tags": ["Technical Lead", "Software Architect", "SaaS", "AWS", "Node.js", "TypeScript", "React", "Leadership"]
                         },
                         "es": {
-                            "title": "**Technical Lead** & **Product Engineer**",
+                            "title": "**Technical Lead** & **Software Architect**",
                             "info": "MEMCO SAS",
-                            "text": "<p>Lideré la ingeniería de producto y la arquitectura de todo el departamento de tecnología — diseñando, construyendo y lanzando <b>plataformas SaaS operativas</b> utilizadas para correr las operaciones biomédicas de la compañía.</p><ul><li>Definí la arquitectura de sistemas, la estrategia técnica y los estándares de ingeniería del stack de software de la compañía.</li><li>Arquitecté y lancé <b>BioSwift</b>, una plataforma SaaS multi-módulo para clientes, equipos, inventario y órdenes de servicio.</li><li>Operé la <b>infraestructura AWS</b> end-to-end — EC2, S3, RDS, IAM, Route 53 — incluyendo despliegue, escalado y seguridad.</li><li>Construí features completos en <b>Node.js, TypeScript, React, MongoDB</b> y <b>SQL</b>, enfocados en escalabilidad y entrega de producto.</li><li>Diseñé sistemas de automatización para optimizar datos, reportes y flujos operativos entre departamentos.</li><li>Lideré un equipo cross-functional de ingenieros, diseñadores y analistas bajo prácticas modernas de delivery.</li><li>Traduje necesidades de negocio en roadmaps técnicos, diseños de sistema y features lanzados a producción.</li></ul>",
-                            "tags": ["Technical Lead", "Product Engineer", "SaaS", "Arquitectura", "AWS", "Node.js", "TypeScript", "React", "Automatización"]
+                            "text": "<p>Lideré la ingeniería de producto y la arquitectura de todo el departamento de tecnología — diseñando, construyendo y lanzando <b>plataformas SaaS operativas</b> que corrían las operaciones biomédicas de la compañía.</p><ul><li>Definí la <b>arquitectura de sistemas</b>, estrategia técnica y estándares de ingeniería del stack de software.</li><li>Arquitecté y lancé <b>BioSwift</b> — un SaaS multi-módulo para clientes, equipos, inventario y órdenes de servicio.</li><li>Operé la <b>infraestructura AWS</b> end-to-end (EC2, S3, RDS, IAM, Route 53) — despliegue, escalado y seguridad.</li><li>Lideré un <b>equipo cross-functional</b> de ingenieros, diseñadores y analistas bajo prácticas modernas de delivery.</li><li>Traduje necesidades de negocio en <b>roadmaps técnicos</b>, diseños de sistema y features lanzados a producción.</li></ul>",
+                            "tags": ["Technical Lead", "Software Architect", "SaaS", "AWS", "Node.js", "TypeScript", "React", "Liderazgo"]
                         },
                         "fr": {
-                            "title": "**Technical Lead** & **Product Engineer**",
+                            "title": "**Technical Lead** & **Software Architect**",
                             "info": "MEMCO SAS",
-                            "text": "<p>J'ai dirigé l'ingénierie produit et l'architecture du département technologie — en concevant, construisant et livrant des <b>plateformes SaaS opérationnelles</b> utilisées pour faire tourner les opérations biomédicales de l'entreprise.</p><ul><li>Définition de l'architecture système, de la stratégie technique et des standards d'ingénierie de la stack logicielle.</li><li>Architecte et livreur de <b>BioSwift</b>, une plateforme SaaS multi-module pour clients, équipements, inventaire et ordres de service.</li><li>Ownership complet de l'<b>infrastructure AWS</b> — EC2, S3, RDS, IAM, Route 53 — déploiement, scalabilité et sécurité.</li><li>Développement de fonctionnalités complètes en <b>Node.js, TypeScript, React, MongoDB</b> et <b>SQL</b>, axées sur la scalabilité et la livraison produit.</li><li>Conception de systèmes d'automatisation pour rationaliser data, reporting et workflows opérationnels.</li><li>Direction d'une équipe cross-fonctionnelle d'ingénieurs, designers et analystes selon des pratiques modernes de delivery.</li><li>Traduction des besoins métier en roadmaps techniques, designs système et features livrées en production.</li></ul>",
-                            "tags": ["Technical Lead", "Product Engineer", "SaaS", "Architecture", "AWS", "Node.js", "TypeScript", "React", "Automatisation"]
+                            "text": "<p>J'ai dirigé l'ingénierie produit et l'architecture du département technologie — en concevant, construisant et livrant des <b>plateformes SaaS opérationnelles</b> qui faisaient tourner les opérations biomédicales de l'entreprise.</p><ul><li>Définition de l'<b>architecture système</b>, de la stratégie technique et des standards d'ingénierie de la stack.</li><li>Architecte et livreur de <b>BioSwift</b> — un SaaS multi-module pour clients, équipements, inventaire et ordres de service.</li><li>Ownership complet de l'<b>infrastructure AWS</b> (EC2, S3, RDS, IAM, Route 53) — déploiement, scaling, sécurité.</li><li>Direction d'une <b>équipe cross-fonctionnelle</b> d'ingénieurs, designers et analystes selon des pratiques modernes de delivery.</li><li>Traduction des besoins métier en <b>roadmaps techniques</b>, designs système et features livrées en production.</li></ul>",
+                            "tags": ["Technical Lead", "Software Architect", "SaaS", "AWS", "Node.js", "TypeScript", "React", "Leadership"]
                         },
                         "ko": {
-                            "title": "**Technical Lead** & **Product Engineer**",
+                            "title": "**Technical Lead** & **Software Architect**",
                             "info": "MEMCO SAS",
-                            "text": "<p>전체 기술 부서의 제품 엔지니어링과 아키텍처를 리드하며, 회사의 의료기기 운영을 구동하는 <b>운영 SaaS 플랫폼</b>을 설계, 구축, 출시했습니다.</p><ul><li>회사 소프트웨어 스택 전반의 시스템 아키텍처, 기술 전략, 엔지니어링 표준 정의.</li><li>고객, 장비, 재고, 서비스 주문을 아우르는 멀티 모듈 SaaS 플랫폼 <b>BioSwift</b>를 아키텍팅하고 출시.</li><li>배포·확장·보안을 포함한 <b>AWS 인프라</b>(EC2, S3, RDS, IAM, Route 53) 엔드투엔드 오너십.</li><li><b>Node.js, TypeScript, React, MongoDB</b>, <b>SQL</b> 기반의 풀스택 기능을 확장성과 제품 딜리버리에 초점을 맞춰 구축.</li><li>부서 전반의 데이터, 리포팅, 운영 워크플로우를 간소화하는 자동화 시스템 설계.</li><li>현대적 딜리버리 프랙티스로 엔지니어, 디자이너, 애널리스트 크로스 펑셔널 팀을 리드.</li><li>비즈니스 니즈를 기술 로드맵, 시스템 디자인, 그리고 실제 출시 기능으로 전환.</li></ul>",
-                            "tags": ["Technical Lead", "Product Engineer", "SaaS", "아키텍처", "AWS", "Node.js", "TypeScript", "React", "자동화"]
+                            "text": "<p>전체 기술 부서의 제품 엔지니어링과 아키텍처를 리드하며, 회사의 의료기기 운영을 구동하는 <b>운영 SaaS 플랫폼</b>을 설계·구축·출시했습니다.</p><ul><li>회사 소프트웨어 스택 전반의 <b>시스템 아키텍처</b>, 기술 전략, 엔지니어링 표준 정의.</li><li>고객, 장비, 재고, 서비스 주문을 아우르는 멀티 모듈 SaaS <b>BioSwift</b>를 아키텍팅·출시.</li><li>배포·스케일링·보안을 포함한 <b>AWS 인프라</b>(EC2, S3, RDS, IAM, Route 53) 엔드투엔드 오너십.</li><li>현대적 딜리버리 프랙티스로 엔지니어, 디자이너, 애널리스트 <b>크로스 펑셔널 팀</b>을 리드.</li><li>비즈니스 니즈를 <b>기술 로드맵</b>, 시스템 디자인, 그리고 실제 출시 기능으로 전환.</li></ul>",
+                            "tags": ["Technical Lead", "Software Architect", "SaaS", "AWS", "Node.js", "TypeScript", "React", "리더십"]
                         }
                     }
                 },

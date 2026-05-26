@@ -44,30 +44,30 @@
             "items": [
                 {
                     "dates": {
-                        "start": "10/01/2025",
+                        "start": "12/01/2025",
                         "end": null
                     },
                     "links": [],
                     "locales": {
                         "en": {
-                            "title": "**Shipped FadeSlot** — Multi-Tenant SaaS in Production",
-                            "info": "Product Engineering",
-                            "text": "Built and shipped FadeSlot end-to-end as a real production SaaS — architecture, multi-tenant logic, subscription billing, AWS infrastructure, and bilingual product."
+                            "title": "**Founded GAMAN AI** & Shipped **FadeSlot** — Multi-Tenant SaaS in Production",
+                            "info": "GAMAN AI Corporation",
+                            "text": "Founded GAMAN AI Corporation and built FadeSlot end-to-end as a real production SaaS — architecture, multi-tenant logic, subscription billing, AWS infrastructure, and bilingual product."
                         },
                         "es": {
-                            "title": "**Lanzamiento de FadeSlot** — SaaS Multi-Tenant en Producción",
-                            "info": "Product Engineering",
-                            "text": "Construí y lancé FadeSlot end-to-end como un SaaS real en producción — arquitectura, lógica multi-tenant, facturación por suscripción, infraestructura AWS y producto bilingüe."
+                            "title": "**Fundación de GAMAN AI** y Lanzamiento de **FadeSlot** — SaaS Multi-Tenant en Producción",
+                            "info": "GAMAN AI Corporation",
+                            "text": "Fundé GAMAN AI Corporation y construí FadeSlot end-to-end como un SaaS real en producción — arquitectura, lógica multi-tenant, facturación por suscripción, infraestructura AWS y producto bilingüe."
                         },
                         "fr": {
-                            "title": "**Lancement de FadeSlot** — SaaS Multi-Tenant en Production",
-                            "info": "Product Engineering",
-                            "text": "Conçu et livré FadeSlot de bout en bout en tant que SaaS réel en production — architecture, logique multi-tenant, abonnements, infrastructure AWS et produit bilingue."
+                            "title": "**Fondation de GAMAN AI** & Lancement de **FadeSlot** — SaaS Multi-Tenant en Production",
+                            "info": "GAMAN AI Corporation",
+                            "text": "J'ai fondé GAMAN AI Corporation et conçu FadeSlot de bout en bout comme un SaaS réel en production — architecture, logique multi-tenant, abonnements, infrastructure AWS et produit bilingue."
                         },
                         "ko": {
-                            "title": "**FadeSlot 출시** — 프로덕션 멀티 테넌트 SaaS",
-                            "info": "Product Engineering",
-                            "text": "FadeSlot을 엔드투엔드로 실제 프로덕션 SaaS로 구축·출시 — 아키텍처, 멀티 테넌트 로직, 구독 빌링, AWS 인프라, 이중 언어 제품."
+                            "title": "**GAMAN AI 창업** & **FadeSlot 출시** — 프로덕션 멀티 테넌트 SaaS",
+                            "info": "GAMAN AI Corporation",
+                            "text": "GAMAN AI Corporation을 창업하고 FadeSlot을 엔드투엔드로 실제 프로덕션 SaaS로 구축·출시 — 아키텍처, 멀티 테넌트 로직, 구독 빌링, AWS 인프라, 이중 언어 제품."
                         }
                     }
                 },
