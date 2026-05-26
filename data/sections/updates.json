@@ -216,19 +216,19 @@
                     "locales": {
                         "en": {
                             "title": "Expanding **FadeSlot** to its next stage",
-                            "text": "Actively building the next iteration of FadeSlot — scaling infrastructure, expanding the feature set, sharpening the product, and growing toward early SaaS revenue."
+                            "text": "Actively building the next iteration of FadeSlot: scaling infrastructure, expanding the feature set, sharpening the product, and growing toward early SaaS revenue."
                         },
                         "es": {
                             "title": "Expandiendo **FadeSlot** a su siguiente etapa",
-                            "text": "Construyendo activamente la siguiente iteración de FadeSlot — escalando infraestructura, expandiendo features, refinando el producto y creciendo hacia ingresos SaaS iniciales."
+                            "text": "Construyendo activamente la siguiente iteración de FadeSlot: escalando infraestructura, expandiendo features, refinando el producto y creciendo hacia ingresos SaaS iniciales."
                         },
                         "fr": {
                             "title": "Faire passer **FadeSlot** à l'étape suivante",
-                            "text": "Construction active de la prochaine itération de FadeSlot — scaling infra, expansion produit, raffinement et croissance vers les premiers revenus SaaS."
+                            "text": "Construction active de la prochaine itération de FadeSlot: scaling infra, expansion produit, raffinement et croissance vers les premiers revenus SaaS."
                         },
                         "ko": {
                             "title": "**FadeSlot**을 다음 단계로 확장",
-                            "text": "FadeSlot의 다음 이터레이션을 활발히 구축 — 인프라 확장, 기능 확대, 제품 정교화, 초기 SaaS 매출을 향한 성장."
+                            "text": "FadeSlot의 다음 이터레이션을 활발히 구축: 인프라 확장, 기능 확대, 제품 정교화, 초기 SaaS 매출을 향한 성장."
                         }
                     }
                 },
@@ -242,19 +242,19 @@
                     "locales": {
                         "en": {
                             "title": "Exploring **AI-driven product features**",
-                            "text": "Researching how AI agents and modern tooling can power the next generation of operational SaaS products — from smart booking to intelligent analytics."
+                            "text": "Researching how AI agents and modern tooling can power the next generation of operational SaaS products: from smart booking to intelligent analytics."
                         },
                         "es": {
                             "title": "Explorando **features de producto con IA**",
-                            "text": "Investigando cómo agentes de IA y tooling moderno pueden impulsar la próxima generación de productos SaaS operativos — desde booking inteligente hasta analítica inteligente."
+                            "text": "Investigando cómo agentes de IA y tooling moderno pueden impulsar la próxima generación de productos SaaS operativos: desde booking inteligente hasta analítica inteligente."
                         },
                         "fr": {
                             "title": "Exploration de **fonctionnalités produit pilotées par l'IA**",
-                            "text": "Comment les agents IA et le tooling moderne peuvent alimenter la prochaine génération de produits SaaS opérationnels — du booking intelligent à l'analytics intelligente."
+                            "text": "Comment les agents IA et le tooling moderne peuvent alimenter la prochaine génération de produits SaaS opérationnels: du booking intelligent à l'analytics intelligente."
                         },
                         "ko": {
                             "title": "**AI 기반 제품 기능** 탐구",
-                            "text": "AI 에이전트와 최신 툴링이 차세대 운영 SaaS 제품을 어떻게 구동할 수 있는지 연구 — 스마트 예약부터 지능형 애널리틱스까지."
+                            "text": "AI 에이전트와 최신 툴링이 차세대 운영 SaaS 제품을 어떻게 구동할 수 있는지 연구: 스마트 예약부터 지능형 애널리틱스까지."
                         }
                     }
                 },
@@ -268,19 +268,19 @@
                     "locales": {
                         "en": {
                             "title": "Going **fractional** & remote-first",
-                            "text": "Opening up to fractional engineering, technical lead, and product engineer work with startups, SaaS companies, and agencies — async and remote-first by default."
+                            "text": "Opening up to fractional engineering, technical lead, and product engineer work with startups, SaaS companies, and agencies: async and remote-first by default."
                         },
                         "es": {
                             "title": "Modo **fractional** y remote-first",
-                            "text": "Abriéndome a trabajo fractional como product engineer, technical lead y SaaS engineer con startups, empresas SaaS y agencias — async y remote-first por defecto."
+                            "text": "Abriéndome a trabajo fractional como product engineer, technical lead y SaaS engineer con startups, empresas SaaS y agencias: async y remote-first por defecto."
                         },
                         "fr": {
                             "title": "Passage en **fractional** & remote-first",
-                            "text": "Ouverture à des missions fractional en tant que product engineer, technical lead et SaaS engineer avec startups, SaaS et agences — async et remote-first par défaut."
+                            "text": "Ouverture à des missions fractional en tant que product engineer, technical lead et SaaS engineer avec startups, SaaS et agences: async et remote-first par défaut."
                         },
                         "ko": {
                             "title": "**Fractional** & 리모트 퍼스트로 전환",
-                            "text": "스타트업, SaaS 기업, 에이전시와 함께 일하는 Product Engineer, Technical Lead, Fractional Engineer 역할에 오픈 — 기본은 비동기, 리모트 퍼스트."
+                            "text": "스타트업, SaaS 기업, 에이전시와 함께 일하는 Product Engineer, Technical Lead, Fractional Engineer 역할에 오픈: 기본은 비동기, 리모트 퍼스트."
                         }
                     }
                 },

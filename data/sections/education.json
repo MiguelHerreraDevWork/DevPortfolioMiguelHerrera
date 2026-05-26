@@ -85,7 +85,7 @@
                         "en": {
                             "title": "**Software Engineering** & Information Systems",
                             "info": "SENA – National Learning Service, Colombia",
-                            "text": "<p>Formal training in software engineering — system design, application architecture, databases, and end-to-end product development across web and mobile.</p>",
+                            "text": "<p>Formal training in software engineering: system design, application architecture, databases, and end-to-end product development across web and mobile.</p>",
                             "tags": ["Software Engineering", "Architecture", "Databases", "Product Development"]
                         },
                         "es": {
@@ -103,7 +103,7 @@
                         "ko": {
                             "title": "**소프트웨어 엔지니어링** 및 정보 시스템",
                             "info": "SENA – 국립 학습 서비스, 콜롬비아",
-                            "text": "<p>소프트웨어 엔지니어링 정규 과정 — 시스템 설계, 애플리케이션 아키텍처, 데이터베이스, 웹·모바일 엔드투엔드 제품 개발.</p>",
+                            "text": "<p>소프트웨어 엔지니어링 정규 과정: 시스템 설계, 애플리케이션 아키텍처, 데이터베이스, 웹·모바일 엔드투엔드 제품 개발.</p>",
                             "tags": ["소프트웨어 엔지니어링", "아키텍처", "데이터베이스", "제품 개발"]
                         }
                     }
@@ -123,25 +123,25 @@
                         "en": {
                             "title": "**English** Proficiency",
                             "info": "SMART Language Academy",
-                            "text": "Intensive English training (C1) — built for async, international collaboration with remote startup teams.",
+                            "text": "Intensive English training (C1): built for async, international collaboration with remote startup teams.",
                             "tags": ["English", "C1", "Async Communication"]
                         },
                         "es": {
                             "title": "**Dominio del Inglés**",
                             "info": "SMART Language Academy",
-                            "text": "Formación intensiva de inglés (C1) — pensada para colaboración asíncrona e internacional con equipos remotos de startups.",
+                            "text": "Formación intensiva de inglés (C1): pensada para colaboración asíncrona e internacional con equipos remotos de startups.",
                             "tags": ["Inglés", "C1", "Comunicación Async"]
                         },
                         "fr": {
                             "title": "**Maîtrise de l'Anglais**",
                             "info": "SMART Language Academy",
-                            "text": "Formation intensive d'anglais (C1) — conçue pour la collaboration async et internationale avec des équipes startups remote.",
+                            "text": "Formation intensive d'anglais (C1): conçue pour la collaboration async et internationale avec des équipes startups remote.",
                             "tags": ["Anglais", "C1", "Communication Async"]
                         },
                         "ko": {
                             "title": "**영어 능력**",
                             "info": "SMART Language Academy",
-                            "text": "C1 수준의 집중 영어 교육 — 글로벌 리모트 스타트업 팀과의 비동기 협업을 위한 기반.",
+                            "text": "C1 수준의 집중 영어 교육: 글로벌 리모트 스타트업 팀과의 비동기 협업을 위한 기반.",
                             "tags": ["영어", "C1", "비동기 커뮤니케이션"]
                         }
                     }

@@ -4,28 +4,28 @@
             "title": "Welcome",
             "title_menu": "About",
             "title_long_prefix": "Hi, I'm",
-            "title_long": "**Miguel Herrera** — Product Engineer"
+            "title_long": "**Miguel Herrera**, Product Engineer"
         },
 
         "es": {
             "title": "Bienvenido",
             "title_menu": "Sobre mí",
             "title_long_prefix": "Hola, soy",
-            "title_long": "**Miguel Herrera** — Product Engineer"
+            "title_long": "**Miguel Herrera**, Product Engineer"
         },
 
         "fr": {
             "title": "Bienvenue",
             "title_menu": "À propos",
             "title_long_prefix": "Salut, je suis",
-            "title_long": "**Miguel Herrera** — Product Engineer"
+            "title_long": "**Miguel Herrera**, Product Engineer"
         },
 
         "ko": {
             "title": "환영합니다",
             "title_menu": "소개",
             "title_long_prefix": "안녕하세요, 저는",
-            "title_long": "**Miguel Herrera** — Product Engineer"
+            "title_long": "**Miguel Herrera**, Product Engineer"
         }
     },
 
@@ -100,9 +100,9 @@
                         "faColors": {"bg": null, "fill": null}
                     },
                     "locales": {
-                        "en": {"text": "<p>I'm a <b>Product Engineer</b> building real <b>SaaS systems</b> for startups, agencies, and async teams.<br> I design, ship, and scale <b>operational platforms end-to-end</b> — from architecture and <b>cloud infrastructure</b> to product UI and deployment.<br> My core stack is <b>Next.js, TypeScript, Node.js, PostgreSQL</b>, and <b>AWS</b>, with a strong focus on execution velocity, product thinking, and clean architecture.<br> I've shipped <b>real SaaS products in production</b> — including <b>FadeSlot</b>, a multi-tenant booking &amp; operations platform — and led engineering teams building mission-critical software.</p>"},
-                        "es": {"text": "<p>Soy un <b>Product Engineer</b> que construye <b>sistemas SaaS reales</b> para startups, agencias y equipos remotos.<br> Diseño, lanzo y escalo <b>plataformas operativas de punta a punta</b> — desde arquitectura e <b>infraestructura cloud</b> hasta producto y despliegue.<br> Mi stack principal es <b>Next.js, TypeScript, Node.js, PostgreSQL</b> y <b>AWS</b>, con un fuerte enfoque en velocidad de ejecución, pensamiento de producto y arquitectura limpia.<br> He lanzado <b>productos SaaS reales en producción</b> — incluyendo <b>FadeSlot</b>, una plataforma multi-tenant de reservas y operaciones — y he liderado equipos de ingeniería construyendo software crítico para el negocio.</p>"},
-                        "fr": {"text": "<p>Je suis <b>Product Engineer</b> et je construis de vrais <b>systèmes SaaS</b> pour startups, agences et équipes async.<br> Je conçois, livre et fais évoluer des <b>plateformes opérationnelles de bout en bout</b> — de l'architecture et l'<b>infrastructure cloud</b> jusqu'au produit et au déploiement.<br> Mon stack principal : <b>Next.js, TypeScript, Node.js, PostgreSQL</b> et <b>AWS</b>, avec un focus marqué sur la vélocité d'exécution, le product thinking et l'architecture propre.<br> J'ai mis en production de <b>vrais produits SaaS</b> — dont <b>FadeSlot</b>, une plateforme multi-tenant de réservation et d'opérations — et j'ai dirigé des équipes d'ingénierie pour construire des logiciels critiques.</p>"},
+                        "en": {"text": "<p>I'm a <b>Product Engineer</b> building real <b>SaaS systems</b> for startups, agencies, and async teams.<br> I design, ship, and scale <b>operational platforms end-to-end</b>: from architecture and <b>cloud infrastructure</b> to product UI and deployment.<br> My core stack is <b>Next.js, TypeScript, Node.js, PostgreSQL</b>, and <b>AWS</b>, with a strong focus on execution velocity, product thinking, and clean architecture.<br> I've shipped <b>real SaaS products in production</b>, including <b>FadeSlot</b>, a multi-tenant booking &amp; operations platform, and led engineering teams building mission-critical software.</p>"},
+                        "es": {"text": "<p>Soy un <b>Product Engineer</b> que construye <b>sistemas SaaS reales</b> para startups, agencias y equipos remotos.<br> Diseño, lanzo y escalo <b>plataformas operativas de punta a punta</b>: desde arquitectura e <b>infraestructura cloud</b> hasta producto y despliegue.<br> Mi stack principal es <b>Next.js, TypeScript, Node.js, PostgreSQL</b> y <b>AWS</b>, con un fuerte enfoque en velocidad de ejecución, pensamiento de producto y arquitectura limpia.<br> He lanzado <b>productos SaaS reales en producción</b>, incluyendo <b>FadeSlot</b>, una plataforma multi-tenant de reservas y operaciones, y he liderado equipos de ingeniería construyendo software crítico para el negocio.</p>"},
+                        "fr": {"text": "<p>Je suis <b>Product Engineer</b> et je construis de vrais <b>systèmes SaaS</b> pour startups, agences et équipes async.<br> Je conçois, livre et fais évoluer des <b>plateformes opérationnelles de bout en bout</b>: de l'architecture et l'<b>infrastructure cloud</b> jusqu'au produit et au déploiement.<br> Mon stack principal : <b>Next.js, TypeScript, Node.js, PostgreSQL</b> et <b>AWS</b>, avec un focus marqué sur la vélocité d'exécution, le product thinking et l'architecture propre.<br> J'ai mis en production de <b>vrais produits SaaS</b>, dont <b>FadeSlot</b>, une plateforme multi-tenant de réservation et d'opérations, et j'ai dirigé des équipes d'ingénierie pour construire des logiciels critiques.</p>"},
                         "ko": {"text": "<p>저는 스타트업, 에이전시, 비동기 팀을 위해 실제 <b>SaaS 시스템</b>을 구축하는 <b>Product Engineer</b>입니다.<br> 아키텍처와 <b>클라우드 인프라</b>부터 제품 UI와 배포까지 <b>운영 플랫폼을 엔드투엔드로</b> 설계, 출시, 확장합니다.<br> 핵심 스택은 <b>Next.js, TypeScript, Node.js, PostgreSQL</b>, <b>AWS</b>이며, 실행 속도, 프로덕트 씽킹, 깔끔한 아키텍처에 집중합니다.<br> <b>FadeSlot</b>(멀티 테넌트 예약·운영 플랫폼)을 포함한 <b>실제 SaaS 제품을 프로덕션에 출시</b>했으며, 엔지니어링 팀을 이끌고 핵심 비즈니스 소프트웨어를 구축한 경험이 있습니다.</p>"}
                     }
                 }
@@ -237,19 +237,19 @@
                     "locales": {
                         "en": {
                             "title": "Product Design",
-                            "info": "Studying how great SaaS products are crafted — interfaces, flows, and product thinking end-to-end."
+                            "info": "Studying how great SaaS products are crafted: interfaces, flows, and product thinking end-to-end."
                         },
                         "es": {
                             "title": "Diseño de Producto",
-                            "info": "Estudiando cómo se construyen grandes productos SaaS — interfaces, flujos y pensamiento de producto de extremo a extremo."
+                            "info": "Estudiando cómo se construyen grandes productos SaaS: interfaces, flujos y pensamiento de producto de extremo a extremo."
                         },
                         "fr": {
                             "title": "Product Design",
-                            "info": "Étude de la conception de produits SaaS d'exception — interfaces, flux et product thinking de bout en bout."
+                            "info": "Étude de la conception de produits SaaS d'exception: interfaces, flux et product thinking de bout en bout."
                         },
                         "ko": {
                             "title": "프로덕트 디자인",
-                            "info": "훌륭한 SaaS 제품이 어떻게 만들어지는지 — 인터페이스, 플로우, 그리고 엔드투엔드 프로덕트 씽킹을 연구합니다."
+                            "info": "훌륭한 SaaS 제품이 어떻게 만들어지는지: 인터페이스, 플로우, 그리고 엔드투엔드 프로덕트 씽킹을 연구합니다."
                         }
                     }
                 },
@@ -318,15 +318,15 @@
                     "locales": {
                         "en": {
                             "title": "UI/UX Craft",
-                            "info": "Sharpening interface craft — typography, spacing, motion, and the small details that make products feel premium."
+                            "info": "Sharpening interface craft: typography, spacing, motion, and the small details that make products feel premium."
                         },
                         "es": {
                             "title": "Craft UI/UX",
-                            "info": "Refinando el oficio de interfaz — tipografía, espaciado, motion y los detalles que hacen que un producto se sienta premium."
+                            "info": "Refinando el oficio de interfaz: tipografía, espaciado, motion y los detalles que hacen que un producto se sienta premium."
                         },
                         "fr": {
                             "title": "Craft UI/UX",
-                            "info": "Affiner le craft d'interface — typographie, espacement, motion, et les détails qui rendent un produit premium."
+                            "info": "Affiner le craft d'interface: typographie, espacement, motion, et les détails qui rendent un produit premium."
                         },
                         "ko": {
                             "title": "UI/UX 크래프트",
@@ -345,19 +345,19 @@
                     "locales": {
                         "en": {
                             "title": "Music Production",
-                            "info": "A parallel craft to engineering — composing and producing tracks as a practice in systems, taste, and creative output."
+                            "info": "A parallel craft to engineering: composing and producing tracks as a practice in systems, taste, and creative output."
                         },
                         "es": {
                             "title": "Producción Musical",
-                            "info": "Un oficio paralelo a la ingeniería — componer y producir como práctica en sistemas, gusto y creatividad."
+                            "info": "Un oficio paralelo a la ingeniería: componer y producir como práctica en sistemas, gusto y creatividad."
                         },
                         "fr": {
                             "title": "Production Musicale",
-                            "info": "Un craft parallèle à l'ingénierie — composer et produire, une pratique en systèmes, goût et création."
+                            "info": "Un craft parallèle à l'ingénierie: composer et produire, une pratique en systèmes, goût et création."
                         },
                         "ko": {
                             "title": "음악 제작",
-                            "info": "엔지니어링과 평행한 크래프트 — 시스템, 감각, 창의성을 연마하는 작곡과 프로덕션 작업."
+                            "info": "엔지니어링과 평행한 크래프트: 시스템, 감각, 창의성을 연마하는 작곡과 프로덕션 작업."
                         }
                     }
                 },
@@ -372,19 +372,19 @@
                     "locales": {
                         "en": {
                             "title": "Languages & Async",
-                            "info": "Working across EN/ES/KO and learning French — built for async, international, remote-first collaboration."
+                            "info": "Working across EN/ES/KO and learning French: built for async, international, remote-first collaboration."
                         },
                         "es": {
                             "title": "Idiomas y Async",
-                            "info": "Trabajo en EN/ES/KO y aprendiendo francés — construido para colaboración asíncrona, internacional y remote-first."
+                            "info": "Trabajo en EN/ES/KO y aprendiendo francés: construido para colaboración asíncrona, internacional y remote-first."
                         },
                         "fr": {
                             "title": "Langues & Async",
-                            "info": "Je travaille en EN/ES/KO et j'apprends le français — pensé pour la collaboration async, internationale et remote-first."
+                            "info": "Je travaille en EN/ES/KO et j'apprends le français: pensé pour la collaboration async, internationale et remote-first."
                         },
                         "ko": {
                             "title": "언어와 비동기 협업",
-                            "info": "EN/ES/KO로 협업하며 프랑스어를 학습 중 — 비동기, 국제, 리모트 퍼스트 협업에 최적화되어 있습니다."
+                            "info": "EN/ES/KO로 협업하며 프랑스어를 학습 중: 비동기, 국제, 리모트 퍼스트 협업에 최적화되어 있습니다."
                         }
                     }
                 }

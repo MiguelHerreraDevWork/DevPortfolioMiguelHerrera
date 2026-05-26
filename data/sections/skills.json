@@ -623,22 +623,22 @@
                     "locales": {
                         "en": {
                             "title": "Spanish",
-                            "info": "Native — fluent across written, spoken, and async communication.",
+                            "info": "Native: fluent across written, spoken, and async communication.",
                             "tags": ["Native"]
                         },
                         "es": {
                             "title": "Español",
-                            "info": "Nativo — fluidez total en escritura, conversación y comunicación asíncrona.",
+                            "info": "Nativo: fluidez total en escritura, conversación y comunicación asíncrona.",
                             "tags": ["Nativo"]
                         },
                         "fr": {
                             "title": "Espagnol",
-                            "info": "Langue maternelle — maîtrise complète à l'écrit, à l'oral et en async.",
+                            "info": "Langue maternelle: maîtrise complète à l'écrit, à l'oral et en async.",
                             "tags": ["Natif"]
                         },
                         "ko": {
                             "title": "스페인어",
-                            "info": "모국어 — 작문, 회화, 비동기 커뮤니케이션 모두 원어민 수준.",
+                            "info": "모국어: 작문, 회화, 비동기 커뮤니케이션 모두 원어민 수준.",
                             "tags": ["모국어"]
                         }
                     }
@@ -654,22 +654,22 @@
                     "locales": {
                         "en": {
                             "title": "English",
-                            "info": "C1 — built for international, async, remote-first collaboration.",
+                            "info": "C1: built for international, async, remote-first collaboration.",
                             "tags": ["C1"]
                         },
                         "es": {
                             "title": "Inglés",
-                            "info": "C1 — preparado para colaboración internacional, asíncrona y remote-first.",
+                            "info": "C1: preparado para colaboración internacional, asíncrona y remote-first.",
                             "tags": ["C1"]
                         },
                         "fr": {
                             "title": "Anglais",
-                            "info": "C1 — adapté à la collaboration internationale, async et remote-first.",
+                            "info": "C1: adapté à la collaboration internationale, async et remote-first.",
                             "tags": ["C1"]
                         },
                         "ko": {
                             "title": "영어",
-                            "info": "C1 — 글로벌, 비동기, 리모트 퍼스트 협업에 최적화.",
+                            "info": "C1: 글로벌, 비동기, 리모트 퍼스트 협업에 최적화.",
                             "tags": ["C1"]
                         }
                     }

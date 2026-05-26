@@ -50,24 +50,24 @@
                     "links": [],
                     "locales": {
                         "en": {
-                            "title": "**Founded GAMAN AI** & Shipped **FadeSlot** — Multi-Tenant SaaS in Production",
+                            "title": "**Founded GAMAN AI** & Shipped **FadeSlot**: Multi-Tenant SaaS in Production",
                             "info": "GAMAN AI Corporation",
-                            "text": "Founded GAMAN AI Corporation and built FadeSlot end-to-end as a real production SaaS — architecture, multi-tenant logic, subscription billing, AWS infrastructure, and bilingual product."
+                            "text": "Founded GAMAN AI Corporation and built FadeSlot end-to-end as a real production SaaS: architecture, multi-tenant logic, subscription billing, AWS infrastructure, and bilingual product."
                         },
                         "es": {
-                            "title": "**Fundación de GAMAN AI** y Lanzamiento de **FadeSlot** — SaaS Multi-Tenant en Producción",
+                            "title": "**Fundación de GAMAN AI** y Lanzamiento de **FadeSlot**: SaaS Multi-Tenant en Producción",
                             "info": "GAMAN AI Corporation",
-                            "text": "Fundé GAMAN AI Corporation y construí FadeSlot end-to-end como un SaaS real en producción — arquitectura, lógica multi-tenant, facturación por suscripción, infraestructura AWS y producto bilingüe."
+                            "text": "Fundé GAMAN AI Corporation y construí FadeSlot end-to-end como un SaaS real en producción: arquitectura, lógica multi-tenant, facturación por suscripción, infraestructura AWS y producto bilingüe."
                         },
                         "fr": {
-                            "title": "**Fondation de GAMAN AI** & Lancement de **FadeSlot** — SaaS Multi-Tenant en Production",
+                            "title": "**Fondation de GAMAN AI** & Lancement de **FadeSlot**: SaaS Multi-Tenant en Production",
                             "info": "GAMAN AI Corporation",
-                            "text": "J'ai fondé GAMAN AI Corporation et conçu FadeSlot de bout en bout comme un SaaS réel en production — architecture, logique multi-tenant, abonnements, infrastructure AWS et produit bilingue."
+                            "text": "J'ai fondé GAMAN AI Corporation et conçu FadeSlot de bout en bout comme un SaaS réel en production: architecture, logique multi-tenant, abonnements, infrastructure AWS et produit bilingue."
                         },
                         "ko": {
-                            "title": "**GAMAN AI 창업** & **FadeSlot 출시** — 프로덕션 멀티 테넌트 SaaS",
+                            "title": "**GAMAN AI 창업** & **FadeSlot 출시**: 프로덕션 멀티 테넌트 SaaS",
                             "info": "GAMAN AI Corporation",
-                            "text": "GAMAN AI Corporation을 창업하고 FadeSlot을 엔드투엔드로 실제 프로덕션 SaaS로 구축·출시 — 아키텍처, 멀티 테넌트 로직, 구독 빌링, AWS 인프라, 이중 언어 제품."
+                            "text": "GAMAN AI Corporation을 창업하고 FadeSlot을 엔드투엔드로 실제 프로덕션 SaaS로 구축·출시: 아키텍처, 멀티 테넌트 로직, 구독 빌링, AWS 인프라, 이중 언어 제품."
                         }
                     }
                 },
@@ -80,24 +80,24 @@
                     "links": [],
                     "locales": {
                         "en": {
-                            "title": "**Architected & Shipped BioSwift** — Operational SaaS Platform",
+                            "title": "**Architected & Shipped BioSwift**: Operational SaaS Platform",
                             "info": "MEMCO SAS",
-                            "text": "Designed and shipped BioSwift to production — a SaaS-grade operational platform running real biomedical business workflows across clients, inventory, equipment, and service orders."
+                            "text": "Designed and shipped BioSwift to production: a SaaS-grade operational platform running real biomedical business workflows across clients, inventory, equipment, and service orders."
                         },
                         "es": {
-                            "title": "**Arquitectura y Lanzamiento de BioSwift** — Plataforma SaaS Operativa",
+                            "title": "**Arquitectura y Lanzamiento de BioSwift**: Plataforma SaaS Operativa",
                             "info": "MEMCO SAS",
-                            "text": "Diseñé y lancé BioSwift a producción — una plataforma SaaS operativa que corre flujos reales de negocio biomédico en clientes, inventario, equipos y órdenes de servicio."
+                            "text": "Diseñé y lancé BioSwift a producción: una plataforma SaaS operativa que corre flujos reales de negocio biomédico en clientes, inventario, equipos y órdenes de servicio."
                         },
                         "fr": {
-                            "title": "**Architecture & Livraison de BioSwift** — Plateforme SaaS Opérationnelle",
+                            "title": "**Architecture & Livraison de BioSwift**: Plateforme SaaS Opérationnelle",
                             "info": "MEMCO SAS",
-                            "text": "Conception et mise en production de BioSwift — une plateforme SaaS opérationnelle exécutant de vrais workflows business biomédicaux : clients, inventaire, équipements, ordres de service."
+                            "text": "Conception et mise en production de BioSwift, une plateforme SaaS opérationnelle exécutant de vrais workflows business biomédicaux (clients, inventaire, équipements, ordres de service)."
                         },
                         "ko": {
-                            "title": "**BioSwift 아키텍팅 & 출시** — 운영 SaaS 플랫폼",
+                            "title": "**BioSwift 아키텍팅 & 출시**: 운영 SaaS 플랫폼",
                             "info": "MEMCO SAS",
-                            "text": "BioSwift을 설계·출시 — 고객, 재고, 장비, 서비스 주문 전반의 실제 의료기기 비즈니스 워크플로우를 운영하는 SaaS급 운영 플랫폼."
+                            "text": "BioSwift을 설계·출시: 고객, 재고, 장비, 서비스 주문 전반의 실제 의료기기 비즈니스 워크플로우를 운영하는 SaaS급 운영 플랫폼."
                         }
                     }
                 },
@@ -112,22 +112,22 @@
                         "en": {
                             "title": "**Led the Engineering Department** at MEMCO SAS",
                             "info": "Technical Leadership",
-                            "text": "Headed the Development & Technology department — defined architecture, engineering standards, delivery practices, and team direction across multi-year SaaS initiatives."
+                            "text": "Headed the Development & Technology department: defined architecture, engineering standards, delivery practices, and team direction across multi-year SaaS initiatives."
                         },
                         "es": {
                             "title": "**Lideré el Departamento de Ingeniería** en MEMCO SAS",
                             "info": "Liderazgo Técnico",
-                            "text": "Lideré el departamento de Desarrollo y Tecnología — definí arquitectura, estándares de ingeniería, prácticas de delivery y dirección del equipo en iniciativas SaaS multi-anuales."
+                            "text": "Lideré el departamento de Desarrollo y Tecnología: definí arquitectura, estándares de ingeniería, prácticas de delivery y dirección del equipo en iniciativas SaaS multi-anuales."
                         },
                         "fr": {
                             "title": "**Direction du Département Ingénierie** chez MEMCO SAS",
                             "info": "Leadership Technique",
-                            "text": "À la tête du département Développement & Technologie — architecture, standards d'ingénierie, pratiques de delivery et direction d'équipe sur des initiatives SaaS pluri-annuelles."
+                            "text": "À la tête du département Développement & Technologie: architecture, standards d'ingénierie, pratiques de delivery et direction d'équipe sur des initiatives SaaS pluri-annuelles."
                         },
                         "ko": {
                             "title": "MEMCO SAS의 **엔지니어링 부서 리드**",
                             "info": "기술 리더십",
-                            "text": "개발 및 기술 부서를 리드 — 멀티이어 SaaS 이니셔티브 전반의 아키텍처, 엔지니어링 표준, 딜리버리 프랙티스, 팀 방향성을 정의."
+                            "text": "개발 및 기술 부서를 리드: 멀티이어 SaaS 이니셔티브 전반의 아키텍처, 엔지니어링 표준, 딜리버리 프랙티스, 팀 방향성을 정의."
                         }
                     }
                 },
@@ -140,24 +140,24 @@
                     "links": [],
                     "locales": {
                         "en": {
-                            "title": "**Built Cloud Infrastructure** — AWS End-to-End",
+                            "title": "**Built Cloud Infrastructure**: AWS End-to-End",
                             "info": "Cloud & Infrastructure",
-                            "text": "Designed and operated AWS infrastructure end-to-end — EC2, S3, RDS, IAM, Route 53 — supporting production SaaS workloads with scalable, secure, and cost-aware architecture."
+                            "text": "Designed and operated AWS infrastructure end-to-end across EC2, S3, RDS, IAM, and Route 53, supporting production SaaS workloads with scalable, secure, and cost-aware architecture."
                         },
                         "es": {
-                            "title": "**Construí Infraestructura Cloud** — AWS End-to-End",
+                            "title": "**Construí Infraestructura Cloud**: AWS End-to-End",
                             "info": "Cloud e Infraestructura",
-                            "text": "Diseñé y operé infraestructura AWS end-to-end — EC2, S3, RDS, IAM, Route 53 — soportando workloads SaaS en producción con arquitectura escalable, segura y cost-aware."
+                            "text": "Diseñé y operé infraestructura AWS end-to-end sobre EC2, S3, RDS, IAM y Route 53, soportando workloads SaaS en producción con arquitectura escalable, segura y cost-aware."
                         },
                         "fr": {
-                            "title": "**Construction d'Infrastructure Cloud** — AWS End-to-End",
+                            "title": "**Construction d'Infrastructure Cloud**: AWS End-to-End",
                             "info": "Cloud & Infrastructure",
-                            "text": "Conception et opération d'une infrastructure AWS de bout en bout — EC2, S3, RDS, IAM, Route 53 — au service de workloads SaaS en production, scalables, sécurisés et cost-aware."
+                            "text": "Conception et opération d'une infrastructure AWS de bout en bout sur EC2, S3, RDS, IAM et Route 53, au service de workloads SaaS en production, scalables, sécurisés et cost-aware."
                         },
                         "ko": {
-                            "title": "**클라우드 인프라 구축** — AWS 엔드투엔드",
+                            "title": "**클라우드 인프라 구축**: AWS 엔드투엔드",
                             "info": "클라우드 & 인프라",
-                            "text": "EC2, S3, RDS, IAM, Route 53를 포함한 AWS 인프라를 엔드투엔드로 설계·운영 — 확장성, 보안, 비용 효율성을 갖춘 프로덕션 SaaS 워크로드 지원."
+                            "text": "EC2, S3, RDS, IAM, Route 53를 포함한 AWS 인프라를 엔드투엔드로 설계·운영: 확장성, 보안, 비용 효율성을 갖춘 프로덕션 SaaS 워크로드 지원."
                         }
                     }
                 },
@@ -172,22 +172,22 @@
                         "en": {
                             "title": "**Automated Operational Workflows** at Scale",
                             "info": "Systems & Automation",
-                            "text": "Designed automation systems that streamlined data pipelines, reporting, and operational workflows across departments — reducing manual work and accelerating decisions."
+                            "text": "Designed automation systems that streamlined data pipelines, reporting, and operational workflows across departments: reducing manual work and accelerating decisions."
                         },
                         "es": {
                             "title": "**Automatización de Flujos Operativos** a Escala",
                             "info": "Sistemas y Automatización",
-                            "text": "Diseñé sistemas de automatización que optimizaron pipelines de datos, reportería y flujos operativos entre departamentos — reduciendo trabajo manual y acelerando decisiones."
+                            "text": "Diseñé sistemas de automatización que optimizaron pipelines de datos, reportería y flujos operativos entre departamentos: reduciendo trabajo manual y acelerando decisiones."
                         },
                         "fr": {
                             "title": "**Automatisation des Workflows Opérationnels** à l'Échelle",
                             "info": "Systèmes & Automatisation",
-                            "text": "Conception de systèmes d'automatisation qui ont rationalisé pipelines de données, reporting et workflows opérationnels — moins de travail manuel, décisions accélérées."
+                            "text": "Conception de systèmes d'automatisation qui ont rationalisé pipelines de données, reporting et workflows opérationnels: moins de travail manuel, décisions accélérées."
                         },
                         "ko": {
                             "title": "**운영 워크플로우 자동화** at Scale",
                             "info": "시스템 & 자동화",
-                            "text": "부서 전반의 데이터 파이프라인, 리포팅, 운영 워크플로우를 간소화하는 자동화 시스템을 설계 — 수작업 감소와 의사결정 가속화."
+                            "text": "부서 전반의 데이터 파이프라인, 리포팅, 운영 워크플로우를 간소화하는 자동화 시스템을 설계: 수작업 감소와 의사결정 가속화."
                         }
                     }
                 }
@@ -221,22 +221,22 @@
                     ],
                     "locales": {
                         "en": {
-                            "title": "**Platzi** — Modern Engineering & Cloud",
+                            "title": "**Platzi**: Modern Engineering & Cloud",
                             "text": "Multi-year certification path across <b>AWS, Software Architecture, DevOps, TypeScript, Node.js, Databases, Test Automation</b>, and <b>Security</b>.",
                             "tags": ["AWS", "Architecture", "DevOps", "TypeScript", "Node.js", "Testing", "Security"]
                         },
                         "es": {
-                            "title": "**Platzi** — Ingeniería Moderna y Cloud",
+                            "title": "**Platzi**: Ingeniería Moderna y Cloud",
                             "text": "Ruta de certificación multi-anual en <b>AWS, Arquitectura de Software, DevOps, TypeScript, Node.js, Bases de Datos, Automatización de Pruebas</b> y <b>Seguridad</b>.",
                             "tags": ["AWS", "Arquitectura", "DevOps", "TypeScript", "Node.js", "Testing", "Seguridad"]
                         },
                         "fr": {
-                            "title": "**Platzi** — Ingénierie Moderne & Cloud",
+                            "title": "**Platzi**: Ingénierie Moderne & Cloud",
                             "text": "Parcours de certification pluri-annuel : <b>AWS, Architecture Logicielle, DevOps, TypeScript, Node.js, Bases de Données, Automatisation de Tests</b> et <b>Sécurité</b>.",
                             "tags": ["AWS", "Architecture", "DevOps", "TypeScript", "Node.js", "Testing", "Sécurité"]
                         },
                         "ko": {
-                            "title": "**Platzi** — 현대 엔지니어링 & 클라우드",
+                            "title": "**Platzi**: 현대 엔지니어링 & 클라우드",
                             "text": "<b>AWS, 소프트웨어 아키텍처, DevOps, TypeScript, Node.js, 데이터베이스, 테스트 자동화</b>, <b>보안</b>을 아우르는 다년간의 인증 트랙.",
                             "tags": ["AWS", "아키텍처", "DevOps", "TypeScript", "Node.js", "테스트", "보안"]
                         }
@@ -256,23 +256,23 @@
                     "links": [],
                     "locales": {
                         "en": {
-                            "title": "**SENA** — Software Engineering & Systems",
-                            "text": "Formal training in software engineering — architecture, system design, databases, and end-to-end product development.",
+                            "title": "**SENA**: Software Engineering & Systems",
+                            "text": "Formal training in software engineering: architecture, system design, databases, and end-to-end product development.",
                             "tags": ["Software Engineering", "Architecture", "Databases"]
                         },
                         "es": {
-                            "title": "**SENA** — Ingeniería de Software y Sistemas",
-                            "text": "Formación formal en ingeniería de software — arquitectura, diseño de sistemas, bases de datos y desarrollo de producto end-to-end.",
+                            "title": "**SENA**: Ingeniería de Software y Sistemas",
+                            "text": "Formación formal en ingeniería de software: arquitectura, diseño de sistemas, bases de datos y desarrollo de producto end-to-end.",
                             "tags": ["Ingeniería de Software", "Arquitectura", "Bases de Datos"]
                         },
                         "fr": {
-                            "title": "**SENA** — Ingénierie Logicielle & Systèmes",
-                            "text": "Formation formelle en ingénierie logicielle — architecture, design système, bases de données, et développement produit end-to-end.",
+                            "title": "**SENA**: Ingénierie Logicielle & Systèmes",
+                            "text": "Formation formelle en ingénierie logicielle: architecture, design système, bases de données, et développement produit end-to-end.",
                             "tags": ["Ingénierie Logicielle", "Architecture", "Bases de Données"]
                         },
                         "ko": {
-                            "title": "**SENA** — 소프트웨어 엔지니어링 & 시스템",
-                            "text": "소프트웨어 엔지니어링 정규 과정 — 아키텍처, 시스템 디자인, 데이터베이스, 엔드투엔드 제품 개발.",
+                            "title": "**SENA**: 소프트웨어 엔지니어링 & 시스템",
+                            "text": "소프트웨어 엔지니어링 정규 과정: 아키텍처, 시스템 디자인, 데이터베이스, 엔드투엔드 제품 개발.",
                             "tags": ["소프트웨어 엔지니어링", "아키텍처", "데이터베이스"]
                         }
                     }
