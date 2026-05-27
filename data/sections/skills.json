@@ -575,7 +575,7 @@
                     },
                     "locales": {
                         "en": {
-                            "title": "Paddle / Stripe (Billing)",
+                            "title": "Stripe (Billing)",
                             "info": null
                         }
                     }

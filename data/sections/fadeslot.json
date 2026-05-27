@@ -1,0 +1,433 @@
+{
+    "meta": {
+        "premiumEntry": true,
+        "caseStudyId": "fadeslot"
+    },
+
+    "locales": {
+        "en": {
+            "title": "FadeSlot",
+            "title_menu": "FadeSlot",
+            "title_long_prefix": "Case Study",
+            "title_long": "**FadeSlot**"
+        },
+        "es": {
+            "title": "FadeSlot",
+            "title_menu": "FadeSlot",
+            "title_long_prefix": "Caso de Estudio",
+            "title_long": "**FadeSlot**"
+        },
+        "fr": {
+            "title": "FadeSlot",
+            "title_menu": "FadeSlot",
+            "title_long_prefix": "Étude de Cas",
+            "title_long": "**FadeSlot**"
+        },
+        "ko": {
+            "title": "FadeSlot",
+            "title_menu": "FadeSlot",
+            "title_long_prefix": "케이스 스터디",
+            "title_long": "**FadeSlot**"
+        }
+    },
+
+    "articles": [
+        {
+            "id": "hero",
+            "component": "ArticleCaseStudyHero",
+            "config": {
+                "ignorePaddingTop": true,
+                "actions": [
+                    { "kind": "external", "target": "https://fadeslot.com", "labelKey": "visit_fadeslot", "style": "primary" },
+                    { "kind": "section",  "target": "contact",              "labelKey": "get_in_touch",   "style": "secondary" }
+                ]
+            },
+            "locales": {
+                "en": {
+                    "eyebrow": "Case Study · 2025",
+                    "headline": "A **production SaaS** built end-to-end by a single **product engineer**.",
+                    "subheadline": "FadeSlot is a multi-tenant booking and operations platform for appointment-driven businesses, live in production with real customers, subscription billing, and active feature development.",
+                    "kpis": [
+                        { "label": "Multi-tenant SaaS platform in production",                 "value": "Production",      "icon": "fa-solid fa-bolt" },
+                        { "label": "Bilingual product with end-to-end operations coverage",     "value": "Bilingual",       "icon": "fa-solid fa-globe" },
+                        { "label": "Mobile + web ecosystem on AWS-backed infrastructure",      "value": "Mobile + Web",    "icon": "fa-solid fa-mobile-screen" },
+                        { "label": "Architecture, product and infra owned by one engineer",    "value": "End-to-End",      "icon": "fa-solid fa-diagram-project" }
+                    ],
+                    "tags": [
+                        "Next.js", "TypeScript", "PostgreSQL", "AWS", "Stripe", "Multi-tenant", "Product Engineering"
+                    ]
+                },
+                "es": {
+                    "eyebrow": "Caso de Estudio · 2025",
+                    "headline": "Un **SaaS en producción** construido end-to-end por un solo **product engineer**.",
+                    "subheadline": "FadeSlot es una plataforma SaaS multi-tenant de reservas y operaciones para negocios basados en citas, en producción con clientes reales, facturación por suscripción y desarrollo activo de features.",
+                    "kpis": [
+                        { "label": "Plataforma SaaS multi-tenant en producción",               "value": "Producción",    "icon": "fa-solid fa-bolt" },
+                        { "label": "Producto bilingüe con cobertura operativa end-to-end",      "value": "Bilingüe",      "icon": "fa-solid fa-globe" },
+                        { "label": "Ecosistema mobile + web sobre infraestructura AWS",        "value": "Mobile + Web",  "icon": "fa-solid fa-mobile-screen" },
+                        { "label": "Arquitectura, producto e infra a cargo de un solo ingeniero","value": "End-to-End",    "icon": "fa-solid fa-diagram-project" }
+                    ],
+                    "tags": [
+                        "Next.js", "TypeScript", "PostgreSQL", "AWS", "Stripe", "Multi-tenant", "Product Engineering"
+                    ]
+                }
+            }
+        },
+
+        {
+            "id": "nav",
+            "component": "ArticleCaseStudyChapterNav",
+            "config": {
+                "ignorePaddingTop": true,
+                "sectionId": "fadeslot",
+                "backTargetSectionId": "portfolio"
+            },
+            "chapters": [
+                { "id": "problem",       "labelKey": "problem" },
+                { "id": "product",       "labelKey": "product" },
+                { "id": "architecture",  "labelKey": "architecture" },
+                { "id": "multi-tenant",  "labelKey": "multi-tenant" },
+                { "id": "booking",       "labelKey": "booking" },
+                { "id": "billing",       "labelKey": "billing" },
+                { "id": "infra",         "labelKey": "infra" },
+                { "id": "mobile",        "labelKey": "mobile" },
+                { "id": "production",    "labelKey": "production" }
+            ],
+            "locales": {
+                "en": {
+                    "labels": {
+                        "problem": "The Problem",
+                        "product": "The Product",
+                        "architecture": "System Architecture",
+                        "multi-tenant": "Multi-tenancy & RBAC",
+                        "booking": "Booking Engine",
+                        "billing": "Billing with Stripe",
+                        "infra": "AWS Infrastructure",
+                        "mobile": "Mobile & Bilingual",
+                        "production": "Live in Production"
+                    }
+                },
+                "es": {
+                    "labels": {
+                        "problem": "El Problema",
+                        "product": "El Producto",
+                        "architecture": "Arquitectura del Sistema",
+                        "multi-tenant": "Multi-tenant y RBAC",
+                        "booking": "Motor de Reservas",
+                        "billing": "Billing con Stripe",
+                        "infra": "Infraestructura AWS",
+                        "mobile": "Mobile y Bilingüe",
+                        "production": "En Producción"
+                    }
+                }
+            }
+        },
+
+        {
+            "id": "problem",
+            "component": "ArticleCaseStudyChapter",
+            "config": {
+                "ignorePaddingTop": true,
+                "index": 1,
+                "mirrored": false,
+                "visual": { "type": "diagram", "ref": "problem-overview", "layout": "split" }
+            },
+            "locales": {
+                "en": {
+                    "eyebrow": "Chapter 01 · Context",
+                    "headline": "Service businesses run their operations on **spreadsheets and stitched-together tools**.",
+                    "subheadline": "Barbershops, tattoo studios, and other appointment-driven businesses lose hours every week to manual booking, fragmented sales, and zero visibility into their own data.",
+                    "body": "<p>Most independent service businesses operate without a real operational system. Bookings happen in WhatsApp, sales live in a paper notebook, inventory is a guess, and the owner becomes the bottleneck for every decision.</p><p>The opportunity: a single product that owns the full operational loop — booking, sales, inventory, clients, reviews, and analytics — built for non-technical operators but architected like a real SaaS platform.</p>",
+                    "chips": ["Service businesses", "Operational gap", "SaaS opportunity"],
+                    "caption": "How appointment-driven businesses operate today — and where the opportunity is."
+                },
+                "es": {
+                    "eyebrow": "Capítulo 01 · Contexto",
+                    "headline": "Los negocios de servicio operan con **hojas de cálculo y herramientas sueltas**.",
+                    "subheadline": "Barberías, estudios de tatuaje y negocios basados en citas pierden horas cada semana en reservas manuales, ventas fragmentadas y cero visibilidad sobre sus propios datos.",
+                    "body": "<p>La mayoría de negocios de servicio independientes opera sin un sistema operativo real. Las reservas viven en WhatsApp, las ventas en un cuaderno, el inventario es un estimado, y el dueño se convierte en el cuello de botella de cada decisión.</p><p>La oportunidad: un solo producto que sea dueño del loop operativo completo — reservas, ventas, inventario, clientes, reseñas y analítica — pensado para operadores no técnicos pero arquitectado como una plataforma SaaS real.</p>",
+                    "chips": ["Negocios de servicio", "Brecha operativa", "Oportunidad SaaS"],
+                    "caption": "Cómo operan hoy los negocios basados en citas — y dónde está la oportunidad."
+                }
+            }
+        },
+
+        {
+            "id": "product",
+            "component": "ArticleCaseStudyChapter",
+            "config": {
+                "ignorePaddingTop": true,
+                "index": 2,
+                "mirrored": false,
+                "visual": {
+                    "type": "showcase",
+                    "mode": "trio",
+                    "layout": "centered",
+                    "screens": [
+                        { "src": null, "alt": "Booking calendar", "caption": "Booking & scheduling engine" },
+                        { "src": null, "alt": "Point of sale",     "caption": "POS & operational flows" },
+                        { "src": null, "alt": "Analytics dashboard","caption": "Analytics & business insight" }
+                    ]
+                }
+            },
+            "locales": {
+                "en": {
+                    "eyebrow": "Chapter 02 · Product Tour",
+                    "headline": "One product, the **entire operational loop**.",
+                    "subheadline": "Booking, sales, clients, inventory, reviews, and analytics — designed to feel like a single, calm product for non-technical operators.",
+                    "body": "<p>The product brings together every system a service business needs to run its day — without forcing the owner to context-switch between five different tools.</p><p>Every surface is built mobile-first, in English and Spanish, with the same data model and the same operational source of truth behind it.</p>",
+                    "chips": ["Booking", "POS", "Clients", "Inventory", "Reviews", "Analytics"],
+                    "caption": "Screens are placeholders for now — real product captures will be wired in during content phase."
+                },
+                "es": {
+                    "eyebrow": "Capítulo 02 · Tour de Producto",
+                    "headline": "Un solo producto, el **loop operativo completo**.",
+                    "subheadline": "Reservas, ventas, clientes, inventario, reseñas y analítica — diseñados para sentirse como un solo producto, calmado, para operadores no técnicos.",
+                    "body": "<p>El producto reúne cada sistema que un negocio de servicio necesita para correr su día — sin forzar al dueño a saltar entre cinco herramientas distintas.</p><p>Cada superficie está construida mobile-first, en inglés y español, con el mismo modelo de datos y la misma fuente operativa detrás.</p>",
+                    "chips": ["Reservas", "POS", "Clientes", "Inventario", "Reseñas", "Analítica"],
+                    "caption": "Capturas placeholder — el contenido visual real se cablea en la fase de contenido."
+                }
+            }
+        },
+
+        {
+            "id": "architecture",
+            "component": "ArticleCaseStudyChapter",
+            "config": {
+                "ignorePaddingTop": true,
+                "index": 3,
+                "mirrored": false,
+                "visual": { "type": "diagram", "ref": "architecture", "layout": "centered" }
+            },
+            "locales": {
+                "en": {
+                    "eyebrow": "Chapter 03 · Architecture",
+                    "headline": "A **multi-tenant SaaS** designed for clarity, scale, and ownership.",
+                    "subheadline": "From the Next.js app and typed API layer to PostgreSQL, AWS S3, and Stripe webhooks, every layer is intentional and minimal.",
+                    "body": "<p>FadeSlot's architecture follows a single principle: one platform, many tenants, zero leakage. The client app talks to a typed API layer; the API layer owns tenant resolution, RBAC, and contract boundaries; PostgreSQL holds the operational source of truth with tenant_id propagated end-to-end.</p><p>Side services stay isolated and explicit: AWS S3 for media, Stripe for subscription billing, an outbound notification pipeline for operational events.</p>",
+                    "chips": ["Next.js", "TypeScript", "Node.js", "PostgreSQL", "AWS", "Stripe"]
+                },
+                "es": {
+                    "eyebrow": "Capítulo 03 · Arquitectura",
+                    "headline": "Un **SaaS multi-tenant** diseñado para claridad, escala y ownership.",
+                    "subheadline": "Desde la app Next.js y la capa de API tipada hasta PostgreSQL, AWS S3 y webhooks de Stripe, cada capa es intencional y mínima.",
+                    "body": "<p>La arquitectura de FadeSlot sigue un solo principio: una plataforma, muchos tenants, cero leakage. La app cliente habla con una capa de API tipada; la API es dueña de la resolución de tenant, RBAC y los contratos; PostgreSQL guarda la fuente operativa con tenant_id propagado end-to-end.</p><p>Los servicios laterales se mantienen aislados y explícitos: AWS S3 para media, Stripe para billing, y un pipeline de notificaciones para eventos operativos.</p>",
+                    "chips": ["Next.js", "TypeScript", "Node.js", "PostgreSQL", "AWS", "Stripe"]
+                }
+            }
+        },
+
+        {
+            "id": "multi-tenant",
+            "component": "ArticleCaseStudyChapter",
+            "config": {
+                "ignorePaddingTop": true,
+                "index": 4,
+                "mirrored": true,
+                "visual": { "type": "diagram", "ref": "multi-tenant", "layout": "split" }
+            },
+            "locales": {
+                "en": {
+                    "eyebrow": "Chapter 04 · Multi-tenancy",
+                    "headline": "Tenant isolation as a **first-class invariant**, not an afterthought.",
+                    "subheadline": "Every query, every read, every write carries a tenant boundary that is enforced at the API and the database layer.",
+                    "body": "<p>FadeSlot is multi-tenant from the schema up. Every operational entity carries a tenant_id; every query is scoped through a tenant-aware repository layer; RBAC defines what each user can see and do inside their business.</p><p>The model is shared-schema for operational efficiency, with strict isolation at the application boundary — the right trade-off for a SaaS at this stage.</p>",
+                    "chips": ["Tenant isolation", "RBAC", "Postgres", "Repository layer"],
+                    "callout": {
+                        "kind": "decision",
+                        "label": "Decision",
+                        "body": "Shared-schema multi-tenancy with tenant_id propagation, over per-tenant databases. Optimizes for operational simplicity and cost while keeping the path to per-tenant sharding open."
+                    }
+                },
+                "es": {
+                    "eyebrow": "Capítulo 04 · Multi-tenancy",
+                    "headline": "Aislamiento por tenant como un **invariante de primera clase**, no un parche.",
+                    "subheadline": "Cada query, cada lectura, cada escritura lleva un boundary de tenant que se valida en API y base de datos.",
+                    "body": "<p>FadeSlot es multi-tenant desde el schema hacia arriba. Cada entidad operativa lleva tenant_id; cada query pasa por una capa de repositorio tenant-aware; RBAC define qué puede ver y hacer cada usuario dentro de su negocio.</p><p>El modelo es shared-schema por eficiencia operativa, con aislamiento estricto en el boundary de la aplicación — el trade-off correcto para un SaaS en esta etapa.</p>",
+                    "chips": ["Tenant isolation", "RBAC", "Postgres", "Capa de repositorio"],
+                    "callout": {
+                        "kind": "decision",
+                        "label": "Decisión",
+                        "body": "Multi-tenancy de schema compartido con propagación de tenant_id, en lugar de bases de datos por tenant. Optimiza simplicidad operativa y costo, dejando abierta la ruta hacia sharding por tenant."
+                    }
+                }
+            }
+        },
+
+        {
+            "id": "booking",
+            "component": "ArticleCaseStudyChapter",
+            "config": {
+                "ignorePaddingTop": true,
+                "index": 5,
+                "mirrored": false,
+                "visual": { "type": "diagram", "ref": "booking-flow", "layout": "split" }
+            },
+            "locales": {
+                "en": {
+                    "eyebrow": "Chapter 05 · Booking Engine",
+                    "headline": "Real-time availability across **staff, location, and service**.",
+                    "subheadline": "The core engine resolves availability, prevents conflicts, and serves bookable slots in real time across multiple staff members and locations.",
+                    "body": "<p>Behind a calm UI sits a deterministic booking engine that computes per-staff availability windows, handles overlapping requests with conflict resolution, and projects forward weeks of bookable slots without recomputing everything on every request.</p><p>This is the chapter where the platform earns the right to be called real software.</p>",
+                    "chips": ["Availability", "Conflict resolution", "Real-time", "Per-staff"]
+                },
+                "es": {
+                    "eyebrow": "Capítulo 05 · Motor de Reservas",
+                    "headline": "Disponibilidad en tiempo real por **staff, sede y servicio**.",
+                    "subheadline": "El motor central resuelve disponibilidad, previene conflictos y sirve slots reservables en tiempo real entre múltiples staff y sedes.",
+                    "body": "<p>Detrás de una UI calmada hay un motor de reservas determinista que computa ventanas de disponibilidad por staff, maneja peticiones superpuestas con resolución de conflictos y proyecta semanas de slots reservables sin recomputar todo en cada request.</p><p>Este es el capítulo donde la plataforma se gana el derecho a llamarse software real.</p>",
+                    "chips": ["Disponibilidad", "Conflict resolution", "Tiempo real", "Por staff"]
+                }
+            }
+        },
+
+        {
+            "id": "billing",
+            "component": "ArticleCaseStudyChapter",
+            "config": {
+                "ignorePaddingTop": true,
+                "index": 6,
+                "mirrored": true,
+                "visual": { "type": "diagram", "ref": "stripe-webhook", "layout": "split" }
+            },
+            "locales": {
+                "en": {
+                    "eyebrow": "Chapter 06 · Billing",
+                    "headline": "**Subscription billing** with Stripe, treated as real infrastructure.",
+                    "subheadline": "Plans, trials, upgrades, downgrades, dunning, all driven by signed Stripe webhooks and an idempotent handler.",
+                    "body": "<p>Billing isn't a button, it's an event pipeline. Stripe is the source of truth for subscription state; the API verifies every webhook signature, runs an idempotent handler keyed on event id, and projects state changes into the operational model so the right tenant sees the right capabilities at every moment.</p>",
+                    "chips": ["Stripe", "Subscriptions", "Webhooks", "Idempotency"],
+                    "callout": {
+                        "kind": "hardening",
+                        "label": "Hardening",
+                        "body": "Every webhook is signature-verified, deduplicated, retried on failure, and audited. Billing state never derives from anywhere except Stripe events."
+                    }
+                },
+                "es": {
+                    "eyebrow": "Capítulo 06 · Billing",
+                    "headline": "**Billing por suscripción** con Stripe, tratado como infraestructura real.",
+                    "subheadline": "Planes, trials, upgrades, downgrades, dunning, todo guiado por webhooks firmados de Stripe y un handler idempotente.",
+                    "body": "<p>El billing no es un botón, es un pipeline de eventos. Stripe es la fuente de verdad del estado de suscripción; la API verifica la firma de cada webhook, ejecuta un handler idempotente con clave por id de evento, y proyecta los cambios de estado sobre el modelo operativo para que cada tenant vea las capacidades correctas en cada momento.</p>",
+                    "chips": ["Stripe", "Suscripciones", "Webhooks", "Idempotencia"],
+                    "callout": {
+                        "kind": "hardening",
+                        "label": "Hardening",
+                        "body": "Cada webhook se verifica por firma, se deduplica, se reintenta en fallos y se audita. El estado de billing nunca se deriva de otra fuente que no sean los eventos de Stripe."
+                    }
+                }
+            }
+        },
+
+        {
+            "id": "infra",
+            "component": "ArticleCaseStudyChapter",
+            "config": {
+                "ignorePaddingTop": true,
+                "index": 7,
+                "mirrored": false,
+                "visual": { "type": "diagram", "ref": "aws-infra", "layout": "centered" }
+            },
+            "locales": {
+                "en": {
+                    "eyebrow": "Chapter 07 · Infrastructure",
+                    "headline": "**AWS infrastructure** owned and operated end-to-end.",
+                    "subheadline": "EC2, S3, RDS, IAM, Route 53 — provisioned, deployed, scaled, and secured by a single product engineer.",
+                    "body": "<p>FadeSlot runs on AWS infrastructure designed for predictable scaling and explicit cost. Compute, storage, data, identity, and DNS are all owned, configured, and operated with cost-awareness as a first-class concern.</p><p>The same engineer who designs the product also designs the infra: this is what 'end-to-end ownership' actually means.</p>",
+                    "chips": ["EC2", "S3", "RDS", "IAM", "Route 53", "Cost-aware"]
+                },
+                "es": {
+                    "eyebrow": "Capítulo 07 · Infraestructura",
+                    "headline": "**Infraestructura AWS** operada end-to-end.",
+                    "subheadline": "EC2, S3, RDS, IAM, Route 53 — aprovisionada, desplegada, escalada y asegurada por un solo product engineer.",
+                    "body": "<p>FadeSlot corre sobre infraestructura AWS diseñada para escalado predecible y costo explícito. Cómputo, almacenamiento, datos, identidad y DNS son operados con cost-awareness como concern de primera clase.</p><p>El mismo ingeniero que diseña el producto diseña la infra: esto es lo que significa 'end-to-end ownership' en la práctica.</p>",
+                    "chips": ["EC2", "S3", "RDS", "IAM", "Route 53", "Cost-aware"]
+                }
+            }
+        },
+
+        {
+            "id": "mobile",
+            "component": "ArticleCaseStudyChapter",
+            "config": {
+                "ignorePaddingTop": true,
+                "index": 8,
+                "mirrored": false,
+                "visual": {
+                    "type": "showcase",
+                    "mode": "mobile-pair",
+                    "layout": "split",
+                    "screens": [
+                        { "src": null, "alt": "Mobile booking",  "caption": "Mobile booking" },
+                        { "src": null, "alt": "Mobile reviews",  "caption": "Mobile reviews" }
+                    ]
+                }
+            },
+            "locales": {
+                "en": {
+                    "eyebrow": "Chapter 08 · Mobile & Bilingual",
+                    "headline": "A **mobile-first**, **bilingual** product from day one.",
+                    "subheadline": "FadeSlot is designed mobile-first in English and Spanish, with the same data model and the same operational depth on every device.",
+                    "body": "<p>Service business owners run their day from a phone. Customers book from a phone. The product is built to that reality first, and scales up to desktop — not the other way around.</p><p>EN/ES support is part of the architecture, not a translation pass on top of it.</p>",
+                    "chips": ["Mobile-first", "Bilingual EN/ES", "Responsive", "i18n"]
+                },
+                "es": {
+                    "eyebrow": "Capítulo 08 · Mobile y Bilingüe",
+                    "headline": "Un producto **mobile-first** y **bilingüe** desde el día uno.",
+                    "subheadline": "FadeSlot está diseñado mobile-first en inglés y español, con el mismo modelo de datos y la misma profundidad operativa en cada dispositivo.",
+                    "body": "<p>Los dueños de negocios de servicio corren su día desde un teléfono. Los clientes reservan desde un teléfono. El producto está construido para esa realidad primero, y escala hacia desktop — no al revés.</p><p>El soporte EN/ES es parte de la arquitectura, no una capa de traducción encima.</p>",
+                    "chips": ["Mobile-first", "Bilingüe EN/ES", "Responsive", "i18n"]
+                }
+            }
+        },
+
+        {
+            "id": "production",
+            "component": "ArticleCaseStudyChapter",
+            "config": {
+                "ignorePaddingTop": true,
+                "index": 9,
+                "mirrored": false,
+                "visual": { "type": "none", "layout": "centered" }
+            },
+            "locales": {
+                "en": {
+                    "eyebrow": "Chapter 09 · Live in Production",
+                    "headline": "Already **shipped**. Active development. Real customers.",
+                    "subheadline": "FadeSlot is live, paying customers are on it, and the platform is in active product and engineering development.",
+                    "body": "<p>This is the chapter that matters most for founders and CTOs reading this case study: FadeSlot is not a side project, it is not a prototype, it is not a screenshot. It is a real SaaS, deployed, in front of customers, with a subscription model and an ongoing engineering roadmap.</p><p>This case study is the engineering proof behind it.</p>",
+                    "chips": ["Production", "Active development", "Real customers", "Subscription model"]
+                },
+                "es": {
+                    "eyebrow": "Capítulo 09 · En Producción",
+                    "headline": "Ya **lanzado**. Desarrollo activo. Clientes reales.",
+                    "subheadline": "FadeSlot está en vivo, hay clientes pagando, y la plataforma está en desarrollo activo de producto e ingeniería.",
+                    "body": "<p>Este es el capítulo que más importa para fundadores y CTOs leyendo este caso de estudio: FadeSlot no es un side project, no es un prototipo, no es un screenshot. Es un SaaS real, desplegado, frente a clientes, con modelo de suscripción y roadmap activo.</p><p>Este caso de estudio es la prueba de ingeniería detrás.</p>",
+                    "chips": ["Producción", "Desarrollo activo", "Clientes reales", "Modelo de suscripción"]
+                }
+            }
+        },
+
+        {
+            "id": "cta",
+            "component": "ArticleCaseStudyCTA",
+            "config": {
+                "ignorePaddingTop": true,
+                "actions": [
+                    { "kind": "external", "target": "https://fadeslot.com", "labelKey": "visit_fadeslot",      "style": "primary" },
+                    { "kind": "section",  "target": "contact",              "labelKey": "get_in_touch",        "style": "secondary" },
+                    { "kind": "section",  "target": "portfolio",            "labelKey": "view_more_projects",  "style": "ghost" }
+                ]
+            },
+            "locales": {
+                "en": {
+                    "headline": "Looking for an engineer who can **build and ship real SaaS**?",
+                    "body": "FadeSlot is the proof. I'm available for fractional product engineering, technical lead, and SaaS engineering work with startups, agencies, and async teams."
+                },
+                "es": {
+                    "headline": "¿Buscas un ingeniero que pueda **construir y lanzar SaaS real**?",
+                    "body": "FadeSlot es la prueba. Disponible para trabajo fractional como product engineer, technical lead y SaaS engineer con startups, agencias y equipos async."
+                }
+            }
+        }
+    ]
+}

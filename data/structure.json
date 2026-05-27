@@ -54,6 +54,18 @@
             "categoryId": "more",
             "jsonPath": "/data/sections/contact.json",
             "faIcon": "fa-solid fa-pen-to-square"
+        },
+
+        {
+            "id": "fadeslot",
+            "categoryId": "case-studies",
+            "jsonPath": "/data/sections/fadeslot.json",
+            "faIcon": "fa-solid fa-bolt",
+            "hidden": true,
+            "meta": {
+                "premiumEntry": true,
+                "caseStudyId": "fadeslot"
+            }
         }
     ],
 
@@ -99,6 +111,18 @@
                 "es": {"title": "Más"},
                 "fr": {"title": "Plus"},
                 "ko": {"title": "더보기"}
+            }
+        },
+
+        {
+            "id": "case-studies",
+            "faIcon": "fa-solid fa-bolt",
+            "hidden": true,
+            "locales": {
+                "en": {"title": "Case Studies"},
+                "es": {"title": "Casos de Estudio"},
+                "fr": {"title": "Études de Cas"},
+                "ko": {"title": "케이스 스터디"}
             }
         }
     ]
